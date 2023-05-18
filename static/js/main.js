@@ -89,7 +89,7 @@ var selectionRectangle = new Konva.Rect({
 });
 layer.add(selectionRectangle);
 
-fetch('../img/_pieces.json')
+fetch('./static/img/_pieces.json')
     .then((response) => response.json())
     .then((json) => {
         let pieces = json["pieces"];
