@@ -96,8 +96,11 @@ const getMetadata = (url, cb) => {
 
 // Add selection rectangle
 var selectionRectangle = new Konva.Rect({
-    fill: 'rgba(0,0,255,0.5)',
+    fill: "#e6e6e6",
     visible: false,
+    stroke: "#b3b3b3",
+    strokeWidth: 2,
+    dash: [10, 10]
 });
 layer.add(selectionRectangle);
 
