@@ -29,6 +29,28 @@ const puzzlePieceScaleFactor = scale / numPiecesAcross
 
 var letters = []
 
+function getCurrentPuzzle(){
+    const urlParams = new URLSearchParams(window.location.search);
+    const puzzle = urlParams.get('puzzle')
+    if (!puzzle){
+        return "red"
+    }
+    return puzzle
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const puzzle = getCurrentPuzzle()
+    if (!!puzzle){
+        let options = document.getElementById('puzzleDropdown').options;
+        for (let i in options) {
+            if (options[i].value===puzzle) {
+                options[i].selected= true;
+                break;
+            }
+        }
+    }
+});
+
 function drawImage(imageObj, letter, username) {
     let width = imageObj.width * puzzlePieceScaleFactor
     let height = imageObj.height * puzzlePieceScaleFactor
@@ -61,7 +83,8 @@ function drawImage(imageObj, letter, username) {
         shadowBlur: 2,
         shadowOffset: {x: 2, y: 2},
         shadowOpacity: 1,
-        visible: false
+        listening: false,
+        visible: false,
     })
 
     puzzlePieceGroup.add(puzzlePieceImg)
@@ -122,6 +145,7 @@ function drawInstructions(){
         fontStyle: 'bold',
         fontFamily: 'Lato',
         fill: "#FFFFFF",
+        listening: false,
     })
     instructionsGroup.add(instructionsCircle)
     instructionsGroup.add(instructionsQuestionMark)
@@ -166,7 +190,7 @@ var selectionRectangle = new Konva.Rect({
 });
 layer.add(selectionRectangle);
 
-fetch('./static/img/0_pieces.json')
+fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
     .then((response) => response.json())
     .then((json) => {
         let pieces = json["pieces"];
@@ -203,7 +227,7 @@ fetch('./static/img/0_pieces.json')
                     puzzlePieceImg.attrs.x = x
                     puzzlePieceImg.attrs.y = y
                 };
-                puzzlePieceObj.src = "./static/img/" + filename;
+                puzzlePieceObj.src = `./static/img/${getCurrentPuzzle()}/${filename}`;
             })(p);
         }
     });
@@ -321,7 +345,7 @@ stage.on('dblclick', function(e){
     }
 })
 
-document.querySelector("#showLetters").addEventListener('change', function() {
+document.getElementById("showLetters").addEventListener('change', function() {
     if (this.checked) {
         for (let l in letters) {
             letters[l].show();
@@ -331,4 +355,9 @@ document.querySelector("#showLetters").addEventListener('change', function() {
             letters[l].hide();
         }
     }
+});
+
+document.getElementById("selectPuzzle").addEventListener("change", (event) => {
+    let url = window.location.href.split('?')[0];
+    window.location.href = `${url}?puzzle=${event.target.value}`;
 });
