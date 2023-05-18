@@ -90,13 +90,6 @@ function drawImage(imageObj, letter, username) {
     puzzlePieceGroup.add(puzzlePieceImg)
     puzzlePieceGroup.add(puzzlePieceText)
 
-    puzzlePieceText.on('click tap', function(e) {
-        const isSelected = tr.nodes().indexOf(e.target) >= 0;
-        if (!isSelected) {
-            tr.nodes([puzzlePieceImg]);
-        }
-    })
-
     letters.push(puzzlePieceText)
 
     // add styling

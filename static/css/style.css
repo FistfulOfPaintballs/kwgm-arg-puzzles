@@ -21,6 +21,12 @@ body {
     padding: 4px 12px;
 }
 
+#tooltip {
+    display: none;
+    background: rgba(0, 0, 0, .4);
+    color: white;
+}
+
 #footer {
     height: 50px;
     background-color: #333;
