@@ -19,8 +19,8 @@ const targetWidth = 1024
 const targetHeight = 768
 
 const margin = 100
-const numPiecesAcross = 8
-const maxPieceWidth = 650
+const numPiecesAcross = 4
+const maxPieceWidth = 325
 
 const widthScale = stage.width() / targetWidth
 const heightScale = stage.height() / targetHeight
@@ -28,6 +28,29 @@ const scale = Math.min(widthScale, heightScale)
 const puzzlePieceScaleFactor = scale / numPiecesAcross
 
 var letters = []
+var showTooltips = false
+
+function getCurrentPuzzle(){
+    const urlParams = new URLSearchParams(window.location.search);
+    const puzzle = urlParams.get('puzzle')
+    if (!puzzle){
+        return "red"
+    }
+    return puzzle
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const puzzle = getCurrentPuzzle()
+    if (!!puzzle){
+        let options = document.getElementById('puzzleDropdown').options;
+        for (let i in options) {
+            if (options[i].value===puzzle) {
+                options[i].selected= true;
+                break;
+            }
+        }
+    }
+});
 
 function drawImage(imageObj, letter, username) {
     let width = imageObj.width * puzzlePieceScaleFactor
@@ -61,31 +84,48 @@ function drawImage(imageObj, letter, username) {
         shadowBlur: 2,
         shadowOffset: {x: 2, y: 2},
         shadowOpacity: 1,
-        visible: false
+        listening: false,
+        visible: false,
     })
 
     puzzlePieceGroup.add(puzzlePieceImg)
     puzzlePieceGroup.add(puzzlePieceText)
 
-    puzzlePieceText.on('click tap', function(e) {
-        const isSelected = tr.nodes().indexOf(e.target) >= 0;
-        if (!isSelected) {
-            tr.nodes([puzzlePieceImg]);
-        }
-    })
-
     letters.push(puzzlePieceText)
+
+    let tooltip = document.getElementById("tooltip")
+    let submittedBy = document.getElementById("submittedBy")
+    let tooltipLetter = document.getElementById("letter")
+    let coords = document.getElementById("coords")
+    tooltip.listening = false
 
     // add styling
     puzzlePieceImg.cache()
-    puzzlePieceGroup.on('mouseover', function () {
+    puzzlePieceImg.on('mouseenter', function () {
+        puzzleHoverActive = true
         document.body.style.cursor = 'pointer';
         puzzlePieceImg.filters([Konva.Filters.Brighten])
         puzzlePieceImg.brightness(-0.35)
+
+        if (!!showTooltips){
+            var containerRect = stage.container().getBoundingClientRect();
+            tooltip.style.display = 'initial';
+            tooltip.style.top = containerRect.top + puzzlePieceImg.absolutePosition().y + (puzzlePieceImg.height() / 2) + 'px'
+            tooltip.style.left = containerRect.left + puzzlePieceImg.absolutePosition().x + (puzzlePieceImg.width() / 2) + 'px'
+            submittedBy.innerText = username;
+            tooltipLetter.innerText = letter;
+            let x = Math.round(puzzlePieceImg.absolutePosition().x / scale)
+            let y = Math.round(puzzlePieceImg.absolutePosition().y / scale)
+            coords.innerText = `(${x}, ${y})`
+        }
     });
 
-    puzzlePieceGroup.on('mouseout', function () {
+    puzzlePieceImg.on('mouseleave', function () {
+        puzzleHoverActive = false
         document.body.style.cursor = 'default';
+        if (!!showTooltips){
+            tooltip.style.display = 'none';
+        }
         puzzlePieceImg.filters([])
     });
 
@@ -122,6 +162,7 @@ function drawInstructions(){
         fontStyle: 'bold',
         fontFamily: 'Lato',
         fill: "#FFFFFF",
+        listening: false,
     })
     instructionsGroup.add(instructionsCircle)
     instructionsGroup.add(instructionsQuestionMark)
@@ -166,7 +207,7 @@ var selectionRectangle = new Konva.Rect({
 });
 layer.add(selectionRectangle);
 
-fetch('./static/img/0_pieces.json')
+fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
     .then((response) => response.json())
     .then((json) => {
         let pieces = json["pieces"];
@@ -203,7 +244,7 @@ fetch('./static/img/0_pieces.json')
                     puzzlePieceImg.attrs.x = x
                     puzzlePieceImg.attrs.y = y
                 };
-                puzzlePieceObj.src = "./static/img/" + filename;
+                puzzlePieceObj.src = `./static/img/${getCurrentPuzzle()}/${filename}`;
             })(p);
         }
     });
@@ -321,7 +362,7 @@ stage.on('dblclick', function(e){
     }
 })
 
-document.querySelector("#showLetters").addEventListener('change', function() {
+document.getElementById("showLetters").addEventListener('change', function() {
     if (this.checked) {
         for (let l in letters) {
             letters[l].show();
@@ -331,4 +372,13 @@ document.querySelector("#showLetters").addEventListener('change', function() {
             letters[l].hide();
         }
     }
+});
+
+document.getElementById("showTooltips").addEventListener('change', function() {
+    showTooltips = this.checked
+});
+
+document.getElementById("selectPuzzle").addEventListener("change", (event) => {
+    let url = window.location.href.split('?')[0];
+    window.location.href = `${url}?puzzle=${event.target.value}`;
 });

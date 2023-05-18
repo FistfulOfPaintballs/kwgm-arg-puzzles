@@ -1,0 +1,18 @@
+{
+  "pieces" : [
+    {
+      "filename": "puzzle2_test1.png",
+      "username": "",
+      "letter": "0",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "filename": "puzzle2_test2.png",
+      "username": "",
+      "letter": "0",
+      "x": -1,
+      "y": -1
+    }
+  ]
+}

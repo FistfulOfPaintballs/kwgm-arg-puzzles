@@ -21,19 +21,39 @@ body {
     padding: 4px 12px;
 }
 
+#tooltip {
+    display: none;
+    position: absolute;
+    pointer-events: none;
+    min-width: 200px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+#tooltip p {
+    line-height: 1.5em;
+    margin: 0;
+}
+
 #footer {
     height: 50px;
     background-color: #333;
     color: white;
     display: flex;
-    padding: 5px;
+    padding: 5px 50px;
     box-sizing: border-box;
 }
 
-#controls {
+#footer div {
     flex: 1;
+    display: flex;
     text-align: center;
     align-items: center;
-    display: flex;
     justify-content: center;
+}
+
+#footer div label {
+    margin: 0 10px;
 }
