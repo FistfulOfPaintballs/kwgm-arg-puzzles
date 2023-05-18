@@ -359,7 +359,12 @@ stage.on('click tap', function (e) {
     let oldNodes = tr.nodes()
     var newNodes = []
     for (let i in oldNodes){
-        newNodes.push(oldNodes[i].getParent())
+        let node = oldNodes[i]
+        if (node.hasName('puzzlepiece')){
+            newNodes.push(node.getParent())
+        } else {
+            newNodes.push(node)
+        }
     }
     tr.nodes(newNodes)
 
@@ -368,11 +373,14 @@ stage.on('click tap', function (e) {
 stage.on('dblclick', function(e){
     // Reset transformation on doubleclick
     if (e.target.hasName('puzzlepiece')) {
-        e.target.setAttrs({
-            scaleX: 1,
-            scaleY: 1,
-            rotation: 0,
-        })
+        let group = tr.nodes()[0]
+        if (!!group){
+            group.setAttrs({
+                scaleX: 1,
+                scaleY: 1,
+                rotation: 0,
+            })
+        }
     }
 })
 
