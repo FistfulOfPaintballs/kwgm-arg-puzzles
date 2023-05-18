@@ -11,6 +11,16 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+#instructions {
+    display: none;
+    position: absolute;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+    border-radius: 6px;
+    padding: 4px 12px;
+}
+
 #footer {
     height: 50px;
     background-color: #333;
@@ -22,10 +32,8 @@ body {
 
 #controls {
     flex: 1;
-    text-align: right;
-}
-
-#instructions {
-    flex: 1;
-    text-align: left;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }

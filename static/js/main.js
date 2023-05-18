@@ -22,14 +22,15 @@ const maxPieceWidth = 650
 
 const widthScale = stage.width() / targetWidth
 const heightScale = stage.height() / targetHeight
-const puzzlePieceScaleFactor = Math.min(widthScale, heightScale) / numPiecesAcross
+const scale = Math.min(widthScale, heightScale)
+const puzzlePieceScaleFactor = scale / numPiecesAcross
 
 var letters = []
 
 function drawImage(imageObj, letter, username) {
     let width = imageObj.width * puzzlePieceScaleFactor
     let height = imageObj.height * puzzlePieceScaleFactor
-    let fontSize = 24
+    let fontSize = (20 * scale)
 
     var puzzlePieceGroup = new Konva.Group({
         width: width,
@@ -54,7 +55,9 @@ function drawImage(imageObj, letter, username) {
         verticalAlign: 'middle',
         shadowEnabled: true,
         shadowColor: "#000000",
-        shadowBlur: 4,
+        shadowBlur: 2,
+        shadowOffset: {x: 2, y: 2},
+        shadowOpacity: 1,
         visible: false
     })
 
@@ -75,7 +78,7 @@ function drawImage(imageObj, letter, username) {
     puzzlePieceGroup.on('mouseover', function () {
         document.body.style.cursor = 'pointer';
         puzzlePieceImg.filters([Konva.Filters.Brighten])
-        puzzlePieceImg.brightness(-0.5)
+        puzzlePieceImg.brightness(-0.35)
     });
 
     puzzlePieceGroup.on('mouseout', function () {
@@ -85,6 +88,62 @@ function drawImage(imageObj, letter, username) {
 
     layer.add(puzzlePieceGroup);
     return puzzlePieceGroup
+}
+
+function drawInstructions(){
+    let width = 50
+    let helpMenu = document.getElementById("instructions")
+
+    var instructionsGroup = new Konva.Group({
+        width: width,
+        height: parseInt(width),
+        x: stage.width() - width - 15,
+        y: parseInt(width),
+        name: 'instructions',
+    })
+    var instructionsCircle = new Konva.Circle({
+        radius: width / 2,
+        fill: "#4287f5",
+        shadowBlur: 6,
+        shadowOffset: {x: 2, y: 2},
+        shadowColor: "#666",
+        name: 'instructions',
+    });
+    var instructionsQuestionMark = new Konva.Text({
+        text: "?",
+        x: -7,
+        y: -15,
+        align: 'center',
+        verticalAlign: 'middle',
+        fontSize: 36,
+        fontStyle: 'bold',
+        fontFamily: 'Lato',
+        fill: "#FFFFFF",
+    })
+    instructionsGroup.add(instructionsCircle)
+    instructionsGroup.add(instructionsQuestionMark)
+    layer.add(instructionsGroup);
+
+    instructionsCircle.cache()
+    instructionsCircle.on('mouseover', function () {
+        document.body.style.cursor = 'pointer';
+        instructionsCircle.filters([Konva.Filters.Brighten])
+        instructionsCircle.brightness(-0.1)
+    });
+
+    instructionsGroup.on('mouseout', function () {
+        document.body.style.cursor = 'default';
+        instructionsCircle.filters([])
+    });
+
+    instructionsCircle.on('click tap', function(e){
+        // show menu
+        helpMenu.style.display = 'initial';
+        var containerRect = stage.container().getBoundingClientRect();
+        helpMenu.style.top = containerRect.top + instructionsCircle.absolutePosition().y - 5 + 'px';
+        helpMenu.style.left = containerRect.left + instructionsCircle.absolutePosition().x - 25 - 400 + 'px';
+    })
+
 }
 
 const getMetadata = (url, cb) => {
@@ -135,9 +194,8 @@ fetch('./static/img/0_pieces.json')
                         xPos += imgWidth
                         y = maxPieceWidth * row * puzzlePieceScaleFactor
                     } else {
-                        let translationScale = Math.min(widthScale, heightScale)
-                        x = translationScale * x
-                        y = translationScale * y
+                        x = scale * x
+                        y = scale * y
                     }
                     puzzlePieceImg.attrs.x = x
                     puzzlePieceImg.attrs.y = y
@@ -150,6 +208,7 @@ fetch('./static/img/0_pieces.json')
 
 stage.add(layer);
 
+drawInstructions();
 
 var x1, y1, x2, y2;
 stage.on('mousedown touchstart', (e) => {
@@ -206,6 +265,11 @@ stage.on('mouseup touchend', (e) => {
 
 // clicks should select/deselect shapes
 stage.on('click tap', function (e) {
+    if (!e.target.hasName('instructions')) {
+        let helpMenu = document.getElementById("instructions");
+        helpMenu.style.display = 'none';
+    }
+
     // if we are selecting with rect, do nothing
     if (selectionRectangle.visible()) {
         return;
