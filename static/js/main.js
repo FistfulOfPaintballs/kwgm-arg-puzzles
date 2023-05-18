@@ -10,7 +10,9 @@ var stage = new Konva.Stage({
 var layer = new Konva.Layer();
 stage.add(layer);
 
-var tr = new Konva.Transformer();
+var tr = new Konva.Transformer({
+    rotationSnaps: [0, 90, 180, 270],
+});
 layer.add(tr);
 
 const targetWidth = 1024
