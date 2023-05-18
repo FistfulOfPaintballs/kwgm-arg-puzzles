@@ -1,5 +1,5 @@
 var width = window.innerWidth;
-var height = window.innerHeight;
+var height = window.innerHeight - 50;
 
 var stage = new Konva.Stage({
     container: 'container',
@@ -24,14 +24,16 @@ const widthScale = stage.width() / targetWidth
 const heightScale = stage.height() / targetHeight
 const puzzlePieceScaleFactor = Math.min(widthScale, heightScale) / numPiecesAcross
 
+var letters = []
+
 function drawImage(imageObj, letter, username) {
     let width = imageObj.width * puzzlePieceScaleFactor
     let height = imageObj.height * puzzlePieceScaleFactor
+    let fontSize = 24
 
     var puzzlePieceGroup = new Konva.Group({
         width: width,
         height: height,
-        name: 'puzzlepiece',
         draggable: true,
     })
     var puzzlePieceImg = new Konva.Image({
@@ -42,19 +44,31 @@ function drawImage(imageObj, letter, username) {
     });
     var puzzlePieceText = new Konva.Text({
         text: letter,
-        fontSize: 30,
+        fontSize: fontSize,
         fontFamily: 'Dutch811',
         fill: '#FFFFFF',
-        width: width,
-        height: height,
         padding: 5,
+        x: (width / 2) - (fontSize / 2),
+        y: (height / 2) - (fontSize / 2),
         align: 'center',
         verticalAlign: 'middle',
+        shadowEnabled: true,
+        shadowColor: "#000000",
+        shadowBlur: 4,
         visible: false
     })
 
     puzzlePieceGroup.add(puzzlePieceImg)
     puzzlePieceGroup.add(puzzlePieceText)
+
+    puzzlePieceText.on('click tap', function(e) {
+        const isSelected = tr.nodes().indexOf(e.target) >= 0;
+        if (!isSelected) {
+            tr.nodes([puzzlePieceImg]);
+        }
+    })
+
+    letters.push(puzzlePieceText)
 
     // add styling
     puzzlePieceImg.cache()
@@ -62,13 +76,11 @@ function drawImage(imageObj, letter, username) {
         document.body.style.cursor = 'pointer';
         puzzlePieceImg.filters([Konva.Filters.Brighten])
         puzzlePieceImg.brightness(-0.5)
-        puzzlePieceText.show();
     });
 
     puzzlePieceGroup.on('mouseout', function () {
         document.body.style.cursor = 'default';
         puzzlePieceImg.filters([])
-        puzzlePieceText.hide();
     });
 
     layer.add(puzzlePieceGroup);
@@ -238,3 +250,15 @@ stage.on('dblclick', function(e){
         })
     }
 })
+
+document.querySelector("#showLetters").addEventListener('change', function() {
+    if (this.checked) {
+        for (let l in letters) {
+            letters[l].show();
+        }
+    } else {
+        for (let l in letters) {
+            letters[l].hide();
+        }
+    }
+});

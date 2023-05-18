@@ -8,4 +8,24 @@
 
 body {
     margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#footer {
+    height: 50px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#controls {
+    flex: 1;
+    text-align: right;
+}
+
+#instructions {
+    flex: 1;
+    text-align: left;
 }
