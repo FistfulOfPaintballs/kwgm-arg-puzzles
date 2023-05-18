@@ -12,15 +12,15 @@
 <body>
     <div id="container"></div>
     <div id="instructions">
-        <p></p><b>Single click</b> pieces to toggle resize/rotate tools<br></p>
-        <p></p><b>Click and drag</b> on canvas or <b>shift-click</b> to select multiple<br></p>
-        <p></p><b>Double-click</b> pieces to reset to default size/rotation</p>
-        <p></p><b>Refresh</b> page to reset all to default positions</p>
+        <p><b>Single click</b> pieces to toggle resize/rotate tools<br></p>
+        <p><b>Click and drag</b> on canvas or <b>shift-click</b> to select multiple<br></p>
+        <p><b>Double-click</b> pieces to reset to default size/rotation</p>
+        <p><b>Refresh</b> page to reset all to default positions</p>
     </div>
     <div id="tooltip">
-        <p><b>Submitted by:</b><span id="submittedBy"></span></p>
-        <p><b>Letter:</b><span id="letter"></span></p>
-        <p><b>(x, y):</b><span id="coords"></span></p>
+        <p><b>Submitted by:</b> <span id="submittedBy"></span></p>
+        <p><b>Letter:</b> <span id="letter"></span></p>
+        <p><b>(x, y):</b> <span id="coords"></span></p>
     </div>
     <div id="footer">
         <div id="selectPuzzle">
@@ -30,9 +30,13 @@
                 <option value="black">Black Letters (Puzzle #2)</option>
             </select>
         </div>
-        <div id="controls">
+        <div id="lettersToggle">
             <input type="checkbox" id="showLetters" name="showLetters">
             <label for="showLetters">Show Letters</label><br>
+        </div>
+        <div id="tooltipsToggle">
+            <input type="checkbox" id="showTooltips" name="showTooltips">
+            <label for="showTooltips">Show Tooltips</label><br>
         </div>
     </div>
 </body>

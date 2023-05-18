@@ -28,6 +28,7 @@ const scale = Math.min(widthScale, heightScale)
 const puzzlePieceScaleFactor = scale / numPiecesAcross
 
 var letters = []
+var showTooltips = false
 
 function getCurrentPuzzle(){
     const urlParams = new URLSearchParams(window.location.search);
@@ -92,16 +93,39 @@ function drawImage(imageObj, letter, username) {
 
     letters.push(puzzlePieceText)
 
+    let tooltip = document.getElementById("tooltip")
+    let submittedBy = document.getElementById("submittedBy")
+    let tooltipLetter = document.getElementById("letter")
+    let coords = document.getElementById("coords")
+    tooltip.listening = false
+
     // add styling
     puzzlePieceImg.cache()
-    puzzlePieceGroup.on('mouseover', function () {
+    puzzlePieceImg.on('mouseenter', function () {
+        puzzleHoverActive = true
         document.body.style.cursor = 'pointer';
         puzzlePieceImg.filters([Konva.Filters.Brighten])
         puzzlePieceImg.brightness(-0.35)
+
+        if (!!showTooltips){
+            var containerRect = stage.container().getBoundingClientRect();
+            tooltip.style.display = 'initial';
+            tooltip.style.top = containerRect.top + puzzlePieceImg.absolutePosition().y + (puzzlePieceImg.height() / 2) + 'px'
+            tooltip.style.left = containerRect.left + puzzlePieceImg.absolutePosition().x + (puzzlePieceImg.width() / 2) + 'px'
+            submittedBy.innerText = username;
+            tooltipLetter.innerText = letter;
+            let x = Math.round(puzzlePieceImg.absolutePosition().x / scale)
+            let y = Math.round(puzzlePieceImg.absolutePosition().y / scale)
+            coords.innerText = `(${x}, ${y})`
+        }
     });
 
-    puzzlePieceGroup.on('mouseout', function () {
+    puzzlePieceImg.on('mouseleave', function () {
+        puzzleHoverActive = false
         document.body.style.cursor = 'default';
+        if (!!showTooltips){
+            tooltip.style.display = 'none';
+        }
         puzzlePieceImg.filters([])
     });
 
@@ -348,6 +372,10 @@ document.getElementById("showLetters").addEventListener('change', function() {
             letters[l].hide();
         }
     }
+});
+
+document.getElementById("showTooltips").addEventListener('change', function() {
+    showTooltips = this.checked
 });
 
 document.getElementById("selectPuzzle").addEventListener("change", (event) => {

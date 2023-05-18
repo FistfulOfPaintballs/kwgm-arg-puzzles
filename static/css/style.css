@@ -23,8 +23,18 @@ body {
 
 #tooltip {
     display: none;
-    background: rgba(0, 0, 0, .4);
+    position: absolute;
+    pointer-events: none;
+    min-width: 200px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .5);
     color: white;
+}
+
+#tooltip p {
+    line-height: 1.5em;
+    margin: 0;
 }
 
 #footer {
