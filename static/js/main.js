@@ -19,8 +19,8 @@ const targetWidth = 1024
 const targetHeight = 768
 
 const margin = 100
-const numPiecesAcross = 8
-const maxPieceWidth = 650
+const numPiecesAcross = 4
+const maxPieceWidth = 325
 
 const widthScale = stage.width() / targetWidth
 const heightScale = stage.height() / targetHeight
