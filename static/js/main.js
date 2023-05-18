@@ -36,6 +36,7 @@ function drawImage(imageObj, letter, username) {
         width: width,
         height: height,
         draggable: true,
+        name: 'puzzlepiece',
     })
     var puzzlePieceImg = new Konva.Image({
         image: imageObj,
