@@ -21,13 +21,13 @@ const targetWidth = 1024
 const targetHeight = 768
 
 const margin = 100
-const numPiecesAcross = 4
+const arbitraryScaleFactor = 3
 const maxPieceWidth = 325
 
 const widthScale = stage.width() / targetWidth
 const heightScale = stage.height() / targetHeight
 const scale = Math.min(widthScale, heightScale)
-const puzzlePieceScaleFactor = scale / numPiecesAcross
+const puzzlePieceScaleFactor = scale / arbitraryScaleFactor
 
 const arrowDelta = 1;
 
@@ -392,25 +392,30 @@ document.getElementById("showLetters").addEventListener('change', function() {
 window.addEventListener('keydown', function (e) {
     let nodes = tr.nodes()
 
+    var delta = arrowDelta;
+    if (e.shiftKey){
+        delta *= 10
+    }
+
     switch (e.code){
         case "ArrowLeft":
             for (let i in nodes){
-                nodes[i].x(nodes[i].x() - arrowDelta);
+                nodes[i].x(nodes[i].x() - delta);
             }
             break;
         case "ArrowUp":
             for (let i in nodes){
-                nodes[i].y(nodes[i].y() - arrowDelta);
+                nodes[i].y(nodes[i].y() - delta);
             }
             break;
         case "ArrowRight":
             for (let i in nodes){
-                nodes[i].x(nodes[i].x() + arrowDelta);
+                nodes[i].x(nodes[i].x() + delta);
             }
             break;
         case "ArrowDown":
             for (let i in nodes){
-                nodes[i].y(nodes[i].y() + arrowDelta);
+                nodes[i].y(nodes[i].y() + delta);
             }
             break;
         default:
