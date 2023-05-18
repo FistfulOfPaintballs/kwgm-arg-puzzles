@@ -7,6 +7,8 @@ var stage = new Konva.Stage({
     height: height,
 });
 
+var container = stage.container();
+
 var layer = new Konva.Layer();
 stage.add(layer);
 
@@ -26,6 +28,8 @@ const widthScale = stage.width() / targetWidth
 const heightScale = stage.height() / targetHeight
 const scale = Math.min(widthScale, heightScale)
 const puzzlePieceScaleFactor = scale / numPiecesAcross
+
+const arrowDelta = 1;
 
 var letters = []
 var showTooltips = false
@@ -61,7 +65,7 @@ function drawImage(imageObj, letter, username) {
         width: width,
         height: height,
         draggable: true,
-        name: 'puzzlepiece',
+        name: 'puzzlepieceGroup',
     })
     var puzzlePieceImg = new Konva.Image({
         image: imageObj,
@@ -108,7 +112,7 @@ function drawImage(imageObj, letter, username) {
         puzzlePieceImg.brightness(-0.35)
 
         if (!!showTooltips){
-            var containerRect = stage.container().getBoundingClientRect();
+            var containerRect = container.getBoundingClientRect();
             tooltip.style.display = 'initial';
             tooltip.style.top = containerRect.top + puzzlePieceImg.absolutePosition().y + (puzzlePieceImg.height() / 2) + 'px'
             tooltip.style.left = containerRect.left + puzzlePieceImg.absolutePosition().x + (puzzlePieceImg.width() / 2) + 'px'
@@ -183,7 +187,7 @@ function drawInstructions(){
     instructionsCircle.on('click tap', function(e){
         // show menu
         helpMenu.style.display = 'initial';
-        var containerRect = stage.container().getBoundingClientRect();
+        var containerRect = container.getBoundingClientRect();
         helpMenu.style.top = containerRect.top + instructionsCircle.absolutePosition().y - 5 + 'px';
         helpMenu.style.left = containerRect.left + instructionsCircle.absolutePosition().x - 25 - 400 + 'px';
     })
@@ -299,7 +303,7 @@ stage.on('mouseup touchend', (e) => {
         selectionRectangle.visible(false);
     });
 
-    var shapes = stage.find('.puzzlepiece');
+    var shapes = stage.find('.puzzlepieceGroup');
     var box = selectionRectangle.getClientRect();
     var selected = shapes.filter((shape) =>
         Konva.Util.haveIntersection(box, shape.getClientRect())
@@ -349,6 +353,16 @@ stage.on('click tap', function (e) {
         const nodes = tr.nodes().concat([e.target]);
         tr.nodes(nodes);
     }
+
+    // To prevent bugs with rotation and text: Add the nodes parents (puzzlepieceGroup)
+    // to the transformer instead
+    let oldNodes = tr.nodes()
+    var newNodes = []
+    for (let i in oldNodes){
+        newNodes.push(oldNodes[i].getParent())
+    }
+    tr.nodes(newNodes)
+
 });
 
 stage.on('dblclick', function(e){
@@ -372,6 +386,37 @@ document.getElementById("showLetters").addEventListener('change', function() {
             letters[l].hide();
         }
     }
+});
+
+// Move with arrow keys
+window.addEventListener('keydown', function (e) {
+    let nodes = tr.nodes()
+
+    switch (e.code){
+        case "ArrowLeft":
+            for (let i in nodes){
+                nodes[i].x(nodes[i].x() - arrowDelta);
+            }
+            break;
+        case "ArrowUp":
+            for (let i in nodes){
+                nodes[i].y(nodes[i].y() - arrowDelta);
+            }
+            break;
+        case "ArrowRight":
+            for (let i in nodes){
+                nodes[i].x(nodes[i].x() + arrowDelta);
+            }
+            break;
+        case "ArrowDown":
+            for (let i in nodes){
+                nodes[i].y(nodes[i].y() + arrowDelta);
+            }
+            break;
+        default:
+            return
+    }
+    e.preventDefault();
 });
 
 document.getElementById("showTooltips").addEventListener('change', function() {
