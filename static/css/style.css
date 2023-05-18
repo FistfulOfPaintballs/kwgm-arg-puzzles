@@ -21,6 +21,12 @@ body {
     padding: 4px 12px;
 }
 
+#credits {
+    font-size: 0.75em;
+    color: #6c6c6c;
+    text-align: center;
+}
+
 #tooltip {
     display: none;
     position: absolute;
