@@ -1,5 +1,5 @@
 {
-  "pieces" : [
+  "pieces": [
     {
       "filename": "1 - a - Harry(Benny).png",
       "username": "Harry (Benny)",
@@ -14,8 +14,8 @@
       "filename": "2 - h - Queenofmylife_14.png",
       "username": "Queenofmylife_14",
       "letter": "h",
-      "x": 610,
-      "y": 414,
+      "x": 347,
+      "y": 392,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -34,8 +34,8 @@
       "filename": "4 - t - tylerkeifburr.png",
       "username": "tylerkeifburr",
       "letter": "t",
-      "x": 679,
-      "y": 396,
+      "x": 416,
+      "y": 374,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -44,8 +44,8 @@
       "filename": "5 - s - IvyJane.png",
       "username": "IvyJane",
       "letter": "s",
-      "x": 164,
-      "y": 360,
+      "x": 150,
+      "y": 268,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -64,8 +64,8 @@
       "filename": "7 - m - punkusa20_2001.png",
       "username": "punkusa20_2001",
       "letter": "m",
-      "x": -1,
-      "y": -1,
+      "x": 206,
+      "y": 599,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -114,8 +114,8 @@
       "filename": "12 - i - DodgyDave.png",
       "username": "DodgyDave",
       "letter": "i",
-      "x": 142,
-      "y": 410,
+      "x": 128,
+      "y": 318,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -134,8 +134,8 @@
       "filename": "15 - t - k8.gr.png",
       "username": "k8.gr",
       "letter": "t",
-      "x": 633,
-      "y": 330,
+      "x": 370,
+      "y": 308,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -144,8 +144,8 @@
       "filename": "16 - S - kaylnjordan.png",
       "username": "kaylnjordan",
       "letter": "s",
-      "x": 304,
-      "y": 613,
+      "x": 340,
+      "y": 524,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -174,8 +174,8 @@
       "filename": "19 - e - AmazingEden.png",
       "username": "AmazingEden",
       "letter": "e",
-      "x": 259,
-      "y": 592,
+      "x": 295,
+      "y": 504,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -184,18 +184,18 @@
       "filename": "20 - o - AmazingEden.png",
       "username": "AmazingEden",
       "letter": "o",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 851,
+      "y": 307,
+      "scaleX": 0.976,
+      "scaleY": 0.976,
+      "rotation": -0.839
     },
     {
       "filename": "21 - t - TiGR3X_X.png",
       "username": "TiGR3X_X",
       "letter": "t",
-      "x": 402,
-      "y": 298,
+      "x": 666,
+      "y": 328,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -265,17 +265,17 @@
       "username": "Dropbox User",
       "letter": "t",
       "x": 839,
-      "y": 253,
-      "scaleX": 1,
-      "scaleY": 1,
+      "y": 254,
+      "scaleX": 0.981,
+      "scaleY": 0.981,
       "rotation": 0
     },
     {
       "filename": "29 - i - Number 1 Dad.png",
       "username": "Number 1 Dad",
       "letter": "i",
-      "x": 314,
-      "y": 244,
+      "x": 578,
+      "y": 274,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -294,8 +294,8 @@
       "filename": "31 - p - michy.png",
       "username": "michy",
       "letter": "p",
-      "x": 400,
-      "y": 227,
+      "x": 664,
+      "y": 257,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -334,8 +334,8 @@
       "filename": "35 - o - rey-brooklyn.png",
       "username": "Rey, from Brooklyn NY",
       "letter": "o",
-      "x": 231,
-      "y": 344,
+      "x": 217,
+      "y": 252,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
