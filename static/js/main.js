@@ -403,14 +403,44 @@ stage.on('click tap', function (e) {
 
 stage.on('dblclick', function(e){
     // Reset transformation on doubleclick
+    var setToOriginal = false
     if (e.target.hasName('puzzlepiece')) {
         let group = tr.nodes()[0]
         if (!!group){
-            group.setAttrs({
-                scaleX: 1,
-                scaleY: 1,
-                rotation: 0,
-            })
+            let piece = e.target
+            let filename = piece.getAttr('filename')
+            console.log(filename)
+
+            for (let i in originalJson["pieces"]){
+                let originalPiece = originalJson["pieces"][i]
+                console.log(originalPiece)
+                if (originalPiece["filename"] === filename){
+                    // If we can find a match, set position to match original json
+                    let x = originalPiece["x"]
+                    let y = originalPiece["y"]
+                    if (x !== -1 && y !== -1){
+                        group.setAttrs({
+                            x: originalPiece["x"] * scale,
+                            y: originalPiece["y"] * scale,
+                        })
+                    }
+                    group.setAttrs({
+                        scaleX: originalPiece["scaleX"],
+                        scaleY: originalPiece["scaleY"],
+                        rotation: originalPiece["rotation"],
+                    })
+                    setToOriginal = true
+                }
+            }
+
+            if (!setToOriginal){
+                // Else, set to default
+                group.setAttrs({
+                    scaleX: 1,
+                    scaleY: 1,
+                    rotation: 0,
+                })
+            }
         }
     }
 })
