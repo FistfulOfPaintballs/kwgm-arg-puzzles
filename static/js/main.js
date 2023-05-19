@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-function drawImage(imageObj, letter, username, scaleX, scaleY, rotation, filename) {
+function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotation, filename) {
     let width = imageObj.width * puzzlePieceScaleFactor
     let height = imageObj.height * puzzlePieceScaleFactor
     let fontSize = (20 * scale)
@@ -113,6 +113,7 @@ function drawImage(imageObj, letter, username, scaleX, scaleY, rotation, filenam
 
     let tooltip = document.getElementById("tooltip")
     let submittedBy = document.getElementById("submittedBy")
+    let tooltipLocation = document.getElementById("location")
     let tooltipLetter = document.getElementById("letter")
     let tooltipCoords = document.getElementById("coords")
     let tooltipScaleXY = document.getElementById("scaleXY")
@@ -134,6 +135,7 @@ function drawImage(imageObj, letter, username, scaleX, scaleY, rotation, filenam
             tooltip.style.top = containerRect.top + puzzlePieceImg.absolutePosition().y + (puzzlePieceImg.height() / 2) + 'px'
             tooltip.style.left = containerRect.left + puzzlePieceImg.absolutePosition().x + (puzzlePieceImg.width() / 2) + 'px'
             submittedBy.innerText = username;
+            tooltipLocation.innerText = location
             tooltipLetter.innerText = letter;
             let x = Math.round(puzzlePieceImg.absolutePosition().x / scale)
             let y = Math.round(puzzlePieceImg.absolutePosition().y / scale)
@@ -253,6 +255,7 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
 
                 let letter = pieces[p]["letter"]
                 let username = pieces[p]["username"]
+                let location = pieces[p]["location"]
 
                 let scaleX = pieces[p]["scaleX"]
                 let scaleY = pieces[p]["scaleY"]
@@ -260,7 +263,7 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
 
                 var puzzlePieceObj = new Image();
                 puzzlePieceObj.onload = function() {
-                    let puzzlePieceImg = drawImage(this, letter, username, scaleX, scaleY, rotation, filename);
+                    let puzzlePieceImg = drawImage(this, letter, username, location, scaleX, scaleY, rotation, filename);
                     if (x === -1 || y === -1){
                         // No position listed (unmatched piece)
                         let imgWidth = puzzlePieceImg.attrs.width

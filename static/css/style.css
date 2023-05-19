@@ -43,6 +43,10 @@ body {
     margin: 0;
 }
 
+p.tooltip-metadata {
+    font-size: 0.75em;
+}
+
 #footer {
     height: 50px;
     background-color: #333;
