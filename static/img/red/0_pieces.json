@@ -5,11 +5,11 @@
       "username": "Harry (Benny)",
       "letter": "a",
       "location": "Vancouver, BC",
-      "x": 873,
-      "y": 132,
+      "x": 870,
+      "y": 184,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": -1.798
+      "rotation": -1.561
     },
     {
       "filename": "2 - h - Queenofmylife_14.png",
@@ -82,19 +82,19 @@
       "username": "hamdam samdler (EDKH)",
       "letter": "t",
       "location": "Albuquerque, NM",
-      "x": 891,
-      "y": 178,
+      "x": 887,
+      "y": 230,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0.237
     },
     {
       "filename": "9 - i - lilysol.png",
       "username": "lilysol",
       "letter": "i",
       "location": "Phoenix, AZ",
-      "x": -1,
-      "y": -1,
+      "x": 21,
+      "y": 364,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -203,22 +203,22 @@
       "username": "AmazingEden",
       "letter": "o",
       "location": "Lawrence, KS",
-      "x": 826,
-      "y": 252,
+      "x": 822,
+      "y": 304,
       "scaleX": 0.976,
       "scaleY": 0.976,
-      "rotation": -0.839
+      "rotation": -0.602
     },
     {
       "filename": "21 - t - TiGR3X_X.png",
       "username": "TiGR3X_X",
       "letter": "t",
       "location": "",
-      "x": 692,
-      "y": 325,
+      "x": 688,
+      "y": 376,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0.237
     },
     {
       "filename": "22 - R - Tigerslili.png",
@@ -291,22 +291,22 @@
       "username": "Dropbox User",
       "letter": "t",
       "location": "",
-      "x": 814,
-      "y": 199,
+      "x": 810,
+      "y": 251,
       "scaleX": 0.981,
       "scaleY": 0.981,
-      "rotation": 0
+      "rotation": 0.237
     },
     {
       "filename": "29 - i - Number 1 Dad.png",
       "username": "Number 1 Dad",
       "letter": "i",
       "location": "Phoenix, AZ",
-      "x": 604,
-      "y": 271,
+      "x": 600,
+      "y": 322,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0.237
     },
     {
       "filename": "30 - f - Stumpyz.png",
@@ -324,11 +324,11 @@
       "username": "michy",
       "letter": "p",
       "location": "Atlanta, GA",
-      "x": 690,
-      "y": 254,
+      "x": 686,
+      "y": 305,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0.237
     },
     {
       "filename": "32 - i - Garage Wallaby.png",
