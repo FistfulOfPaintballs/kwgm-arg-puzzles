@@ -92,7 +92,7 @@ function drawImage(imageObj, letter, username, scaleX, scaleY, rotation, filenam
         shadowOffset: {x: 2, y: 2},
         shadowOpacity: 1,
         listening: false,
-        visible: false,
+        visible: true,
     })
 
     puzzlePieceImg.setAttr('filename', filename)
