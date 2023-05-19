@@ -107,6 +107,9 @@ function drawImage(imageObj, letter, username) {
     let submittedBy = document.getElementById("submittedBy")
     let tooltipLetter = document.getElementById("letter")
     let coords = document.getElementById("coords")
+    let scaleXY = document.getElementById("scaleXY")
+    let rotation = document.getElementById("rotation")
+
     tooltip.listening = false
 
     // add styling
@@ -127,6 +130,12 @@ function drawImage(imageObj, letter, username) {
             let x = Math.round(puzzlePieceImg.absolutePosition().x / scale)
             let y = Math.round(puzzlePieceImg.absolutePosition().y / scale)
             coords.innerText = `(${x}, ${y})`
+
+            let scaleX = puzzlePieceGroup.getAttr('scaleX').toFixed(3)
+            let scaleY = puzzlePieceGroup.getAttr('scaleY').toFixed(3)
+            let rotationVal = puzzlePieceGroup.getAttr('rotation').toFixed(3)
+            scaleXY.innerText = `(${scaleX}, ${scaleY})`
+            rotation.innerText = `${rotationVal}`
         }
     });
 
