@@ -16,8 +16,8 @@
       "username": "Queenofmylife_14",
       "letter": "h",
       "location": "Portland, OR",
-      "x": 253,
-      "y": 374,
+      "x": 250,
+      "y": 373,
       "scaleX": 0.89,
       "scaleY": 0.89,
       "rotation": 0
@@ -39,10 +39,10 @@
       "letter": "t",
       "location": "Los Angeles, CA",
       "x": 311,
-      "y": 361,
+      "y": 360,
       "scaleX": 0.852,
       "scaleY": 0.852,
-      "rotation": -3.059
+      "rotation": -0.475
     },
     {
       "filename": "5 - s - IvyJane.png",
@@ -148,8 +148,8 @@
       "username": "k8.gr",
       "letter": "t",
       "location": "Lawrence, KS",
-      "x": 269,
-      "y": 298,
+      "x": 266,
+      "y": 297,
       "scaleX": 0.89,
       "scaleY": 0.89,
       "rotation": 0
