@@ -557,7 +557,7 @@ document.getElementById("exportJson").addEventListener("click", function(e){
 
         let x = Math.round(piece.absolutePosition().x / scale)
         let y = Math.round(piece.absolutePosition().y / scale)
-        if (y >= exportPiecesBelowY){
+        if (y >= (exportPiecesBelowY / scale)){
             var scaleX = Math.round((group.getAttr('scaleX') * 1e3)) / 1e3
             var scaleY = Math.round((group.getAttr('scaleY') * 1e3)) / 1e3
             var rotation = Math.round((group.getAttr('rotation') * 1e3)) / 1e3
