@@ -5,238 +5,340 @@
       "username": "Harry (Benny)",
       "letter": "a",
       "x": 901,
-      "y": 186
+      "y": 186,
+      "scaleX":1,
+      "scaleY": 1,
+      "rotation": 0
     },
     {
       "filename": "2 - h - Queenofmylife_14.png",
       "username": "Queenofmylife_14",
       "letter": "h",
       "x": 610,
-      "y": 414
+      "y": 414,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "3 - s - daddyvita1.png",
       "username": "daddyvita1",
       "letter": "s",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "4 - t - tylerkeifburr.png",
       "username": "tylerkeifburr",
       "letter": "t",
       "x": 679,
-      "y": 396
+      "y": 396,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "5 - s - IvyJane.png",
       "username": "IvyJane",
       "letter": "s",
       "x": 164,
-      "y": 360
+      "y": 360,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "6 - W - Ginger.png",
       "username": "Ginger",
       "letter": "w",
       "x": 481,
-      "y": 534
+      "y": 534,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "7 - m - punkusa20_2001.png",
       "username": "punkusa20_2001",
       "letter": "m",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "8 - t - hamdam samdler (EDKH).png",
       "username": "hamdam samdler (EDKH)",
       "letter": "t",
       "x": 916,
-      "y": 233
+      "y": 233,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "9 - i - lilysol.png",
       "username": "lilysol",
       "letter": "i",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "10 - a - Finnegan.png",
       "username": "Finnegan",
       "letter": "a",
       "x": 11,
-      "y": 187
+      "y": 187,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "11 - h - baerwithme.png",
       "username": "baerwithme",
       "letter": "h",
       "x": 474,
-      "y": 580
+      "y": 580,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "12 - i - DodgyDave.png",
       "username": "DodgyDave",
       "letter": "i",
       "x": 142,
-      "y": 410
+      "y": 410,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "14 - s - Mallory.png",
       "username": "Mallory",
       "letter": "s",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "15 - t - k8.gr.png",
       "username": "k8.gr",
       "letter": "t",
       "x": 633,
-      "y": 330
+      "y": 330,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "16 - S - kaylnjordan.png",
       "username": "kaylnjordan",
       "letter": "s",
       "x": 304,
-      "y": 613
+      "y": 613,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "17_ - S - Ninjaplacement.png",
       "username": "Ninjaplacement",
       "letter": "s",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "18 - H - NinjaPlacement.png",
       "username": "Ninjaplacement",
       "letter": "h",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "19 - e - AmazingEden.png",
       "username": "AmazingEden",
       "letter": "e",
       "x": 259,
-      "y": 592
+      "y": 592,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "20 - o - AmazingEden.png",
       "username": "AmazingEden",
       "letter": "o",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "21 - t - TiGR3X_X.png",
       "username": "TiGR3X_X",
       "letter": "t",
       "x": 402,
-      "y": 298
+      "y": 298,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "22 - R - Tigerslili.png",
       "username": "Tigerslili",
       "letter": "r",
       "x": 836,
-      "y": 651
+      "y": 651,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "23 - t - Dropbox1.png",
       "username": "Dropbox User",
       "letter": "t",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "24 - u - Dropbox2.png",
       "username": "Dropbox User",
       "letter": "u",
       "x": 893,
-      "y": 669
+      "y": 669,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "25 - o - Dropbox4.png",
       "username": "Dropbox User",
       "letter": "o",
       "x": 912,
-      "y": 583
+      "y": 583,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "26 - c - Dropbox5.png",
       "username": "Dropbox User",
       "letter": "c",
       "x": 896,
-      "y": 517
+      "y": 517,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "27 - h - Dropbox4.png",
       "username": "Dropbox User",
       "letter": "h",
       "x": 897,
-      "y": 458
+      "y": 458,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "28 - t - Dropbox8.png",
       "username": "Dropbox User",
       "letter": "t",
       "x": 839,
-      "y": 253
+      "y": 253,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "29 - i - Number 1 Dad.png",
       "username": "Number 1 Dad",
       "letter": "i",
       "x": 314,
-      "y": 244
+      "y": 244,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "30 - f - Stumpyz.png",
       "username": "Stumpyz",
       "letter": "f",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "31 - p - michy.png",
       "username": "michy",
       "letter": "p",
       "x": 400,
-      "y": 227
+      "y": 227,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "32 - i - Garage Wallaby.png",
       "username": "Garage Wallaby",
       "letter": "i",
       "x": 491,
-      "y": 649
+      "y": 649,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "33 - h - WiPPLEJESUS.png",
       "username": "WiPPLEJESUS",
       "letter": "h",
       "x": -1,
-      "y": -1
+      "y": -1,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "34 - n - rob.png",
       "username": "rob. Rob? ROB!",
       "letter": "n",
       "x": 488,
-      "y": 449
+      "y": 449,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     },
     {
       "filename": "35 - o - rey-brooklyn.png",
       "username": "Rey, from Brooklyn NY",
       "letter": "o",
       "x": 231,
-      "y": 344
+      "y": 344,
+      "scaleX": 1,
+      "scaleY":  1,
+      "rotation":  0
     }
   ]
 }

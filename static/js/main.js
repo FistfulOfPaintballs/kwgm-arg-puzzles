@@ -34,11 +34,8 @@ const arrowDelta = 1;
 var letters = []
 var showTooltips = false
 
-// var originalJson
-// var exportPiecesBelowX = 150
-// var exportJSON = {
-//     "pieces": []
-// }
+var originalJson
+var exportPiecesBelowY = 150
 
 function getCurrentPuzzle(){
     const urlParams = new URLSearchParams(window.location.search);
@@ -62,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-function drawImage(imageObj, letter, username) {
+function drawImage(imageObj, letter, username, scaleX, scaleY, rotation, filename) {
     let width = imageObj.width * puzzlePieceScaleFactor
     let height = imageObj.height * puzzlePieceScaleFactor
     let fontSize = (20 * scale)
@@ -98,17 +95,26 @@ function drawImage(imageObj, letter, username) {
         visible: false,
     })
 
+    puzzlePieceImg.setAttr('filename', filename)
+
     puzzlePieceGroup.add(puzzlePieceImg)
     puzzlePieceGroup.add(puzzlePieceText)
+
+    if (scaleX !== 1 || scaleY !== 1){
+        puzzlePieceGroup.scale({x: scaleX, y: scaleY})
+    }
+    if (rotation !== 0) {
+        puzzlePieceGroup.rotate(rotation)
+    }
 
     letters.push(puzzlePieceText)
 
     let tooltip = document.getElementById("tooltip")
     let submittedBy = document.getElementById("submittedBy")
     let tooltipLetter = document.getElementById("letter")
-    let coords = document.getElementById("coords")
-    let scaleXY = document.getElementById("scaleXY")
-    let rotation = document.getElementById("rotation")
+    let tooltipCoords = document.getElementById("coords")
+    let tooltipScaleXY = document.getElementById("scaleXY")
+    let tooltipRotation = document.getElementById("rotation")
 
     tooltip.listening = false
 
@@ -129,13 +135,13 @@ function drawImage(imageObj, letter, username) {
             tooltipLetter.innerText = letter;
             let x = Math.round(puzzlePieceImg.absolutePosition().x / scale)
             let y = Math.round(puzzlePieceImg.absolutePosition().y / scale)
-            coords.innerText = `(${x}, ${y})`
+            tooltipCoords.innerText = `(${x}, ${y})`
 
             let scaleX = puzzlePieceGroup.getAttr('scaleX').toFixed(3)
             let scaleY = puzzlePieceGroup.getAttr('scaleY').toFixed(3)
             let rotationVal = puzzlePieceGroup.getAttr('rotation').toFixed(3)
-            scaleXY.innerText = `(${scaleX}, ${scaleY})`
-            rotation.innerText = `${rotationVal}`
+            tooltipScaleXY.innerText = `(${scaleX}, ${scaleY})`
+            tooltipRotation.innerText = `${rotationVal}`
         }
     });
 
@@ -246,9 +252,13 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
                 let letter = pieces[p]["letter"]
                 let username = pieces[p]["username"]
 
+                let scaleX = pieces[p]["scaleX"]
+                let scaleY = pieces[p]["scaleY"]
+                let rotation = pieces[p]["rotation"]
+
                 var puzzlePieceObj = new Image();
                 puzzlePieceObj.onload = function() {
-                    let puzzlePieceImg = drawImage(this, letter, username);
+                    let puzzlePieceImg = drawImage(this, letter, username, scaleX, scaleY, rotation, filename);
                     if (x === -1 || y === -1){
                         // No position listed (unmatched piece)
                         let imgWidth = puzzlePieceImg.attrs.width
@@ -460,12 +470,51 @@ document.getElementById("selectPuzzle").addEventListener("change", (event) => {
     window.location.href = `${url}?puzzle=${event.target.value}`;
 });
 
-// document.getElementById("exportJson").addEventListener("click", function(e){
-//     let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(originalJson, null, 2));
-//     let downloadAnchorNode = document.createElement('a');
-//     downloadAnchorNode.setAttribute("href",     dataStr);
-//     downloadAnchorNode.setAttribute("download", `0_pieces_${getCurrentPuzzle()}.json`);
-//     document.body.appendChild(downloadAnchorNode); // required for firefox
-//     downloadAnchorNode.click();
-//     downloadAnchorNode.remove();
-// })
+document.getElementById("exportJson").addEventListener("click", function(e){
+    var exportJson = structuredClone(originalJson)
+
+    var pieces = stage.find('.puzzlepiece');
+    for (let i in pieces){
+        let piece = pieces[i]
+        let group = piece.getParent()
+
+        let x = Math.round(piece.absolutePosition().x / scale)
+        let y = Math.round(piece.absolutePosition().y / scale)
+        if (y >= exportPiecesBelowY){
+
+            var scaleX = group.getAttr('scaleX').toFixed(3)
+            var scaleY = group.getAttr('scaleY').toFixed(3)
+            var rotation = group.getAttr('rotation').toFixed(3)
+
+            if (scaleX == 1.000){
+                scaleX = 1
+            }
+            if (scaleY == 1.000){
+                scaleY = 1
+            }
+            if (rotation == 0.000){
+                rotation = 0
+            }
+
+            let filename = piece.getAttr('filename')
+            for (let j in exportJson["pieces"]){
+                let originalPiece = exportJson["pieces"][j]
+                if (originalPiece['filename'] === filename){
+                    exportJson["pieces"][j]["x"] = x
+                    exportJson["pieces"][j]["y"] = y
+                    exportJson["pieces"][j]["scaleX"] = scaleX
+                    exportJson["pieces"][j]["scaleY"] = scaleY
+                    exportJson["pieces"][j]["rotation"] = rotation
+                }
+            }
+        }
+    }
+
+    let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportJson, null, 2));
+    let downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href",     dataStr);
+    downloadAnchorNode.setAttribute("download", `0_pieces_${getCurrentPuzzle()}.json`);
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+})
