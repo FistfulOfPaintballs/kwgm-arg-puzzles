@@ -35,7 +35,7 @@ var letters = []
 var showTooltips = false
 
 var originalJson
-var exportPiecesBelowY = 150
+var exportPiecesBelowY = stage.height() * 0.2
 
 function getCurrentPuzzle(){
     const urlParams = new URLSearchParams(window.location.search);
@@ -162,9 +162,36 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
     return puzzlePieceGroup
 }
 
+function drawUnclaimedPieceArea(){
+    var dottedLine = new Konva.Line({
+        points: [0, exportPiecesBelowY, stage.width(), exportPiecesBelowY],
+        stroke: 'black',
+        strokeWidth: 3,
+        lineCap: 'round',
+        lineJoin: 'round',
+        color: '#333333',
+        dash: [15, 20],
+    });
+    layer.add(dottedLine)
+    var unclaimedPiecesText = new Konva.Text({
+        text: "Any changes made to pieces in this section will not be exported",
+        fontSize: 16,
+        fontFamily: 'Lato',
+        x: 0,
+        y: (exportPiecesBelowY / 2),
+        width: stage.width(),
+        height: (exportPiecesBelowY / 2),
+        fill: '#333333',
+        align: 'center',
+        verticalAlign: 'middle'
+    })
+    layer.add(unclaimedPiecesText)
+}
+
 function drawInstructions(){
     let width = 50
     let helpMenu = document.getElementById("instructions")
+    helpMenu.style.display = "none"
 
     var instructionsGroup = new Konva.Group({
         width: width,
@@ -211,10 +238,14 @@ function drawInstructions(){
 
     instructionsCircle.on('click tap', function(e){
         // show menu
-        helpMenu.style.display = 'initial';
-        var containerRect = container.getBoundingClientRect();
-        helpMenu.style.top = containerRect.top + instructionsCircle.absolutePosition().y - 5 + 'px';
-        helpMenu.style.left = containerRect.left + instructionsCircle.absolutePosition().x - 25 - 400 + 'px';
+        if (helpMenu.style.display === 'none'){
+            helpMenu.style.display = 'initial';
+            var containerRect = container.getBoundingClientRect();
+            helpMenu.style.top = containerRect.top + instructionsCircle.absolutePosition().y - 5 + 'px';
+            helpMenu.style.left = containerRect.left + instructionsCircle.absolutePosition().x - 25 - 400 + 'px';
+        } else {
+            helpMenu.style.display = 'none';
+        }
     })
 
 }
@@ -290,6 +321,7 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
 
 stage.add(layer);
 
+drawUnclaimedPieceArea()
 drawInstructions();
 
 var x1, y1, x2, y2;
