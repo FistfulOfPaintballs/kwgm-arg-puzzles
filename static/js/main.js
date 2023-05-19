@@ -34,6 +34,12 @@ const arrowDelta = 1;
 var letters = []
 var showTooltips = false
 
+// var originalJson
+// var exportPiecesBelowX = 150
+// var exportJSON = {
+//     "pieces": []
+// }
+
 function getCurrentPuzzle(){
     const urlParams = new URLSearchParams(window.location.search);
     const puzzle = urlParams.get('puzzle')
@@ -211,10 +217,12 @@ var selectionRectangle = new Konva.Rect({
 });
 layer.add(selectionRectangle);
 
+// Lay Out Pieces
 fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
     .then((response) => response.json())
     .then((json) => {
-        let pieces = json["pieces"];
+        originalJson = json
+        let pieces = json["pieces"]
 
         var xPos = 0
         var row = 0
@@ -233,6 +241,7 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
                 puzzlePieceObj.onload = function() {
                     let puzzlePieceImg = drawImage(this, letter, username);
                     if (x === -1 || y === -1){
+                        // No position listed (unmatched piece)
                         let imgWidth = puzzlePieceImg.attrs.width
                         if ((xPos + imgWidth) >= stage.width()) {
                             row += 1
@@ -242,6 +251,7 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
                         xPos += imgWidth
                         y = maxPieceWidth * row * puzzlePieceScaleFactor
                     } else {
+                        // Piece has an (x,y) coord
                         x = scale * x
                         y = scale * y
                     }
@@ -440,3 +450,13 @@ document.getElementById("selectPuzzle").addEventListener("change", (event) => {
     let url = window.location.href.split('?')[0];
     window.location.href = `${url}?puzzle=${event.target.value}`;
 });
+
+// document.getElementById("exportJson").addEventListener("click", function(e){
+//     let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(originalJson, null, 2));
+//     let downloadAnchorNode = document.createElement('a');
+//     downloadAnchorNode.setAttribute("href",     dataStr);
+//     downloadAnchorNode.setAttribute("download", `0_pieces_${getCurrentPuzzle()}.json`);
+//     document.body.appendChild(downloadAnchorNode); // required for firefox
+//     downloadAnchorNode.click();
+//     downloadAnchorNode.remove();
+// })
