@@ -31,6 +31,7 @@ const puzzlePieceScaleFactor = scale / arbitraryScaleFactor
 
 const arrowDelta = 1;
 
+var puzzleGrid
 var letters = []
 var showTooltips = false
 
@@ -160,6 +161,25 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
 
     layer.add(puzzlePieceGroup);
     return puzzlePieceGroup
+}
+
+function drawPuzzleGrid(){
+    var puzzleGridImg = new Image()
+    puzzleGridImg.src = "./static/img/puzzlegrid.png"
+    puzzleGridImg.onload = function(){
+        puzzleGrid = new Konva.Image({
+            image: puzzleGridImg,
+            x: 30 * scale,
+            y: exportPiecesBelowY + (20 * scale),
+            width: puzzleGridImg.width * puzzlePieceScaleFactor,
+            height: puzzleGridImg.height * puzzlePieceScaleFactor,
+            name: 'puzzleGrid',
+            opacity: 0.5,
+            visible: false,
+            listening: false
+        })
+        layer.add(puzzleGrid)
+    }
 }
 
 function drawUnclaimedPieceArea(){
@@ -323,8 +343,9 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
 
 stage.add(layer);
 
+drawPuzzleGrid()
 drawUnclaimedPieceArea()
-drawInstructions();
+drawInstructions()
 
 var x1, y1, x2, y2;
 stage.on('mousedown touchstart', (e) => {
@@ -446,11 +467,9 @@ stage.on('dblclick', function(e){
         if (!!group){
             let piece = e.target
             let filename = piece.getAttr('filename')
-            console.log(filename)
 
             for (let i in originalJson["pieces"]){
                 let originalPiece = originalJson["pieces"][i]
-                console.log(originalPiece)
                 if (originalPiece["filename"] === filename){
                     // If we can find a match, set position to match original json
                     let x = originalPiece["x"]
@@ -491,6 +510,14 @@ document.getElementById("showLetters").addEventListener('change', function() {
         for (let l in letters) {
             letters[l].hide();
         }
+    }
+});
+
+document.getElementById("showGrid").addEventListener('change', function() {
+    if (this.checked) {
+        puzzleGrid.show();
+    } else {
+        puzzleGrid.hide();
     }
 });
 
