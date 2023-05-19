@@ -6,7 +6,7 @@
       "letter": "a",
       "x": 901,
       "y": 186,
-      "scaleX":1,
+      "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
     },
@@ -336,6 +336,16 @@
       "letter": "o",
       "x": 231,
       "y": 344,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "36 - c - Dropbox9.png",
+      "username": "Dropbox User",
+      "letter": "C",
+      "x": -1,
+      "y": -1,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
