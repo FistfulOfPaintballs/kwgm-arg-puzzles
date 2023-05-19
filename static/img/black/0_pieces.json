@@ -111,7 +111,7 @@
       "rotation": 0
     },
     {
-      "filename": "11 - O - rhys.png",
+      "filename": "12 - O - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "O",
       "x": -1,
@@ -121,7 +121,7 @@
       "rotation": 0
     },
     {
-      "filename": "12 - N - rhys.png",
+      "filename": "13 - N - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "N",
       "x": -1,
@@ -131,7 +131,7 @@
       "rotation": 0
     },
     {
-      "filename": "13 - I - rhys.png",
+      "filename": "14 - I - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "I",
       "x": -1,
@@ -141,7 +141,7 @@
       "rotation": 0
     },
     {
-      "filename": "14 - V - rhys.png",
+      "filename": "15 - V - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "V",
       "x": -1,
@@ -151,7 +151,7 @@
       "rotation": 0
     },
     {
-      "filename": "15 - G - rhys.png",
+      "filename": "16 - G - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "G",
       "x": -1,
@@ -161,7 +161,7 @@
       "rotation": 0
     },
     {
-      "filename": "16 - F - rhys.png",
+      "filename": "17 - F - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "F",
       "x": -1,
@@ -171,7 +171,7 @@
       "rotation": 0
     },
     {
-      "filename": "17 - G - rhys.png",
+      "filename": "18 - G - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "G",
       "x": -1,
@@ -181,19 +181,9 @@
       "rotation": 0
     },
     {
-      "filename": "18 - D - rhys.png",
+      "filename": "19 - D - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "D",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
-    },
-    {
-      "filename": "19 - T - rhys.png",
-      "username":  "Rhys Caliban",
-      "letter": "T",
       "x": -1,
       "y": -1,
       "scaleX": 1,
@@ -211,77 +201,7 @@
       "rotation": 0
     },
     {
-      "filename": "21 - I - rhys.png",
-      "username":  "Rhys Caliban",
-      "letter": "I",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
-    },
-    {
-      "filename": "22 - S - rhys.png",
-      "username":  "Rhys Caliban",
-      "letter": "S",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
-    },
-    {
-      "filename": "23 - W - rhys.png",
-      "username":  "Rhys Caliban",
-      "letter": "W",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
-    },
-    {
-      "filename": "24 - F - rhys.png",
-      "username":  "Rhys Caliban",
-      "letter": "F",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
-    },
-    {
-      "filename": "25 - D - rhys.png",
-      "username":  "Rhys Caliban",
-      "letter": "D",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
-    },
-    {
-      "filename": "26 - R - rhys.png",
-      "username":  "Rhys Caliban",
-      "letter": "R",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
-    },
-    {
-      "filename": "27 - E - rhys.png",
-      "username":  "Rhys Caliban",
-      "letter": "E",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
-    },
-    {
-      "filename": "28 - T - rhys.png",
+      "filename": "21 - T - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "T",
       "x": -1,
@@ -291,9 +211,9 @@
       "rotation": 0
     },
     {
-      "filename": "29 - N - rhys.png",
+      "filename": "22 - I - rhys.png",
       "username":  "Rhys Caliban",
-      "letter": "N",
+      "letter": "I",
       "x": -1,
       "y": -1,
       "scaleX": 1,
@@ -301,7 +221,57 @@
       "rotation": 0
     },
     {
-      "filename": "30 - E - rhys.png",
+      "filename": "23 - S - rhys.png",
+      "username":  "Rhys Caliban",
+      "letter": "S",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "24 - W - rhys.png",
+      "username":  "Rhys Caliban",
+      "letter": "W",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "25 - F - rhys.png",
+      "username":  "Rhys Caliban",
+      "letter": "F",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "26 - D - rhys.png",
+      "username":  "Rhys Caliban",
+      "letter": "D",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "27 - R - rhys.png",
+      "username":  "Rhys Caliban",
+      "letter": "R",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "28 - E - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "E",
       "x": -1,
@@ -311,7 +281,37 @@
       "rotation": 0
     },
     {
-      "filename": "31 - I - rhys.png",
+      "filename": "29 - T - rhys.png",
+      "username":  "Rhys Caliban",
+      "letter": "T",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "30 - N - rhys.png",
+      "username":  "Rhys Caliban",
+      "letter": "N",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "31 - E - rhys.png",
+      "username":  "Rhys Caliban",
+      "letter": "E",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "32 - I - rhys.png",
       "username":  "Rhys Caliban",
       "letter": "I",
       "x": -1,
@@ -322,3 +322,4 @@
     }
   ]
 }
+
