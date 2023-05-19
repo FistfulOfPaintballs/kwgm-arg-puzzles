@@ -420,8 +420,8 @@ stage.on('dblclick', function(e){
                     let y = originalPiece["y"]
                     if (x !== -1 && y !== -1){
                         group.setAttrs({
-                            x: originalPiece["x"] * scale,
-                            y: originalPiece["y"] * scale,
+                            x: x * scale,
+                            y: y * scale,
                         })
                     }
                     group.setAttrs({
