@@ -171,6 +171,7 @@ function drawUnclaimedPieceArea(){
         lineJoin: 'round',
         color: '#333333',
         dash: [15, 20],
+        listening: false
     });
     layer.add(dottedLine)
     var unclaimedPiecesText = new Konva.Text({
@@ -183,7 +184,8 @@ function drawUnclaimedPieceArea(){
         height: (exportPiecesBelowY / 2),
         fill: '#333333',
         align: 'center',
-        verticalAlign: 'middle'
+        verticalAlign: 'middle',
+        listening: false
     })
     layer.add(unclaimedPiecesText)
 }
