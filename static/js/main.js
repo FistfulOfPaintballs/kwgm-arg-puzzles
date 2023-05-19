@@ -491,10 +491,9 @@ document.getElementById("exportJson").addEventListener("click", function(e){
         let x = Math.round(piece.absolutePosition().x / scale)
         let y = Math.round(piece.absolutePosition().y / scale)
         if (y >= exportPiecesBelowY){
-
-            var scaleX = group.getAttr('scaleX').toFixed(3)
-            var scaleY = group.getAttr('scaleY').toFixed(3)
-            var rotation = group.getAttr('rotation').toFixed(3)
+            var scaleX = Math.round((group.getAttr('scaleX') * 1e3)) / 1e3
+            var scaleY = Math.round((group.getAttr('scaleY') * 1e3)) / 1e3
+            var rotation = Math.round((group.getAttr('rotation') * 1e3)) / 1e3
 
             if (scaleX == 1.000){
                 scaleX = 1
@@ -518,6 +517,7 @@ document.getElementById("exportJson").addEventListener("click", function(e){
                 }
             }
         }
+
     }
 
     let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportJson, null, 2));
