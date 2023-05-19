@@ -102,9 +102,11 @@ function drawImage(imageObj, letter, username, scaleX, scaleY, rotation, filenam
 
     if (scaleX !== 1 || scaleY !== 1){
         puzzlePieceGroup.scale({x: scaleX, y: scaleY})
+        puzzlePieceText.scale({x: 1/scaleX, y: 1/scaleY})
     }
     if (rotation !== 0) {
         puzzlePieceGroup.rotate(rotation)
+        puzzlePieceText.rotate(-rotation)
     }
 
     letters.push(puzzlePieceText)
