@@ -1,13 +1,14 @@
 {
   "pieces" : [
     {
-      "filename": "puzzle2_test1.png",
-      "username": "",
-      "letter": "0",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "filename": "definitelyapuzzlepiece.png",
+      "username": "Wipplebird",
+      "letter": "",
+      "location": "everywhere",
+      "x": 450,
+      "y": 250,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
       "rotation": 0
     }
   ]
