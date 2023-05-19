@@ -465,6 +465,14 @@ document.getElementById("showTooltips").addEventListener('change', function() {
     showTooltips = this.checked
 });
 
+document.getElementById("rotationSnap").addEventListener('change', function() {
+    if (this.checked){
+        tr.rotationSnaps([0, 90, 180, 270]);
+    } else {
+        tr.rotationSnaps([]);
+    }
+});
+
 document.getElementById("selectPuzzle").addEventListener("change", (event) => {
     let url = window.location.href.split('?')[0];
     window.location.href = `${url}?puzzle=${event.target.value}`;
