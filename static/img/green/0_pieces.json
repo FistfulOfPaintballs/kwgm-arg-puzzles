@@ -5,11 +5,11 @@
       "username": "Ekin & The Zombies",
       "letter": "y",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 661,
+      "y": 308,
+      "scaleX": 0.868,
+      "scaleY": 0.84,
+      "rotation": -2.375
     },
     {
       "filename": "2 - s - Ekin.png",
@@ -71,11 +71,11 @@
       "username": "Ekin & The Zombies",
       "letter": "p",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 90,
+      "y": 428,
+      "scaleX": 0.909,
+      "scaleY": 0.979,
+      "rotation": -2.836
     },
     {
       "filename": "8 - i - Ekin.png",
@@ -159,11 +159,11 @@
       "username": "Ekin & The Zombies",
       "letter": "t",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 270,
+      "y": 419,
+      "scaleX": 0.969,
+      "scaleY": 0.969,
+      "rotation": -1.624
     },
     {
       "filename": "16 - m - Ekin.png",
@@ -192,11 +192,11 @@
       "username": "Ekin & The Zombies",
       "letter": "v",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 330,
+      "y": 632,
+      "scaleX": 0.983,
+      "scaleY": 1.075,
+      "rotation": -0.01
     },
     {
       "filename": "19 - i - Ekin.png",
@@ -258,22 +258,22 @@
       "username": "Ekin & The Zombies",
       "letter": "t",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 620,
+      "y": 414,
+      "scaleX": 0.978,
+      "scaleY": 0.978,
+      "rotation": -2.834
     },
     {
       "filename": "25 - i - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "i",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 561,
+      "y": 547,
+      "scaleX": 0.933,
+      "scaleY": 1.052,
+      "rotation": -4.378
     },
     {
       "filename": "26 - i - Ekin.png",
