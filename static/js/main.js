@@ -172,7 +172,7 @@ function drawPuzzleGrid(){
             width: puzzleGridImg.width * puzzlePieceScaleFactor,
             height: puzzleGridImg.height * puzzlePieceScaleFactor,
             name: 'puzzleGrid',
-            opacity: 0.5,
+            opacity: 0.25,
             visible: true,
             listening: false
         })
