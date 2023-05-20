@@ -32,8 +32,11 @@ const puzzlePieceScaleFactor = scale / arbitraryScaleFactor
 const arrowDelta = 1;
 
 var puzzleGrid
+var puzzlePieces = []
 var letters = []
 var showTooltips = false
+
+var flipped = false
 
 var originalJson
 var exportPiecesBelowY = 175 * scale
@@ -108,6 +111,7 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
         puzzlePieceText.rotate(-rotation)
     }
 
+    puzzlePieces.push(puzzlePieceGroup)
     letters.push(puzzlePieceText)
 
     let tooltip = document.getElementById("tooltip")
@@ -570,6 +574,86 @@ document.getElementById("rotationSnap").addEventListener('change', function() {
 document.getElementById("selectPuzzle").addEventListener("change", (event) => {
     let url = window.location.href.split('?')[0];
     window.location.href = `${url}?puzzle=${event.target.value}`;
+});
+
+document.getElementById("flipButton").addEventListener("click", (event) => {
+    console.log("do a flip");
+    // console.log(puzzleGrid.width())
+    // console.log(scale)
+
+    flipped = !flipped
+
+    // Create a group
+    var flipGroup = new Konva.Group({
+        x: puzzleGrid.getAbsolutePosition().x,
+        y: puzzleGrid.getAbsolutePosition().y,
+        offsetY: puzzleGrid.getAbsolutePosition().y,
+        width: puzzleGrid.width(),
+        height: puzzleGrid.height(),
+        listening: false,
+    })
+    layer.add(flipGroup)
+
+    // Add grid and pieces to group
+    flipGroup.add(puzzleGrid)
+    for (let i in puzzlePieces){
+        let pieceGroup = puzzlePieces[i]
+        if (pieceGroup.y() >= exportPiecesBelowY){
+            flipGroup.add(pieceGroup)
+        }
+    }
+
+    // Flip Group
+    if (!!flipped) {
+        // Flip
+        flipGroup.setAttrs({
+            offsetX: flipGroup.width() + (30 * scale),
+            scaleX: -1
+        })
+    } else {
+        // Unflip
+        flipGroup.setAttrs({
+            offsetX: flipGroup.width() + (30 * scale),
+            scaleX: 1
+        })
+    }
+
+    // Set absolute position of all in group
+    var pos = puzzleGrid.getAbsolutePosition()
+    var scale = puzzleGrid.getAbsoluteScale()
+    puzzleGrid.moveTo(layer)
+    puzzleGrid.position({
+        x: pos.x,
+        y: pos.y,
+    })
+    // There appears to be an (x,y) translation bug... swap them
+    puzzleGrid.setAttrs({
+        scaleX: 1,
+        scaleY: 1,
+    })
+    for (let i in puzzlePieces){
+        let pieceGroup = puzzlePieces[i]
+        if (pieceGroup.y() >= exportPiecesBelowY) {
+            var pos = pieceGroup.getAbsolutePosition()
+            var scale = pieceGroup.getAbsoluteScale()
+            pieceGroup.moveTo(layer)
+            pieceGroup.position({
+                x: pos.x,
+                y: pos.y,
+            })
+            // There appears to be an (x,y) translation bug... swap them
+            pieceGroup.setAttrs({
+                scaleX: scale.y,
+                scaleY: scale.x,
+            })
+        }
+    }
+
+    // Destroy group
+    flipGroup.removeChildren()
+    flipGroup.destroy()
+    layer.draw()
+
 });
 
 document.getElementById("exportJson").addEventListener("click", function(e){
