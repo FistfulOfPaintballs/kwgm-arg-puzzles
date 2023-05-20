@@ -412,11 +412,11 @@
       "username": "Josh",
       "letter": "a",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 311,
+      "y": 249,
+      "scaleX": 1.163,
+      "scaleY": 1.163,
+      "rotation": -0.507
     }
   ]
 }
