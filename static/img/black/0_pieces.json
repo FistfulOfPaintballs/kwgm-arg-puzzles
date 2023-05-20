@@ -137,22 +137,22 @@
       "username": "Rhys Caliban",
       "letter": "N",
       "location": "Atlanta, GA",
-      "x": 848,
-      "y": 386,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 153,
+      "y": 413,
+      "scaleX": 0.924,
+      "scaleY": 0.924,
+      "rotation": -1.583
     },
     {
       "filename": "14 - I - rhys.png",
       "username": "Rhys Caliban",
       "letter": "I",
       "location": "Atlanta, GA",
-      "x": 769,
-      "y": 405,
-      "scaleX": 0.883,
-      "scaleY": 0.883,
-      "rotation": 0.38
+      "x": 203,
+      "y": 430,
+      "scaleX": 0.816,
+      "scaleY": 0.816,
+      "rotation": -1.203
     },
     {
       "filename": "15 - V - rhys.png",
