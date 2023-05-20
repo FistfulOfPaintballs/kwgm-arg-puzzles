@@ -170,8 +170,8 @@
       "username": "Rhys Caliban",
       "letter": "G",
       "location": "Atlanta, GA",
-      "x": 443,
-      "y": 154,
+      "x": 479,
+      "y": 174,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -291,10 +291,10 @@
       "username": "Rhys Caliban",
       "letter": "R",
       "location": "Atlanta, GA",
-      "x": 301,
-      "y": 158,
+      "x": 91,
+      "y": 173,
       "scaleX": 1,
-      "scaleY": 1,
+      "scaleY": 1.093,
       "rotation": 0
     },
     {

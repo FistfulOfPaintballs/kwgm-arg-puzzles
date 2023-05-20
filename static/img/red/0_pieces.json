@@ -27,11 +27,11 @@
       "username": "daddyvita1",
       "letter": "s",
       "location": "Seattle, WA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 373,
+      "y": 179,
+      "scaleX": 0.843,
+      "scaleY": 0.843,
+      "rotation": -0.545
     },
     {
       "filename": "4 - t - tylerkeifburr.png",
@@ -313,10 +313,10 @@
       "username": "Stumpyz",
       "letter": "f",
       "location": "Atlanta, GA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 267,
+      "y": 179,
+      "scaleX": 0.843,
+      "scaleY": 0.849,
       "rotation": 0
     },
     {
