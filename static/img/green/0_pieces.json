@@ -6,7 +6,7 @@
       "letter": "y",
       "location": "New York City, NY",
       "x": 661,
-      "y": 308,
+      "y": 329,
       "scaleX": 0.868,
       "scaleY": 0.84,
       "rotation": -2.375
@@ -17,7 +17,7 @@
       "letter": "s",
       "location": "New York City, NY",
       "x": 676,
-      "y": 551,
+      "y": 572,
       "scaleX": 0.948,
       "scaleY": 1.041,
       "rotation": -1.638
@@ -28,7 +28,7 @@
       "letter": "r",
       "location": "New York City, NY",
       "x": 268,
-      "y": 297,
+      "y": 318,
       "scaleX": 0.911,
       "scaleY": 0.911,
       "rotation": -1.316
@@ -39,7 +39,7 @@
       "letter": "o",
       "location": "New York City, NY",
       "x": 424,
-      "y": 226,
+      "y": 247,
       "scaleX": 0.987,
       "scaleY": 0.938,
       "rotation": -2.336
@@ -50,7 +50,7 @@
       "letter": "t",
       "location": "New York City, NY",
       "x": 509,
-      "y": 613,
+      "y": 634,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -61,7 +61,7 @@
       "letter": "a",
       "location": "New York City, NY",
       "x": 70,
-      "y": 634,
+      "y": 655,
       "scaleX": 1.013,
       "scaleY": 1.013,
       "rotation": -0.371
@@ -72,7 +72,7 @@
       "letter": "p",
       "location": "New York City, NY",
       "x": 90,
-      "y": 428,
+      "y": 449,
       "scaleX": 0.909,
       "scaleY": 0.979,
       "rotation": -2.836
@@ -83,7 +83,7 @@
       "letter": "i",
       "location": "New York City, NY",
       "x": 268,
-      "y": 179,
+      "y": 200,
       "scaleX": 0.922,
       "scaleY": 0.922,
       "rotation": 0
@@ -94,7 +94,7 @@
       "letter": "a",
       "location": "New York City, NY",
       "x": 134,
-      "y": 247,
+      "y": 268,
       "scaleX": 0.937,
       "scaleY": 0.937,
       "rotation": -2.038
@@ -105,7 +105,7 @@
       "letter": "a",
       "location": "New York City, NY",
       "x": 31,
-      "y": 484,
+      "y": 505,
       "scaleX": 1.02,
       "scaleY": 1.02,
       "rotation": -2.095
@@ -116,7 +116,7 @@
       "letter": "l",
       "location": "New York City, NY",
       "x": 369,
-      "y": 291,
+      "y": 312,
       "scaleX": 0.924,
       "scaleY": 1.007,
       "rotation": -0.965
@@ -127,7 +127,7 @@
       "letter": "l",
       "location": "New York City, NY",
       "x": 663,
-      "y": 633,
+      "y": 654,
       "scaleX": 0.979,
       "scaleY": 1.023,
       "rotation": -0.526
@@ -138,7 +138,7 @@
       "letter": "l",
       "location": "New York City, NY",
       "x": 146,
-      "y": 180,
+      "y": 201,
       "scaleX": 0.989,
       "scaleY": 0.989,
       "rotation": -1.426
@@ -149,7 +149,7 @@
       "letter": "r",
       "location": "New York City, NY",
       "x": 622,
-      "y": 175,
+      "y": 196,
       "scaleX": 0.89,
       "scaleY": 0.862,
       "rotation": 0.008
@@ -160,7 +160,7 @@
       "letter": "t",
       "location": "New York City, NY",
       "x": 270,
-      "y": 419,
+      "y": 440,
       "scaleX": 0.969,
       "scaleY": 0.969,
       "rotation": -1.624
@@ -171,7 +171,7 @@
       "letter": "m",
       "location": "New York City, NY",
       "x": 498,
-      "y": 352,
+      "y": 373,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -182,7 +182,7 @@
       "letter": "r",
       "location": "New York City, NY",
       "x": 498,
-      "y": 287,
+      "y": 308,
       "scaleX": 0.98,
       "scaleY": 0.98,
       "rotation": 0.922
@@ -193,7 +193,7 @@
       "letter": "v",
       "location": "New York City, NY",
       "x": 330,
-      "y": 632,
+      "y": 653,
       "scaleX": 0.983,
       "scaleY": 1.075,
       "rotation": -0.01
@@ -204,7 +204,7 @@
       "letter": "i",
       "location": "New York City, NY",
       "x": 91,
-      "y": 547,
+      "y": 568,
       "scaleX": 1.065,
       "scaleY": 1.006,
       "rotation": -1.31
@@ -215,7 +215,7 @@
       "letter": "a",
       "location": "New York City, NY",
       "x": 376,
-      "y": 506,
+      "y": 527,
       "scaleX": 1.048,
       "scaleY": 1.052,
       "rotation": 0.229
@@ -226,7 +226,7 @@
       "letter": "h",
       "location": "New York City, NY",
       "x": 320,
-      "y": 179,
+      "y": 200,
       "scaleX": 0.925,
       "scaleY": 0.925,
       "rotation": -0.37
@@ -237,7 +237,7 @@
       "letter": "l",
       "location": "New York City, NY",
       "x": 450,
-      "y": 492,
+      "y": 513,
       "scaleX": 0.919,
       "scaleY": 0.923,
       "rotation": -3.674
@@ -248,7 +248,7 @@
       "letter": "r",
       "location": "New York City, NY",
       "x": 305,
-      "y": 230,
+      "y": 251,
       "scaleX": 0.925,
       "scaleY": 0.925,
       "rotation": -1.983
@@ -259,7 +259,7 @@
       "letter": "t",
       "location": "New York City, NY",
       "x": 620,
-      "y": 414,
+      "y": 435,
       "scaleX": 0.978,
       "scaleY": 0.978,
       "rotation": -2.834
@@ -270,7 +270,7 @@
       "letter": "i",
       "location": "New York City, NY",
       "x": 561,
-      "y": 547,
+      "y": 568,
       "scaleX": 0.933,
       "scaleY": 1.052,
       "rotation": -4.378
@@ -281,7 +281,7 @@
       "letter": "i",
       "location": "New York City, NY",
       "x": 543,
-      "y": 173,
+      "y": 194,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -292,7 +292,7 @@
       "letter": "e",
       "location": "New York City, NY",
       "x": 450,
-      "y": 555,
+      "y": 576,
       "scaleX": 0.981,
       "scaleY": 0.985,
       "rotation": 0.311
@@ -303,7 +303,7 @@
       "letter": "t",
       "location": "New York City, NY",
       "x": 142,
-      "y": 567,
+      "y": 588,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 2.325
@@ -314,7 +314,7 @@
       "letter": "g",
       "location": "New York City, NY",
       "x": 439,
-      "y": 177,
+      "y": 198,
       "scaleX": 0.898,
       "scaleY": 0.854,
       "rotation": -3.139
@@ -325,7 +325,7 @@
       "letter": "c",
       "location": "New York City, NY",
       "x": 482,
-      "y": 429,
+      "y": 450,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": -1.315
@@ -336,7 +336,7 @@
       "letter": "y",
       "location": "New York City, NY",
       "x": 481,
-      "y": 238,
+      "y": 259,
       "scaleX": 0.989,
       "scaleY": 0.989,
       "rotation": -0.091
@@ -347,7 +347,7 @@
       "letter": "m",
       "location": "New York City, NY",
       "x": 211,
-      "y": 228,
+      "y": 249,
       "scaleX": 0.912,
       "scaleY": 0.912,
       "rotation": -1.209

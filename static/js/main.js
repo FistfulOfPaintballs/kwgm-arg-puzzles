@@ -36,7 +36,7 @@ var letters = []
 var showTooltips = false
 
 var originalJson
-var exportPiecesBelowY = stage.height() * 0.2
+var exportPiecesBelowY = 175 * scale
 
 function getCurrentPuzzle(){
     const urlParams = new URLSearchParams(window.location.search);
@@ -88,7 +88,7 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
         align: 'center',
         verticalAlign: 'middle',
         stroke: '#000000',
-        strokeWidth: 6,
+        strokeWidth: Math.round(4 * scale),
         fillAfterStrokeEnabled: true,
         listening: false,
         visible: true,

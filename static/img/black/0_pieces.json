@@ -6,7 +6,7 @@
       "letter": "Y",
       "location": "Atlanta, GA",
       "x": 377,
-      "y": 422,
+      "y": 443,
       "scaleX": 0.871,
       "scaleY": 0.927,
       "rotation": -3.858
@@ -17,7 +17,7 @@
       "letter": "O",
       "location": "Atlanta, GA",
       "x": 212,
-      "y": 226,
+      "y": 247,
       "scaleX": 0.944,
       "scaleY": 0.944,
       "rotation": 0
@@ -28,7 +28,7 @@
       "letter": "I",
       "location": "Atlanta, GA",
       "x": 507,
-      "y": 614,
+      "y": 636,
       "scaleX": 0.934,
       "scaleY": 0.969,
       "rotation": 0
@@ -39,7 +39,7 @@
       "letter": "N",
       "location": "Atlanta, GA",
       "x": 612,
-      "y": 616,
+      "y": 638,
       "scaleX": 0.828,
       "scaleY": 0.859,
       "rotation": -0.521
@@ -50,7 +50,7 @@
       "letter": "S",
       "location": "Atlanta, GA",
       "x": 325,
-      "y": 436,
+      "y": 457,
       "scaleX": 0.933,
       "scaleY": 0.933,
       "rotation": -2.579
@@ -61,7 +61,7 @@
       "letter": "N",
       "location": "Atlanta, GA",
       "x": 214,
-      "y": 483,
+      "y": 504,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": -3.241
@@ -72,7 +72,7 @@
       "letter": "W",
       "location": "Atlanta, GA",
       "x": 496,
-      "y": 289,
+      "y": 310,
       "scaleX": 0.774,
       "scaleY": 0.774,
       "rotation": -0.941
@@ -83,7 +83,7 @@
       "letter": "R",
       "location": "Atlanta, GA",
       "x": 152,
-      "y": 609,
+      "y": 630,
       "scaleX": 1.025,
       "scaleY": 1.025,
       "rotation": 0
@@ -94,7 +94,7 @@
       "letter": "O",
       "location": "Atlanta, GA",
       "x": 560,
-      "y": 545,
+      "y": 567,
       "scaleX": 0.883,
       "scaleY": 0.939,
       "rotation": -0.949
@@ -105,7 +105,7 @@
       "letter": "H",
       "location": "Atlanta, GA",
       "x": 195,
-      "y": 314,
+      "y": 335,
       "scaleX": 0.798,
       "scaleY": 0.711,
       "rotation": 0.596
@@ -116,7 +116,7 @@
       "letter": "G",
       "location": "Atlanta, GA",
       "x": 377,
-      "y": 552,
+      "y": 573,
       "scaleX": 0.825,
       "scaleY": 0.875,
       "rotation": -3.026
@@ -127,7 +127,7 @@
       "letter": "O",
       "location": "Atlanta, GA",
       "x": 675,
-      "y": 221,
+      "y": 242,
       "scaleX": 0.982,
       "scaleY": 0.982,
       "rotation": 0
@@ -138,7 +138,7 @@
       "letter": "N",
       "location": "Atlanta, GA",
       "x": 153,
-      "y": 413,
+      "y": 434,
       "scaleX": 0.924,
       "scaleY": 0.924,
       "rotation": -1.583
@@ -149,7 +149,7 @@
       "letter": "I",
       "location": "Atlanta, GA",
       "x": 203,
-      "y": 430,
+      "y": 451,
       "scaleX": 0.816,
       "scaleY": 0.816,
       "rotation": -1.203
@@ -160,7 +160,7 @@
       "letter": "V",
       "location": "Atlanta, GA",
       "x": 611,
-      "y": 569,
+      "y": 591,
       "scaleX": 1.014,
       "scaleY": 1.076,
       "rotation": 2.455
@@ -171,7 +171,7 @@
       "letter": "G",
       "location": "Atlanta, GA",
       "x": 479,
-      "y": 174,
+      "y": 195,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -182,7 +182,7 @@
       "letter": "F",
       "location": "Atlanta, GA",
       "x": 549,
-      "y": 632,
+      "y": 654,
       "scaleX": 0.754,
       "scaleY": 0.782,
       "rotation": -0.004
@@ -193,7 +193,7 @@
       "letter": "G",
       "location": "Atlanta, GA",
       "x": 305,
-      "y": 305,
+      "y": 326,
       "scaleX": 0.832,
       "scaleY": 0.839,
       "rotation": -2.481
@@ -204,7 +204,7 @@
       "letter": "D",
       "location": "Atlanta, GA",
       "x": 328,
-      "y": 505,
+      "y": 526,
       "scaleX": 0.968,
       "scaleY": 0.968,
       "rotation": -1.881
@@ -215,7 +215,7 @@
       "letter": "T",
       "location": "Atlanta, GA",
       "x": 543,
-      "y": 222,
+      "y": 243,
       "scaleX": 0.926,
       "scaleY": 0.926,
       "rotation": -0.941
@@ -226,7 +226,7 @@
       "letter": "T",
       "location": "Atlanta, GA",
       "x": 433,
-      "y": 627,
+      "y": 649,
       "scaleX": 0.81,
       "scaleY": 0.84,
       "rotation": 2.119
@@ -237,7 +237,7 @@
       "letter": "I",
       "location": "Atlanta, GA",
       "x": 32,
-      "y": 222,
+      "y": 243,
       "scaleX": 0.984,
       "scaleY": 0.984,
       "rotation": 0
@@ -248,7 +248,7 @@
       "letter": "S",
       "location": "Atlanta, GA",
       "x": 555,
-      "y": 305,
+      "y": 326,
       "scaleX": 0.926,
       "scaleY": 0.926,
       "rotation": -0.941
@@ -259,7 +259,7 @@
       "letter": "W",
       "location": "Atlanta, GA",
       "x": 381,
-      "y": 361,
+      "y": 382,
       "scaleX": 0.906,
       "scaleY": 0.906,
       "rotation": -5.906
@@ -270,7 +270,7 @@
       "letter": "F",
       "location": "Atlanta, GA",
       "x": 664,
-      "y": 176,
+      "y": 197,
       "scaleX": 0.85,
       "scaleY": 0.85,
       "rotation": 0
@@ -281,7 +281,7 @@
       "letter": "D",
       "location": "Atlanta, GA",
       "x": 621,
-      "y": 286,
+      "y": 307,
       "scaleX": 0.946,
       "scaleY": 0.946,
       "rotation": -0.941
@@ -292,7 +292,7 @@
       "letter": "R",
       "location": "Atlanta, GA",
       "x": 91,
-      "y": 173,
+      "y": 194,
       "scaleX": 1,
       "scaleY": 1.093,
       "rotation": 0
@@ -303,7 +303,7 @@
       "letter": "E",
       "location": "Atlanta, GA",
       "x": 318,
-      "y": 562,
+      "y": 583,
       "scaleX": 1.202,
       "scaleY": 1.202,
       "rotation": 4.686
@@ -314,7 +314,7 @@
       "letter": "T",
       "location": "Atlanta, GA",
       "x": 277,
-      "y": 608,
+      "y": 629,
       "scaleX": 1.039,
       "scaleY": 1.039,
       "rotation": 0
@@ -325,7 +325,7 @@
       "letter": "N",
       "location": "Atlanta, GA",
       "x": 92,
-      "y": 312,
+      "y": 333,
       "scaleX": 0.822,
       "scaleY": 0.822,
       "rotation": 0
@@ -336,7 +336,7 @@
       "letter": "E",
       "location": "Atlanta, GA",
       "x": 32,
-      "y": 614,
+      "y": 635,
       "scaleX": 0.889,
       "scaleY": 0.889,
       "rotation": 0
@@ -347,7 +347,7 @@
       "letter": "I",
       "location": "Atlanta, GA",
       "x": 383,
-      "y": 503,
+      "y": 524,
       "scaleX": 0.929,
       "scaleY": 0.991,
       "rotation": 2.249

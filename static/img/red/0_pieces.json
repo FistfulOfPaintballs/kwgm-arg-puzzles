@@ -6,7 +6,7 @@
       "letter": "a",
       "location": "Vancouver, BC",
       "x": 664,
-      "y": 177,
+      "y": 198,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -17,7 +17,7 @@
       "letter": "h",
       "location": "Portland, OR",
       "x": 254,
-      "y": 375,
+      "y": 396,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -28,7 +28,7 @@
       "letter": "s",
       "location": "Seattle, WA",
       "x": 373,
-      "y": 179,
+      "y": 200,
       "scaleX": 0.843,
       "scaleY": 0.843,
       "rotation": -0.545
@@ -39,7 +39,7 @@
       "letter": "t",
       "location": "Los Angeles, CA",
       "x": 313,
-      "y": 358,
+      "y": 379,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -50,7 +50,7 @@
       "letter": "s",
       "location": "Los Angeles, CA",
       "x": 92,
-      "y": 312,
+      "y": 333,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -61,7 +61,7 @@
       "letter": "w",
       "location": "San Francisco, CA",
       "x": 376,
-      "y": 505,
+      "y": 526,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -72,7 +72,7 @@
       "letter": "m",
       "location": "Albuquerque, NM",
       "x": 141,
-      "y": 567,
+      "y": 588,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -83,7 +83,7 @@
       "letter": "t",
       "location": "Albuquerque, NM",
       "x": 680,
-      "y": 221,
+      "y": 242,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -94,7 +94,7 @@
       "letter": "i",
       "location": "Phoenix, AZ",
       "x": 33,
-      "y": 429,
+      "y": 450,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -105,7 +105,7 @@
       "letter": "a",
       "location": "Phoenix, AZ",
       "x": 31,
-      "y": 173,
+      "y": 194,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -116,7 +116,7 @@
       "letter": "h",
       "location": "Salt Lake City, UT",
       "x": 379,
-      "y": 548,
+      "y": 569,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -127,7 +127,7 @@
       "letter": "i",
       "location": "Denver, CO",
       "x": 73,
-      "y": 356,
+      "y": 377,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -138,7 +138,7 @@
       "letter": "s",
       "location": "Denver, CO",
       "x": 70,
-      "y": 485,
+      "y": 506,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -149,7 +149,7 @@
       "letter": "t",
       "location": "Lawrence, KS",
       "x": 268,
-      "y": 298,
+      "y": 319,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -160,7 +160,7 @@
       "letter": "s",
       "location": "Lawrence, KS",
       "x": 255,
-      "y": 502,
+      "y": 523,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -171,7 +171,7 @@
       "letter": "s",
       "location": "Lawrence, KS",
       "x": 279,
-      "y": 609,
+      "y": 630,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -182,7 +182,7 @@
       "letter": "h",
       "location": "Lawrence, KS",
       "x": 487,
-      "y": 502,
+      "y": 523,
       "scaleX": 0.858,
       "scaleY": 0.858,
       "rotation": 0
@@ -193,7 +193,7 @@
       "letter": "e",
       "location": "Lawrence, KS",
       "x": 218,
-      "y": 480,
+      "y": 501,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -204,7 +204,7 @@
       "letter": "o",
       "location": "Lawrence, KS",
       "x": 619,
-      "y": 291,
+      "y": 312,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -215,7 +215,7 @@
       "letter": "t",
       "location": "",
       "x": 499,
-      "y": 353,
+      "y": 374,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -226,7 +226,7 @@
       "letter": "r",
       "location": "Salt Lake City, UT",
       "x": 614,
-      "y": 615,
+      "y": 636,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -237,7 +237,7 @@
       "letter": "t",
       "location": "",
       "x": 493,
-      "y": 567,
+      "y": 588,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -248,7 +248,7 @@
       "letter": "u",
       "location": "",
       "x": 663,
-      "y": 633,
+      "y": 654,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -259,7 +259,7 @@
       "letter": "o",
       "location": "",
       "x": 677,
-      "y": 550,
+      "y": 571,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -270,7 +270,7 @@
       "letter": "c",
       "location": "",
       "x": 662,
-      "y": 485,
+      "y": 506,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -281,7 +281,7 @@
       "letter": "h",
       "location": "Denver, CO",
       "x": 664,
-      "y": 427,
+      "y": 448,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -292,7 +292,7 @@
       "letter": "t",
       "location": "",
       "x": 606,
-      "y": 241,
+      "y": 262,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -303,7 +303,7 @@
       "letter": "i",
       "location": "Phoenix, AZ",
       "x": 426,
-      "y": 306,
+      "y": 327,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -314,7 +314,7 @@
       "letter": "f",
       "location": "Atlanta, GA",
       "x": 267,
-      "y": 179,
+      "y": 200,
       "scaleX": 0.843,
       "scaleY": 0.849,
       "rotation": 0
@@ -325,7 +325,7 @@
       "letter": "p",
       "location": "Atlanta, GA",
       "x": 499,
-      "y": 289,
+      "y": 310,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -336,7 +336,7 @@
       "letter": "i",
       "location": "Atlanta, GA",
       "x": 396,
-      "y": 611,
+      "y": 632,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -347,7 +347,7 @@
       "letter": "n",
       "location": "New York City, NY",
       "x": 376,
-      "y": 421,
+      "y": 442,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -358,7 +358,7 @@
       "letter": "o",
       "location": "New York City, NY",
       "x": 153,
-      "y": 296,
+      "y": 317,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -369,7 +369,7 @@
       "letter": "c",
       "location": "",
       "x": 33,
-      "y": 568,
+      "y": 589,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -380,7 +380,7 @@
       "letter": "f",
       "location": "",
       "x": 675,
-      "y": 351,
+      "y": 372,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -391,7 +391,7 @@
       "letter": "l",
       "location": "",
       "x": 33,
-      "y": 481,
+      "y": 502,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
