@@ -1,56 +1,56 @@
 {
-  "pieces" : [
+  "pieces": [
     {
       "filename": "1 - y - Ekin.png",
-      "username":  "Ekin & The Zombies",
+      "username": "Ekin & The Zombies",
       "letter": "y",
-      "location":  "New York City, NY",
-      "x":  -1,
-      "y":  -1,
-      "scaleX":  1,
-      "scaleY":  1,
-      "rotation":  0
+      "location": "New York City, NY",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
     },
     {
       "filename": "2 - s - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "s",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 676,
+      "y": 551,
+      "scaleX": 0.948,
+      "scaleY": 1.041,
+      "rotation": -1.638
     },
     {
       "filename": "3 - r - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "r",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 268,
+      "y": 297,
+      "scaleX": 0.911,
+      "scaleY": 0.911,
+      "rotation": -1.316
     },
     {
       "filename": "4 - o - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "o",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 425,
+      "y": 222,
+      "scaleX": 0.987,
+      "scaleY": 0.987,
+      "rotation": -2.457
     },
     {
       "filename": "5 - t - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "t",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
+      "x": 509,
+      "y": 613,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -60,11 +60,11 @@
       "username": "Ekin & The Zombies",
       "letter": "a",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 70,
+      "y": 634,
+      "scaleX": 1.013,
+      "scaleY": 1.013,
+      "rotation": -0.371
     },
     {
       "filename": "7 - p - Ekin.png",
@@ -93,66 +93,66 @@
       "username": "Ekin & The Zombies",
       "letter": "a",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 134,
+      "y": 247,
+      "scaleX": 0.937,
+      "scaleY": 0.937,
+      "rotation": -2.038
     },
     {
       "filename": "10 - a - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "a",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 31,
+      "y": 484,
+      "scaleX": 1.02,
+      "scaleY": 1.02,
+      "rotation": -2.095
     },
     {
       "filename": "11 - l - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "l",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 369,
+      "y": 291,
+      "scaleX": 0.924,
+      "scaleY": 1.007,
+      "rotation": -0.965
     },
     {
       "filename": "12 - l - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "l",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 663,
+      "y": 633,
+      "scaleX": 0.979,
+      "scaleY": 1.023,
+      "rotation": -0.526
     },
     {
       "filename": "13 - l - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "l",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 146,
+      "y": 180,
+      "scaleX": 0.989,
+      "scaleY": 0.989,
+      "rotation": -1.426
     },
     {
       "filename": "14 - r - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "r",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 622,
+      "y": 175,
+      "scaleX": 0.89,
+      "scaleY": 0.862,
+      "rotation": 0.008
     },
     {
       "filename": "15 - t - Ekin.png",
@@ -170,8 +170,8 @@
       "username": "Ekin & The Zombies",
       "letter": "m",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
+      "x": 498,
+      "y": 352,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -181,11 +181,11 @@
       "username": "Ekin & The Zombies",
       "letter": "r",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 498,
+      "y": 287,
+      "scaleX": 0.98,
+      "scaleY": 0.98,
+      "rotation": 0.922
     },
     {
       "filename": "18 - v - Ekin.png",
@@ -203,55 +203,55 @@
       "username": "Ekin & The Zombies",
       "letter": "i",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 91,
+      "y": 547,
+      "scaleX": 1.065,
+      "scaleY": 1.006,
+      "rotation": -1.31
     },
     {
       "filename": "20 - a - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "a",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 376,
+      "y": 506,
+      "scaleX": 1.048,
+      "scaleY": 1.052,
+      "rotation": 0.229
     },
     {
       "filename": "21 - h - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "h",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 312,
+      "y": 171,
+      "scaleX": 1.004,
+      "scaleY": 1.004,
+      "rotation": -0.37
     },
     {
       "filename": "22 - l - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "l",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 450,
+      "y": 492,
+      "scaleX": 0.919,
+      "scaleY": 0.923,
+      "rotation": -3.674
     },
     {
       "filename": "23 - r - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "r",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 296,
+      "y": 226,
+      "scaleX": 1.004,
+      "scaleY": 1.004,
+      "rotation": -1.983
     },
     {
       "filename": "24 - t - Ekin.png",
@@ -280,8 +280,8 @@
       "username": "Ekin & The Zombies",
       "letter": "i",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
+      "x": 543,
+      "y": 173,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -291,66 +291,66 @@
       "username": "Ekin & The Zombies",
       "letter": "e",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 450,
+      "y": 555,
+      "scaleX": 0.981,
+      "scaleY": 0.985,
+      "rotation": 0.311
     },
     {
       "filename": "28 - t - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "t",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
+      "x": 142,
+      "y": 567,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 2.325
     },
     {
       "filename": "29 - g - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "g",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 440,
+      "y": 171,
+      "scaleX": 0.898,
+      "scaleY": 0.898,
+      "rotation": -3.301
     },
     {
       "filename": "30 - c - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "c",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
+      "x": 482,
+      "y": 429,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": -1.315
     },
     {
       "filename": "31 - y - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "y",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 481,
+      "y": 238,
+      "scaleX": 0.989,
+      "scaleY": 0.989,
+      "rotation": -0.091
     },
     {
       "filename": "32 - m - Ekin.png",
       "username": "Ekin & The Zombies",
       "letter": "m",
       "location": "New York City, NY",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 211,
+      "y": 228,
+      "scaleX": 0.912,
+      "scaleY": 0.912,
+      "rotation": -1.209
     }
   ]
 }
