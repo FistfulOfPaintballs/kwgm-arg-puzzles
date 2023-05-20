@@ -170,8 +170,8 @@
       "username": "Rhys Caliban",
       "letter": "G",
       "location": "Atlanta, GA",
-      "x": 487,
-      "y": 195,
+      "x": 479,
+      "y": 198,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -368,21 +368,21 @@
       "username": "Ovan",
       "letter": "A",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 672,
+      "y": 326,
+      "scaleX": 1.025,
+      "scaleY": 0.912,
+      "rotation": 1.167
     },
     {
       "filename": "34 - A - Ovan.png",
       "username": "Ovan",
       "letter": "A",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 550,
+      "y": 193,
+      "scaleX": 0.84,
+      "scaleY": 0.84,
       "rotation": 0
     },
     {
@@ -401,11 +401,11 @@
       "username": "Ovan",
       "letter": "A",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 557,
+      "y": 507,
+      "scaleX": 0.845,
+      "scaleY": 0.878,
+      "rotation": 2.027
     },
     {
       "filename": "37 - A - Ovan.png",
@@ -423,21 +423,21 @@
       "username": "Ovan",
       "letter": "B",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 74,
+      "y": 247,
+      "scaleX": 0.914,
+      "scaleY": 0.914,
+      "rotation": 2.16
     },
     {
       "filename": "39 - C - Ovan.png",
       "username": "Ovan",
       "letter": "C",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 377,
+      "y": 198,
+      "scaleX": 0.659,
+      "scaleY": 0.659,
       "rotation": 0
     },
     {
@@ -445,11 +445,11 @@
       "username": "Ovan",
       "letter": "E",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
+      "x": 149,
+      "y": 195,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0.927
     },
     {
       "filename": "41 - E - Ovan.png",
@@ -467,10 +467,10 @@
       "username": "Ovan",
       "letter": "E",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 222,
+      "y": 656,
+      "scaleX": 0.78,
+      "scaleY": 0.762,
       "rotation": 0
     },
     {
@@ -478,21 +478,21 @@
       "username": "Ovan",
       "letter": "E",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 151,
+      "y": 314,
+      "scaleX": 0.801,
+      "scaleY": 0.801,
+      "rotation": 0.406
     },
     {
       "filename": "44 - I - Ovan.png",
       "username": "Ovan",
       "letter": "I",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 489,
+      "y": 265,
+      "scaleX": 0.841,
+      "scaleY": 0.841,
       "rotation": 0
     },
     {
@@ -511,54 +511,54 @@
       "username": "Ovan",
       "letter": "L",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 630,
+      "y": 192,
+      "scaleX": 0.935,
+      "scaleY": 0.935,
+      "rotation": 1.314
     },
     {
       "filename": "47 - N - Ovan.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 252,
+      "y": 259,
+      "scaleX": 0.828,
+      "scaleY": 0.837,
+      "rotation": 3.169
     },
     {
       "filename": "48 - N - Ovan.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 432,
+      "y": 249,
+      "scaleX": 0.956,
+      "scaleY": 0.956,
+      "rotation": -3.016
     },
     {
       "filename": "49 - N - Ovan.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 203,
+      "y": 197,
+      "scaleX": 0.833,
+      "scaleY": 0.856,
+      "rotation": 1.127
     },
     {
       "filename": "50 - N - Ovan.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 335,
+      "y": 653,
+      "scaleX": 0.826,
+      "scaleY": 0.901,
       "rotation": 0
     },
     {
@@ -588,10 +588,10 @@
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 372,
+      "y": 312,
+      "scaleX": 0.95,
+      "scaleY": 0.95,
       "rotation": 0
     },
     {
@@ -599,19 +599,19 @@
       "username": "Ovan",
       "letter": "O",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 33,
+      "y": 196,
+      "scaleX": 0.96,
+      "scaleY": 0.938,
+      "rotation": -0.534
     },
     {
       "filename": "55 - O - Ovan.png",
       "username": "Ovan",
       "letter": "O",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
+      "x": 30,
+      "y": 445,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -621,11 +621,11 @@
       "username": "Ovan",
       "letter": "O",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
+      "x": 670,
+      "y": 449,
+      "scaleX": 0.932,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 3.249
     },
     {
       "filename": "57 - R - Ovan.png",
@@ -643,10 +643,10 @@
       "username": "Ovan",
       "letter": "R",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 273,
+      "y": 198,
+      "scaleX": 0.844,
+      "scaleY": 0.844,
       "rotation": 0
     },
     {
@@ -665,10 +665,10 @@
       "username": "Ovan",
       "letter": "T",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 684,
+      "y": 570,
+      "scaleX": 0.765,
+      "scaleY": 0.8,
       "rotation": 0
     },
     {
@@ -676,10 +676,10 @@
       "username": "Ovan",
       "letter": "U",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 257,
+      "y": 522,
+      "scaleX": 0.653,
+      "scaleY": 0.653,
       "rotation": 0
     },
     {
@@ -687,21 +687,21 @@
       "username": "Ovan",
       "letter": "U",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 76,
+      "y": 373,
+      "scaleX": 0.895,
+      "scaleY": 0.895,
+      "rotation": 2.361
     },
     {
       "filename": "63 - W - Ovan.png",
       "username": "Ovan",
       "letter": "W",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 140,
+      "y": 586,
+      "scaleX": 0.957,
+      "scaleY": 0.957,
       "rotation": 0
     },
     {
@@ -709,11 +709,11 @@
       "username": "Ovan",
       "letter": "Y",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 385,
+      "y": 245,
+      "scaleX": 0.874,
+      "scaleY": 0.874,
+      "rotation": -1.417
     }
   ]
 }
