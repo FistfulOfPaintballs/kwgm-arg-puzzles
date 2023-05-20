@@ -192,11 +192,11 @@
       "username": "Rhys Caliban",
       "letter": "G",
       "location": "Atlanta, GA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 305,
+      "y": 305,
+      "scaleX": 0.832,
+      "scaleY": 0.839,
+      "rotation": -2.481
     },
     {
       "filename": "19 - D - rhys.png",
