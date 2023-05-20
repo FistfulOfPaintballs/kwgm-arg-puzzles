@@ -13,7 +13,7 @@ var layer = new Konva.Layer();
 stage.add(layer);
 
 var tr = new Konva.Transformer({
-    rotationSnaps: [0, 90, 180, 270],
+    rotationSnaps: [],
 });
 layer.add(tr);
 
