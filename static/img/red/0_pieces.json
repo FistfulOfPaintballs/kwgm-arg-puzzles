@@ -60,8 +60,8 @@
       "username": "Ginger",
       "letter": "w",
       "location": "San Francisco, CA",
-      "x": 377,
-      "y": 504,
+      "x": 376,
+      "y": 505,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -115,8 +115,8 @@
       "username": "baerwithme",
       "letter": "h",
       "location": "Salt Lake City, UT",
-      "x": 378,
-      "y": 549,
+      "x": 379,
+      "y": 548,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -347,7 +347,7 @@
       "letter": "n",
       "location": "New York City, NY",
       "x": 376,
-      "y": 420,
+      "y": 421,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
