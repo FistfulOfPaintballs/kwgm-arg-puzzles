@@ -175,7 +175,7 @@ function drawPuzzleGrid(){
             height: puzzleGridImg.height * puzzlePieceScaleFactor,
             name: 'puzzleGrid',
             opacity: 0.5,
-            visible: false,
+            visible: true,
             listening: false
         })
         layer.add(puzzleGrid)
