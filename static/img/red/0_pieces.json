@@ -406,6 +406,17 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
+    },
+    {
+      "filename": "40 - a - josh.png",
+      "username": "Josh",
+      "letter": "a",
+      "location": "New York City, NY",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
     }
   ]
 }
