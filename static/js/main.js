@@ -87,6 +87,8 @@ function drawImage(imageObj, data) {
         width: width,
         height: height,
         name: 'puzzlepiece',
+        filename: data['filename'],
+        filename_back: data['filename_back'] ? data['filename_back'] : "",
     });
     var puzzlePieceText = new Konva.Text({
         text: data['letter'],
@@ -133,6 +135,15 @@ function drawImage(imageObj, data) {
     let tooltipRotation = document.getElementById("rotation")
 
     tooltip.listening = false
+
+    puzzlePieceImg.on('imageChange.konva', () => {
+        console.log("changed!!")
+        // puzzlePieceImg.cache()
+        // console.log(puzzlePieceImg.image().src)
+        // layer.draw()
+        // puzzlePieceImg._requestDraw()
+    });
+
 
     // add styling
     puzzlePieceImg.cache()
@@ -288,13 +299,6 @@ function drawInstructions(){
 
 }
 
-const getMetadata = (url, cb) => {
-    const img = new Image();
-    img.onload = () => cb(null, img);
-    img.onerror = (err) => cb(err);
-    img.src = url;
-};
-
 // Add selection rectangle
 var selectionRectangle = new Konva.Rect({
     fill: "#e6e6e6",
@@ -322,34 +326,31 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
                 var x = pieces[p]["x"]
                 var y = pieces[p]["y"]
 
-                let letter = pieces[p]["letter"]
-                let username = pieces[p]["username"]
-                let location = pieces[p]["location"]
-
-                let scaleX = pieces[p]["scaleX"]
-                let scaleY = pieces[p]["scaleY"]
-                let rotation = pieces[p]["rotation"]
-
                 var puzzlePieceObj = new Image();
+                puzzlePieceObj.setAttribute("kwgm-loaded", "false")
                 puzzlePieceObj.onload = function() {
-                    let puzzlePieceImg = drawImage(this, pieces[p]);
-                    if (x === -1 || y === -1){
-                        // No position listed (unmatched piece)
-                        let imgWidth = puzzlePieceImg.attrs.width
-                        if ((xPos + imgWidth) >= stage.width()) {
-                            row += 1
-                            xPos = 0
+                    let loaded = (this.getAttribute("kwgm-loaded") === 'true');
+                    if (!loaded) {
+                        this.setAttribute("kwgm-loaded", true)
+                        let puzzlePieceImg = drawImage(this, pieces[p]);
+                        if (x === -1 || y === -1){
+                            // No position listed (unmatched piece)
+                            let imgWidth = puzzlePieceImg.attrs.width
+                            if ((xPos + imgWidth) >= stage.width()) {
+                                row += 1
+                                xPos = 0
+                            }
+                            x = xPos
+                            xPos += imgWidth
+                            y = maxPieceWidth * row * puzzlePieceScaleFactor
+                        } else {
+                            // Piece has an (x,y) coord
+                            x = scale * x
+                            y = scale * y
                         }
-                        x = xPos
-                        xPos += imgWidth
-                        y = maxPieceWidth * row * puzzlePieceScaleFactor
-                    } else {
-                        // Piece has an (x,y) coord
-                        x = scale * x
-                        y = scale * y
+                        puzzlePieceImg.attrs.x = x
+                        puzzlePieceImg.attrs.y = y
                     }
-                    puzzlePieceImg.attrs.x = x
-                    puzzlePieceImg.attrs.y = y
                 };
                 puzzlePieceObj.src = `./static/img/${getCurrentPuzzle()}/${filename}`;
             })(p);
@@ -613,7 +614,9 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
                 x: (puzzleGrid.width() + (60 * scale)) - group.x(),
                 rotation: (360 - group.rotation())
             })
-            let nodes = group.getChildren(function(node){
+
+            // Unflip the letter
+            var nodes = group.getChildren(function(node){
                 return node.hasName('letter')
             })
             var letter = nodes[0]
@@ -622,6 +625,29 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
                 x: (group.width() / 2) - (fontSize / 2),
                 scaleX: letter.scaleX() * -1,
             })
+
+
+            // Display the puzzle piece back if we have one
+            var nodes = group.getChildren(function(node){
+                return node.hasName('puzzlepiece')
+            })
+            var puzzlePiece = nodes[0]
+            if (puzzlePiece.getAttr("filename_back") !== ""){
+                var filename
+                if (!!flipped){
+                    // Flip
+                    // console.log("flip")
+                    filename = puzzlePiece.getAttr("filename_back")
+                } else {
+                    // Unflip
+                    // console.log("unflip")
+                    filename = puzzlePiece.getAttr("filename")
+                }
+                puzzlePiece.clearCache()
+                puzzlePiece.image().src = `./static/img/${getCurrentPuzzle()}/${filename}`
+                puzzlePiece.cache()
+                // console.log(puzzlePiece.image().src)
+            }
         }
     }
 });

@@ -2,6 +2,7 @@
   "pieces": [
     {
       "filename": "1 - Y - rhys.png",
+      "filename_back": "1 - Y - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "Y",
       "location": "Atlanta, GA",
@@ -13,6 +14,7 @@
     },
     {
       "filename": "2 - O - rhys.png",
+      "filename_back": "2 - O - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "O",
       "location": "Atlanta, GA",
@@ -24,6 +26,7 @@
     },
     {
       "filename": "3 - I - rhys.png",
+      "filename_back": "3 - I - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "I",
       "location": "Atlanta, GA",
@@ -35,6 +38,7 @@
     },
     {
       "filename": "4 - N - rhys.png",
+      "filename_back": "4 - N - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "N",
       "location": "Atlanta, GA",
@@ -46,6 +50,7 @@
     },
     {
       "filename": "5 - S - rhys.png",
+      "filename_back": "5 - S - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "S",
       "location": "Atlanta, GA",
@@ -57,6 +62,7 @@
     },
     {
       "filename": "6 - N - rhys.png",
+      "filename_back": "6 - N - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "N",
       "location": "Atlanta, GA",
@@ -68,6 +74,7 @@
     },
     {
       "filename": "7 - W - rhys.png",
+      "filename_back": "7 - W - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "W",
       "location": "Atlanta, GA",
@@ -79,6 +86,7 @@
     },
     {
       "filename": "8 - R - rhys.png",
+      "filename_back": "8 - R - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "R",
       "location": "Atlanta, GA",
@@ -90,6 +98,7 @@
     },
     {
       "filename": "9 - O - rhys.png",
+      "filename_back": "9 - O - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "O",
       "location": "Atlanta, GA",
@@ -101,6 +110,7 @@
     },
     {
       "filename": "10 - H - rhys.png",
+      "filename_back": "10 - H - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "H",
       "location": "Atlanta, GA",
@@ -112,6 +122,7 @@
     },
     {
       "filename": "11 - G - rhys.png",
+      "filename_back": "11 - G - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "G",
       "location": "Atlanta, GA",
@@ -123,6 +134,7 @@
     },
     {
       "filename": "12 - O - rhys.png",
+      "filename_back": "12 - O - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "O",
       "location": "Atlanta, GA",
@@ -134,6 +146,7 @@
     },
     {
       "filename": "13 - N - rhys.png",
+      "filename_back": "13 - N - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "N",
       "location": "Atlanta, GA",
@@ -145,6 +158,7 @@
     },
     {
       "filename": "14 - I - rhys.png",
+      "filename_back": "14 - I - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "I",
       "location": "Atlanta, GA",
@@ -156,6 +170,7 @@
     },
     {
       "filename": "15 - V - rhys.png",
+      "filename_back": "15 - V - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "V",
       "location": "Atlanta, GA",
@@ -167,6 +182,7 @@
     },
     {
       "filename": "16 - G - rhys.png",
+      "filename_back": "16 - G - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "G",
       "location": "Atlanta, GA",
@@ -178,6 +194,7 @@
     },
     {
       "filename": "17 - F - rhys.png",
+      "filename_back": "17 - F - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "F",
       "location": "Atlanta, GA",
@@ -189,6 +206,7 @@
     },
     {
       "filename": "18 - G - rhys.png",
+      "filename_back": "18 - G - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "G,",
       "location": "Atlanta, GA",
@@ -200,6 +218,7 @@
     },
     {
       "filename": "19 - D - rhys.png",
+      "filename_back": "19 - D - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "'D",
       "location": "Atlanta, GA",
@@ -211,6 +230,7 @@
     },
     {
       "filename": "20 - T - rhys.png",
+      "filename_back": "20 - T - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "T",
       "location": "Atlanta, GA",
@@ -222,6 +242,7 @@
     },
     {
       "filename": "21 - T - rhys.png",
+      "filename_back": "21 - T - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "T",
       "location": "Atlanta, GA",
@@ -233,6 +254,7 @@
     },
     {
       "filename": "22 - I - rhys.png",
+      "filename_back": "22 - I - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "I",
       "location": "Atlanta, GA",
@@ -244,6 +266,7 @@
     },
     {
       "filename": "23 - S - rhys.png",
+      "filename_back": "23 - S - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "'S",
       "location": "Atlanta, GA",
@@ -255,6 +278,7 @@
     },
     {
       "filename": "24 - W - rhys.png",
+      "filename_back": "24 - W - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "W",
       "location": "Atlanta, GA",
@@ -266,6 +290,7 @@
     },
     {
       "filename": "25 - F - rhys.png",
+      "filename_back": "25 - F - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "F",
       "location": "Atlanta, GA",
@@ -277,6 +302,7 @@
     },
     {
       "filename": "26 - D - rhys.png",
+      "filename_back": "26 - D - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "D",
       "location": "Atlanta, GA",
@@ -288,6 +314,7 @@
     },
     {
       "filename": "27 - R - rhys.png",
+      "filename_back": "27 - R - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "R",
       "location": "Atlanta, GA",
@@ -299,6 +326,7 @@
     },
     {
       "filename": "28 - E - rhys.png",
+      "filename_back": "28 - E - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "E",
       "location": "Atlanta, GA",
@@ -310,6 +338,7 @@
     },
     {
       "filename": "29 - T - rhys.png",
+      "filename_back": "29 - T - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "T",
       "location": "Atlanta, GA",
@@ -321,6 +350,7 @@
     },
     {
       "filename": "30 - N - rhys.png",
+      "filename_back": "30 - N - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "N",
       "location": "Atlanta, GA",
@@ -332,6 +362,7 @@
     },
     {
       "filename": "31 - E - rhys.png",
+      "filename_back": "31 - E - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "E.",
       "location": "Atlanta, GA",
@@ -343,6 +374,7 @@
     },
     {
       "filename": "32 - I - rhys.png",
+      "filename_back": "32 - I - rhys_back.png",
       "username": "Rhys Caliban",
       "letter": "I",
       "location": "Atlanta, GA",
@@ -353,18 +385,8 @@
       "rotation": 2.249
     },
     {
-      "filename": "32 - A - Ovan.png",
-      "username": "Ovan",
-      "letter": "A",
-      "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
-    },
-    {
       "filename": "33 - A - Ovan.png",
+      "filename_back": "33 - A - Ovan_back.png",
       "username": "Ovan",
       "letter": "A'",
       "location": "Boston, MA",
@@ -376,6 +398,7 @@
     },
     {
       "filename": "34 - A - Ovan.png",
+      "filename_back": "34 - A - Ovan_back.png",
       "username": "Ovan",
       "letter": "A",
       "location": "Boston, MA",
@@ -387,6 +410,7 @@
     },
     {
       "filename": "35 - A - Ovan.png",
+      "filename_back": "35 - A - Ovan_back.png",
       "username": "Ovan",
       "letter": "A",
       "location": "Boston, MA",
@@ -398,6 +422,7 @@
     },
     {
       "filename": "36 - A - Ovan.png",
+      "filename_back": "36 - A - Ovan_back.png",
       "username": "Ovan",
       "letter": "A",
       "location": "Boston, MA",
@@ -409,6 +434,7 @@
     },
     {
       "filename": "37 - A - Ovan.png",
+      "filename_back": "37 - A - Ovan_back.png",
       "username": "Ovan",
       "letter": "A-",
       "location": "Boston, MA",
@@ -420,6 +446,7 @@
     },
     {
       "filename": "38 - B - Ovan.png",
+      "filename_back": "38 - B - Ovan_back.png",
       "username": "Ovan",
       "letter": "B",
       "location": "Boston, MA",
@@ -431,6 +458,7 @@
     },
     {
       "filename": "39 - C - Ovan.png",
+      "filename_back": "39 - C - Ovan_back.png",
       "username": "Ovan",
       "letter": "C",
       "location": "Boston, MA",
@@ -442,6 +470,7 @@
     },
     {
       "filename": "40 - E - Ovan.png",
+      "filename_back": "40 - E - Ovan_back.png",
       "username": "Ovan",
       "letter": "E",
       "location": "Boston, MA",
@@ -453,6 +482,7 @@
     },
     {
       "filename": "41 - E - Ovan.png",
+      "filename_back": "41 - E - Ovan_back.png",
       "username": "Ovan",
       "letter": "E",
       "location": "Boston, MA",
@@ -464,6 +494,7 @@
     },
     {
       "filename": "42 - E - Ovan.png",
+      "filename_back": "42 - E - Ovan_back.png",
       "username": "Ovan",
       "letter": "E",
       "location": "Boston, MA",
@@ -475,6 +506,7 @@
     },
     {
       "filename": "43 - E - Ovan.png",
+      "filename_back": "43 - E - Ovan_back.png",
       "username": "Ovan",
       "letter": "E",
       "location": "Boston, MA",
@@ -486,6 +518,7 @@
     },
     {
       "filename": "44 - I - Ovan.png",
+      "filename_back": "44 - I - Ovan_back.png",
       "username": "Ovan",
       "letter": "I",
       "location": "Boston, MA",
@@ -497,6 +530,7 @@
     },
     {
       "filename": "45 - K - Ovan.png",
+      "filename_back": "45 - K - Ovan_back.png",
       "username": "Ovan",
       "letter": "K",
       "location": "Boston, MA",
@@ -508,6 +542,7 @@
     },
     {
       "filename": "46 - L - Ovan.png",
+      "filename_back": "46 - L - Ovan_back.png",
       "username": "Ovan",
       "letter": "L",
       "location": "Boston, MA",
@@ -519,6 +554,7 @@
     },
     {
       "filename": "47 - N - Ovan.png",
+      "filename_back": "47 - N - Ovan_back.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
@@ -530,6 +566,7 @@
     },
     {
       "filename": "48 - N - Ovan.png",
+      "filename_back": "48 - N - Ovan_back.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
@@ -541,6 +578,7 @@
     },
     {
       "filename": "49 - N - Ovan.png",
+      "filename_back": "49 - N - Ovan_back.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
@@ -552,6 +590,7 @@
     },
     {
       "filename": "50 - N - Ovan.png",
+      "filename_back": "50 - N - Ovan_back.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
@@ -563,6 +602,7 @@
     },
     {
       "filename": "51 - N - Ovan.png",
+      "filename_back": "51 - N - Ovan_back.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
@@ -574,6 +614,7 @@
     },
     {
       "filename": "52 - N - Ovan.png",
+      "filename_back": "52 - N - Ovan_back.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
@@ -585,6 +626,7 @@
     },
     {
       "filename": "53 - N - Ovan.png",
+      "filename_back": "53 - N - Ovan_back.png",
       "username": "Ovan",
       "letter": "N",
       "location": "Boston, MA",
@@ -596,6 +638,7 @@
     },
     {
       "filename": "54 - O - Ovan.png",
+      "filename_back": "54 - O - Ovan_back.png",
       "username": "Ovan",
       "letter": "O",
       "location": "Boston, MA",
@@ -607,6 +650,7 @@
     },
     {
       "filename": "55 - O - Ovan.png",
+      "filename_back": "55 - O - Ovan_back.png",
       "username": "Ovan",
       "letter": "O",
       "location": "Boston, MA",
@@ -618,6 +662,7 @@
     },
     {
       "filename": "56 - O - Ovan.png",
+      "filename_back": "56 - O - Ovan_back.png",
       "username": "Ovan",
       "letter": "O",
       "location": "Boston, MA",
@@ -629,6 +674,7 @@
     },
     {
       "filename": "57 - R - Ovan.png",
+      "filename_back": "57 - R - Ovan_back.png",
       "username": "Ovan",
       "letter": "R",
       "location": "Boston, MA",
@@ -640,6 +686,7 @@
     },
     {
       "filename": "58 - R - Ovan.png",
+      "filename_back": "58 - R - Ovan_back.png",
       "username": "Ovan",
       "letter": "R",
       "location": "Boston, MA",
@@ -651,6 +698,7 @@
     },
     {
       "filename": "59 - T - Ovan.png",
+      "filename_back": "59 - T - Ovan_back.png",
       "username": "Ovan",
       "letter": "T",
       "location": "Boston, MA",
@@ -662,6 +710,7 @@
     },
     {
       "filename": "60 - T - Ovan.png",
+      "filename_back": "60 - T - Ovan_back.png",
       "username": "Ovan",
       "letter": "T",
       "location": "Boston, MA",
@@ -673,6 +722,7 @@
     },
     {
       "filename": "61 - U - Ovan.png",
+      "filename_back": "61 - U - Ovan_back.png",
       "username": "Ovan",
       "letter": "U",
       "location": "Boston, MA",
@@ -684,6 +734,7 @@
     },
     {
       "filename": "62 - U - Ovan.png",
+      "filename_back": "62 - U - Ovan_back.png",
       "username": "Ovan",
       "letter": "U",
       "location": "Boston, MA",
@@ -695,6 +746,7 @@
     },
     {
       "filename": "63 - W - Ovan.png",
+      "filename_back": "63 - W - Ovan_back.png",
       "username": "Ovan",
       "letter": "W",
       "location": "Boston, MA",
@@ -706,6 +758,7 @@
     },
     {
       "filename": "64 - Y - Ovan.png",
+      "filename_back": "64 - Y - Ovan_back.png",
       "username": "Ovan",
       "letter": "Y",
       "location": "Boston, MA",
