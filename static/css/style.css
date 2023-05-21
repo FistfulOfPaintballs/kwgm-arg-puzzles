@@ -65,6 +65,11 @@ p.tooltip-metadata {
     justify-content: center;
 }
 
+#footer button {
+    margin: 5px 10px;
+    padding: 0 15px;
+}
+
 #footer div label {
     margin: 0 10px;
 }

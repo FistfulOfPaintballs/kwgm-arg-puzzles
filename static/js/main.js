@@ -32,8 +32,11 @@ const puzzlePieceScaleFactor = scale / arbitraryScaleFactor
 const arrowDelta = 1;
 
 var puzzleGrid
+var puzzlePieces = []
 var letters = []
 var showTooltips = false
+
+var flipped = false
 
 var originalJson
 var exportPiecesBelowY = 175 * scale
@@ -85,6 +88,7 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
         padding: 5,
         x: (width / 2) - (fontSize / 2),
         y: (height / 2) - (fontSize / 2),
+        name: 'letter',
         align: 'center',
         verticalAlign: 'middle',
         stroke: '#000000',
@@ -108,6 +112,7 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
         puzzlePieceText.rotate(-rotation)
     }
 
+    puzzlePieces.push(puzzlePieceGroup)
     letters.push(puzzlePieceText)
 
     let tooltip = document.getElementById("tooltip")
@@ -572,10 +577,46 @@ document.getElementById("selectPuzzle").addEventListener("change", (event) => {
     window.location.href = `${url}?puzzle=${event.target.value}`;
 });
 
+document.getElementById("flipButton").addEventListener("click", (e) => {
+    flipped = !flipped
+
+    if (!!flipped){
+        e.target.innerText = "Unflip"
+    } else {
+        e.target.innerText = "Flip"
+    }
+
+    puzzleGrid.setAttrs({
+        offsetX: flipped? puzzleGrid.width() : 0,
+        scaleX: flipped? -1 : 1
+    })
+
+    let fontSize = (20 * scale)
+    for (let i in puzzlePieces){
+        let group = puzzlePieces[i]
+        if (group.y() > exportPiecesBelowY){
+            group.setAttrs({
+                scaleX: group.scaleX() * -1,
+                x: (puzzleGrid.width() + (60 * scale)) - group.x(),
+                rotation: (360 - group.rotation())
+            })
+            let nodes = group.getChildren(function(node){
+                return node.hasName('letter')
+            })
+            var letter = nodes[0]
+            letter.setAttrs({
+                offsetX: flipped ? letter.width() : 0,
+                x: (group.width() / 2) - (fontSize / 2),
+                scaleX: letter.scaleX() * -1,
+            })
+        }
+    }
+});
+
 document.getElementById("exportJson").addEventListener("click", function(e){
     var exportJson = structuredClone(originalJson)
 
-    var pieces = stage.find('.puzzlepiece');
+    var pieces = stage.find('.puzzlepiece')
     for (let i in pieces){
         let piece = pieces[i]
         let group = piece.getParent()
