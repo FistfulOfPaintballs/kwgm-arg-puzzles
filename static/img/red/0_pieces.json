@@ -439,6 +439,28 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
+    },
+    {
+      "filename": "43 - w - StupidsUnited.png",
+      "username": "StupidsUnited",
+      "letter": "w",
+      "location": "Burlington, VT",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
+    },
+    {
+      "filename": "44 - e - PizzosCards.png",
+      "username": "PizzosCards",
+      "letter": "e",
+      "location": "Burlington, VT",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
     }
   ]
 }
