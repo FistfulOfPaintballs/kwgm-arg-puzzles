@@ -88,6 +88,7 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
         padding: 5,
         x: (width / 2) - (fontSize / 2),
         y: (height / 2) - (fontSize / 2),
+        name: 'letter',
         align: 'center',
         verticalAlign: 'middle',
         stroke: '#000000',
@@ -576,84 +577,40 @@ document.getElementById("selectPuzzle").addEventListener("change", (event) => {
     window.location.href = `${url}?puzzle=${event.target.value}`;
 });
 
-document.getElementById("flipButton").addEventListener("click", (event) => {
-    console.log("do a flip");
-    // console.log(puzzleGrid.width())
-    // console.log(scale)
-
+document.getElementById("flipButton").addEventListener("click", (e) => {
     flipped = !flipped
 
-    // Create a group
-    var flipGroup = new Konva.Group({
-        x: puzzleGrid.getAbsolutePosition().x,
-        y: puzzleGrid.getAbsolutePosition().y,
-        offsetY: puzzleGrid.getAbsolutePosition().y,
-        width: puzzleGrid.width(),
-        height: puzzleGrid.height(),
-        listening: false,
-    })
-    layer.add(flipGroup)
-
-    // Add grid and pieces to group
-    flipGroup.add(puzzleGrid)
-    for (let i in puzzlePieces){
-        let pieceGroup = puzzlePieces[i]
-        if (pieceGroup.y() >= exportPiecesBelowY){
-            flipGroup.add(pieceGroup)
-        }
-    }
-
-    // Flip Group
-    if (!!flipped) {
-        // Flip
-        flipGroup.setAttrs({
-            offsetX: flipGroup.width() + (30 * scale),
-            scaleX: -1
-        })
+    if (!!flipped){
+        e.target.innerText = "Unflip"
     } else {
-        // Unflip
-        flipGroup.setAttrs({
-            offsetX: flipGroup.width() + (30 * scale),
-            scaleX: 1
-        })
+        e.target.innerText = "Flip"
     }
 
-    // Set absolute position of all in group
-    var pos = puzzleGrid.getAbsolutePosition()
-    var scale = puzzleGrid.getAbsoluteScale()
-    puzzleGrid.moveTo(layer)
-    puzzleGrid.position({
-        x: pos.x,
-        y: pos.y,
-    })
-    // There appears to be an (x,y) translation bug... swap them
     puzzleGrid.setAttrs({
-        scaleX: 1,
-        scaleY: 1,
+        offsetX: flipped? puzzleGrid.width() : 0,
+        scaleX: flipped? -1 : 1
     })
+
+    let fontSize = (20 * scale)
     for (let i in puzzlePieces){
-        let pieceGroup = puzzlePieces[i]
-        if (pieceGroup.y() >= exportPiecesBelowY) {
-            var pos = pieceGroup.getAbsolutePosition()
-            var scale = pieceGroup.getAbsoluteScale()
-            pieceGroup.moveTo(layer)
-            pieceGroup.position({
-                x: pos.x,
-                y: pos.y,
+        let group = puzzlePieces[i]
+        if (group.y() > exportPiecesBelowY){
+            group.setAttrs({
+                scaleX: group.scaleX() * -1,
+                x: (puzzleGrid.width() + (60 * scale)) - group.x(),
+                rotation: (360 - group.rotation())
             })
-            // There appears to be an (x,y) translation bug... swap them
-            pieceGroup.setAttrs({
-                scaleX: scale.y,
-                scaleY: scale.x,
+            let nodes = group.getChildren(function(node){
+                return node.hasName('letter')
+            })
+            var letter = nodes[0]
+            letter.setAttrs({
+                offsetX: flipped ? letter.width() : 0,
+                x: (group.width() / 2) - (fontSize / 2),
+                scaleX: letter.scaleX() * -1,
             })
         }
     }
-
-    // Destroy group
-    flipGroup.removeChildren()
-    flipGroup.destroy()
-    layer.draw()
-
 });
 
 document.getElementById("exportJson").addEventListener("click", function(e){
