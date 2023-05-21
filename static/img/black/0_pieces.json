@@ -6,7 +6,7 @@
       "letter": "Y",
       "location": "Atlanta, GA",
       "x": 377,
-      "y": 443,
+      "y": 419,
       "scaleX": 0.871,
       "scaleY": 0.927,
       "rotation": -3.858
@@ -17,7 +17,7 @@
       "letter": "O",
       "location": "Atlanta, GA",
       "x": 214,
-      "y": 247,
+      "y": 223,
       "scaleX": 0.944,
       "scaleY": 0.944,
       "rotation": 0
@@ -28,7 +28,7 @@
       "letter": "I",
       "location": "Atlanta, GA",
       "x": 515,
-      "y": 635,
+      "y": 611,
       "scaleX": 0.934,
       "scaleY": 0.981,
       "rotation": 0
@@ -39,7 +39,7 @@
       "letter": "N",
       "location": "Atlanta, GA",
       "x": 620,
-      "y": 637,
+      "y": 613,
       "scaleX": 0.828,
       "scaleY": 0.87,
       "rotation": -0.527
@@ -50,7 +50,7 @@
       "letter": "S",
       "location": "Atlanta, GA",
       "x": 326,
-      "y": 456,
+      "y": 432,
       "scaleX": 0.933,
       "scaleY": 0.933,
       "rotation": -2.579
@@ -61,7 +61,7 @@
       "letter": "N",
       "location": "Atlanta, GA",
       "x": 217,
-      "y": 503,
+      "y": 479,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": -3.241
@@ -72,7 +72,7 @@
       "letter": "W",
       "location": "Atlanta, GA",
       "x": 502,
-      "y": 310,
+      "y": 286,
       "scaleX": 0.774,
       "scaleY": 0.774,
       "rotation": -0.941
@@ -83,7 +83,7 @@
       "letter": "R",
       "location": "Atlanta, GA",
       "x": 153,
-      "y": 631,
+      "y": 607,
       "scaleX": 1.025,
       "scaleY": 1.025,
       "rotation": 0
@@ -94,7 +94,7 @@
       "letter": "O",
       "location": "Atlanta, GA",
       "x": 568,
-      "y": 565,
+      "y": 541,
       "scaleX": 0.883,
       "scaleY": 0.951,
       "rotation": -0.961
@@ -105,7 +105,7 @@
       "letter": "H",
       "location": "Atlanta, GA",
       "x": 197,
-      "y": 335,
+      "y": 311,
       "scaleX": 0.798,
       "scaleY": 0.711,
       "rotation": 0.596
@@ -116,7 +116,7 @@
       "letter": "G",
       "location": "Atlanta, GA",
       "x": 380,
-      "y": 573,
+      "y": 549,
       "scaleX": 0.825,
       "scaleY": 0.875,
       "rotation": -3.026
@@ -127,7 +127,7 @@
       "letter": "O",
       "location": "Atlanta, GA",
       "x": 682,
-      "y": 366,
+      "y": 342,
       "scaleX": 0.982,
       "scaleY": 0.982,
       "rotation": 0.433
@@ -138,7 +138,7 @@
       "letter": "N",
       "location": "Atlanta, GA",
       "x": 158,
-      "y": 431,
+      "y": 407,
       "scaleX": 0.924,
       "scaleY": 0.907,
       "rotation": 0.548
@@ -149,7 +149,7 @@
       "letter": "I",
       "location": "Atlanta, GA",
       "x": 206,
-      "y": 451,
+      "y": 427,
       "scaleX": 0.816,
       "scaleY": 0.816,
       "rotation": -1.203
@@ -160,7 +160,7 @@
       "letter": "V",
       "location": "Atlanta, GA",
       "x": 619,
-      "y": 589,
+      "y": 565,
       "scaleX": 1.014,
       "scaleY": 1.089,
       "rotation": 2.485
@@ -171,7 +171,7 @@
       "letter": "G",
       "location": "Atlanta, GA",
       "x": 487,
-      "y": 194,
+      "y": 170,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -182,7 +182,7 @@
       "letter": "F",
       "location": "Atlanta, GA",
       "x": 557,
-      "y": 653,
+      "y": 629,
       "scaleX": 0.754,
       "scaleY": 0.792,
       "rotation": -0.004
@@ -193,7 +193,7 @@
       "letter": "G",
       "location": "Atlanta, GA",
       "x": 309,
-      "y": 317,
+      "y": 293,
       "scaleX": 0.83,
       "scaleY": 0.928,
       "rotation": -2.481
@@ -204,7 +204,7 @@
       "letter": "D",
       "location": "Atlanta, GA",
       "x": 331,
-      "y": 526,
+      "y": 502,
       "scaleX": 0.968,
       "scaleY": 0.968,
       "rotation": -1.881
@@ -215,7 +215,7 @@
       "letter": "T",
       "location": "Atlanta, GA",
       "x": 549,
-      "y": 243,
+      "y": 219,
       "scaleX": 0.926,
       "scaleY": 0.926,
       "rotation": -0.941
@@ -226,7 +226,7 @@
       "letter": "T",
       "location": "Atlanta, GA",
       "x": 441,
-      "y": 648,
+      "y": 624,
       "scaleX": 0.81,
       "scaleY": 0.85,
       "rotation": 2.145
@@ -237,7 +237,7 @@
       "letter": "I",
       "location": "Atlanta, GA",
       "x": 32,
-      "y": 243,
+      "y": 219,
       "scaleX": 0.984,
       "scaleY": 0.984,
       "rotation": 0
@@ -248,7 +248,7 @@
       "letter": "S",
       "location": "Atlanta, GA",
       "x": 561,
-      "y": 326,
+      "y": 302,
       "scaleX": 0.926,
       "scaleY": 0.926,
       "rotation": -0.941
@@ -259,7 +259,7 @@
       "letter": "W",
       "location": "Atlanta, GA",
       "x": 381,
-      "y": 382,
+      "y": 358,
       "scaleX": 0.906,
       "scaleY": 0.906,
       "rotation": -5.906
@@ -270,7 +270,7 @@
       "letter": "F",
       "location": "Atlanta, GA",
       "x": 667,
-      "y": 197,
+      "y": 173,
       "scaleX": 0.863,
       "scaleY": 0.85,
       "rotation": 0
@@ -281,7 +281,7 @@
       "letter": "D",
       "location": "Atlanta, GA",
       "x": 627,
-      "y": 307,
+      "y": 283,
       "scaleX": 0.946,
       "scaleY": 0.946,
       "rotation": -0.941
@@ -292,7 +292,7 @@
       "letter": "R",
       "location": "Atlanta, GA",
       "x": 91,
-      "y": 195,
+      "y": 171,
       "scaleX": 0.955,
       "scaleY": 1.093,
       "rotation": 0.015
@@ -303,7 +303,7 @@
       "letter": "E",
       "location": "Atlanta, GA",
       "x": 321,
-      "y": 583,
+      "y": 559,
       "scaleX": 1.202,
       "scaleY": 1.202,
       "rotation": 4.686
@@ -314,7 +314,7 @@
       "letter": "T",
       "location": "Atlanta, GA",
       "x": 279,
-      "y": 629,
+      "y": 605,
       "scaleX": 1.039,
       "scaleY": 1.039,
       "rotation": 0
@@ -325,7 +325,7 @@
       "letter": "N",
       "location": "Atlanta, GA",
       "x": 92,
-      "y": 333,
+      "y": 309,
       "scaleX": 0.822,
       "scaleY": 0.822,
       "rotation": 0
@@ -336,7 +336,7 @@
       "letter": "E",
       "location": "Atlanta, GA",
       "x": 32,
-      "y": 634,
+      "y": 610,
       "scaleX": 0.889,
       "scaleY": 0.889,
       "rotation": 0
@@ -347,7 +347,7 @@
       "letter": "I",
       "location": "Atlanta, GA",
       "x": 386,
-      "y": 524,
+      "y": 500,
       "scaleX": 0.929,
       "scaleY": 0.991,
       "rotation": 2.249
@@ -369,7 +369,7 @@
       "letter": "A",
       "location": "Boston, MA",
       "x": 673,
-      "y": 451,
+      "y": 427,
       "scaleX": 1.025,
       "scaleY": 0.999,
       "rotation": 1.167
@@ -380,7 +380,7 @@
       "letter": "A",
       "location": "Boston, MA",
       "x": 550,
-      "y": 193,
+      "y": 169,
       "scaleX": 0.84,
       "scaleY": 0.84,
       "rotation": 0
@@ -391,7 +391,7 @@
       "letter": "A",
       "location": "Boston, MA",
       "x": 612,
-      "y": 260,
+      "y": 236,
       "scaleX": 0.742,
       "scaleY": 0.691,
       "rotation": 0
@@ -402,7 +402,7 @@
       "letter": "A",
       "location": "Boston, MA",
       "x": 554,
-      "y": 508,
+      "y": 484,
       "scaleX": 0.845,
       "scaleY": 0.878,
       "rotation": -0.918
@@ -413,7 +413,7 @@
       "letter": "A",
       "location": "Boston, MA",
       "x": 493,
-      "y": 448,
+      "y": 424,
       "scaleX": 0.884,
       "scaleY": 0.884,
       "rotation": 2.827
@@ -424,7 +424,7 @@
       "letter": "B",
       "location": "Boston, MA",
       "x": 74,
-      "y": 247,
+      "y": 223,
       "scaleX": 0.914,
       "scaleY": 0.914,
       "rotation": 2.16
@@ -435,7 +435,7 @@
       "letter": "C",
       "location": "Boston, MA",
       "x": 377,
-      "y": 198,
+      "y": 174,
       "scaleX": 0.659,
       "scaleY": 0.659,
       "rotation": 0
@@ -446,7 +446,7 @@
       "letter": "E",
       "location": "Boston, MA",
       "x": 149,
-      "y": 195,
+      "y": 171,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0.927
@@ -457,7 +457,7 @@
       "letter": "E",
       "location": "Boston, MA",
       "x": 562,
-      "y": 451,
+      "y": 427,
       "scaleX": 0.948,
       "scaleY": 0.995,
       "rotation": -2.51
@@ -468,7 +468,7 @@
       "letter": "E",
       "location": "Boston, MA",
       "x": 222,
-      "y": 656,
+      "y": 632,
       "scaleX": 0.78,
       "scaleY": 0.762,
       "rotation": 0
@@ -479,7 +479,7 @@
       "letter": "E",
       "location": "Boston, MA",
       "x": 151,
-      "y": 314,
+      "y": 290,
       "scaleX": 0.801,
       "scaleY": 0.801,
       "rotation": 0.406
@@ -490,7 +490,7 @@
       "letter": "I",
       "location": "Boston, MA",
       "x": 434,
-      "y": 326,
+      "y": 302,
       "scaleX": 0.841,
       "scaleY": 0.841,
       "rotation": 0
@@ -501,7 +501,7 @@
       "letter": "K",
       "location": "Boston, MA",
       "x": 161,
-      "y": 516,
+      "y": 492,
       "scaleX": 0.799,
       "scaleY": 0.835,
       "rotation": 5.009
@@ -512,7 +512,7 @@
       "letter": "L",
       "location": "Boston, MA",
       "x": 630,
-      "y": 192,
+      "y": 168,
       "scaleX": 0.935,
       "scaleY": 0.935,
       "rotation": 1.314
@@ -523,7 +523,7 @@
       "letter": "N",
       "location": "Boston, MA",
       "x": 252,
-      "y": 259,
+      "y": 235,
       "scaleX": 0.828,
       "scaleY": 0.837,
       "rotation": 3.169
@@ -534,7 +534,7 @@
       "letter": "N",
       "location": "Boston, MA",
       "x": 432,
-      "y": 249,
+      "y": 225,
       "scaleX": 0.956,
       "scaleY": 0.956,
       "rotation": -3.016
@@ -545,7 +545,7 @@
       "letter": "N",
       "location": "Boston, MA",
       "x": 203,
-      "y": 197,
+      "y": 173,
       "scaleX": 0.833,
       "scaleY": 0.856,
       "rotation": 1.127
@@ -556,7 +556,7 @@
       "letter": "N",
       "location": "Boston, MA",
       "x": 335,
-      "y": 653,
+      "y": 629,
       "scaleX": 0.826,
       "scaleY": 0.901,
       "rotation": 0
@@ -567,7 +567,7 @@
       "letter": "N",
       "location": "Boston, MA",
       "x": 683,
-      "y": 242,
+      "y": 218,
       "scaleX": 0.804,
       "scaleY": 0.804,
       "rotation": 0
@@ -578,7 +578,7 @@
       "letter": "N",
       "location": "Boston, MA",
       "x": 459,
-      "y": 512,
+      "y": 488,
       "scaleX": 0.832,
       "scaleY": 0.885,
       "rotation": -1.994
@@ -589,7 +589,7 @@
       "letter": "N",
       "location": "Boston, MA",
       "x": 372,
-      "y": 312,
+      "y": 288,
       "scaleX": 0.95,
       "scaleY": 0.95,
       "rotation": 0
@@ -600,7 +600,7 @@
       "letter": "O",
       "location": "Boston, MA",
       "x": 33,
-      "y": 196,
+      "y": 172,
       "scaleX": 0.96,
       "scaleY": 0.938,
       "rotation": -0.534
@@ -611,7 +611,7 @@
       "letter": "O",
       "location": "Boston, MA",
       "x": 30,
-      "y": 445,
+      "y": 421,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -622,7 +622,7 @@
       "letter": "O",
       "location": "Boston, MA",
       "x": 35,
-      "y": 587,
+      "y": 563,
       "scaleX": 0.932,
       "scaleY": 1,
       "rotation": 1.141
@@ -633,7 +633,7 @@
       "letter": "R",
       "location": "Boston, MA",
       "x": 494,
-      "y": 523,
+      "y": 499,
       "scaleX": 0.826,
       "scaleY": 0.826,
       "rotation": 0
@@ -644,7 +644,7 @@
       "letter": "R",
       "location": "Boston, MA",
       "x": 273,
-      "y": 198,
+      "y": 174,
       "scaleX": 0.844,
       "scaleY": 0.844,
       "rotation": 0
@@ -655,7 +655,7 @@
       "letter": "T",
       "location": "Boston, MA",
       "x": 609,
-      "y": 388,
+      "y": 364,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -666,7 +666,7 @@
       "letter": "T",
       "location": "Boston, MA",
       "x": 684,
-      "y": 570,
+      "y": 546,
       "scaleX": 0.765,
       "scaleY": 0.8,
       "rotation": 0
@@ -677,7 +677,7 @@
       "letter": "U",
       "location": "Boston, MA",
       "x": 257,
-      "y": 522,
+      "y": 498,
       "scaleX": 0.653,
       "scaleY": 0.653,
       "rotation": 0
@@ -688,7 +688,7 @@
       "letter": "U",
       "location": "Boston, MA",
       "x": 76,
-      "y": 373,
+      "y": 349,
       "scaleX": 0.895,
       "scaleY": 0.895,
       "rotation": 2.361
@@ -699,7 +699,7 @@
       "letter": "W",
       "location": "Boston, MA",
       "x": 140,
-      "y": 586,
+      "y": 562,
       "scaleX": 0.957,
       "scaleY": 0.957,
       "rotation": 0
@@ -710,7 +710,7 @@
       "letter": "Y",
       "location": "Boston, MA",
       "x": 385,
-      "y": 245,
+      "y": 221,
       "scaleX": 0.874,
       "scaleY": 0.874,
       "rotation": -1.417

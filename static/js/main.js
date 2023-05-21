@@ -39,7 +39,7 @@ var showTooltips = false
 var flipped = false
 
 var originalJson
-var exportPiecesBelowY = 175 * scale
+var exportPiecesBelowY = 150 * scale
 
 function getCurrentPuzzle(){
     const urlParams = new URLSearchParams(window.location.search);
