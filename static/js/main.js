@@ -616,7 +616,7 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
 document.getElementById("exportJson").addEventListener("click", function(e){
     var exportJson = structuredClone(originalJson)
 
-    var pieces = stage.find('.puzzlepiece');
+    var pieces = stage.find('.puzzlepiece')
     for (let i in pieces){
         let piece = pieces[i]
         let group = piece.getParent()
