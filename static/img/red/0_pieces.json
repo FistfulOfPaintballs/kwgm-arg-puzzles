@@ -401,8 +401,8 @@
       "username": "Funuf",
       "letter": "o",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
+      "x": 457,
+      "y": 574,
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0
@@ -423,11 +423,11 @@
       "username": "Keegeroni",
       "letter": "u",
       "location": "Boston, MA",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 449,
+      "y": 457,
+      "scaleX": 0.83,
+      "scaleY": 0.84,
+      "rotation": -2.771
     }
   ]
 }
