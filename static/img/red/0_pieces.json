@@ -428,6 +428,17 @@
       "scaleX": 0.83,
       "scaleY": 0.84,
       "rotation": -2.771
+    },
+    {
+      "filename": "42 - w - Lavus.png",
+      "username": "Lavus",
+      "letter": "w",
+      "location": "Burlington, VT",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0
     }
   ]
 }
