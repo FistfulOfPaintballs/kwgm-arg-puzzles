@@ -445,11 +445,11 @@
       "username": "StupidsUnited",
       "letter": "w",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 213,
+      "y": 219,
+      "scaleX": 1.28,
+      "scaleY": 1.272,
+      "rotation": 1.738
     },
     {
       "filename": "44 - e - PizzosCards.png",
