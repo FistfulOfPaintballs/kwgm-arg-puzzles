@@ -136,15 +136,6 @@ function drawImage(imageObj, data) {
 
     tooltip.listening = false
 
-    puzzlePieceImg.on('imageChange.konva', () => {
-        console.log("changed!!")
-        // puzzlePieceImg.cache()
-        // console.log(puzzlePieceImg.image().src)
-        // layer.draw()
-        // puzzlePieceImg._requestDraw()
-    });
-
-
     // add styling
     puzzlePieceImg.cache()
     puzzlePieceImg.on('mouseenter', function () {
@@ -607,32 +598,17 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
 
     let fontSize = (20 * scale)
     for (let i in puzzlePieces){
+        var usePuzzleBackAsset = false
         let group = puzzlePieces[i]
         if (group.y() > exportPiecesBelowY){
-            group.setAttrs({
-                scaleX: group.scaleX() * -1,
-                x: (puzzleGrid.width() + (60 * scale)) - group.x(),
-                rotation: (360 - group.rotation())
-            })
-
-            // Unflip the letter
-            var nodes = group.getChildren(function(node){
-                return node.hasName('letter')
-            })
-            var letter = nodes[0]
-            letter.setAttrs({
-                offsetX: flipped ? letter.width() : 0,
-                x: (group.width() / 2) - (fontSize / 2),
-                scaleX: letter.scaleX() * -1,
-            })
-
-
-            // Display the puzzle piece back if we have one
             var nodes = group.getChildren(function(node){
                 return node.hasName('puzzlepiece')
             })
             var puzzlePiece = nodes[0]
-            if (puzzlePiece.getAttr("filename_back") !== ""){
+
+            // Check to see if we have a puzzle _back asset
+            usePuzzleBackAsset = puzzlePiece.getAttr("filename_back") !== ""
+            if (usePuzzleBackAsset){
                 var filename
                 if (!!flipped){
                     // Flip
@@ -643,10 +619,41 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
                     // console.log("unflip")
                     filename = puzzlePiece.getAttr("filename")
                 }
+                let src = `./static/img/${getCurrentPuzzle()}/${filename}`
                 puzzlePiece.clearCache()
-                puzzlePiece.image().src = `./static/img/${getCurrentPuzzle()}/${filename}`
-                puzzlePiece.cache()
-                // console.log(puzzlePiece.image().src)
+                puzzlePiece.image().src = src
+
+                // Move the puzzle piece to the other side
+                group.setAttrs({
+                    scaleX: group.scaleX(),
+                    x: (puzzleGrid.width() + (60 * scale)) - group.x(),
+                })
+
+                // Hide the letter
+                var nodes = group.getChildren(function(node){
+                    return node.hasName('letter')
+                })
+                var letter = nodes[0]
+                letter.hide()
+
+            } else {
+                // Move the piece to the other side and mirror its rotation
+                group.setAttrs({
+                    scaleX: group.scaleX() * -1,
+                    x: (puzzleGrid.width() + (60 * scale)) - group.x(),
+                    rotation: (360 - group.rotation())
+                })
+
+                // Unflip the letter
+                var nodes = group.getChildren(function(node){
+                    return node.hasName('letter')
+                })
+                var letter = nodes[0]
+                letter.setAttrs({
+                    offsetX: flipped ? letter.width() : 0,
+                    x: (group.width() / 2) - (fontSize / 2),
+                    scaleX: letter.scaleX() * -1,
+                })
             }
         }
     }
