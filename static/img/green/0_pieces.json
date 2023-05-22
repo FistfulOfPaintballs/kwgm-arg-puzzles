@@ -9,7 +9,9 @@
       "y": 303,
       "scaleX": 0.868,
       "scaleY": 0.84,
-      "rotation": -2.375
+      "rotation": -2.375,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "2 - s - Ekin.png",
@@ -20,7 +22,9 @@
       "y": 546,
       "scaleX": 0.948,
       "scaleY": 1.041,
-      "rotation": -1.638
+      "rotation": -1.638,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "3 - r - Ekin.png",
@@ -31,7 +35,9 @@
       "y": 289,
       "scaleX": 0.949,
       "scaleY": 0.949,
-      "rotation": -1.316
+      "rotation": -1.316,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "4 - o - Ekin.png",
@@ -42,7 +48,9 @@
       "y": 222,
       "scaleX": 0.987,
       "scaleY": 0.938,
-      "rotation": -2.336
+      "rotation": -2.336,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "5 - t - Ekin.png",
@@ -53,7 +61,9 @@
       "y": 609,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "6 - a - Ekin.png",
@@ -64,7 +74,9 @@
       "y": 629,
       "scaleX": 1.013,
       "scaleY": 1.013,
-      "rotation": -0.371
+      "rotation": -0.371,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "7 - p - Ekin.png",
@@ -75,7 +87,9 @@
       "y": 423,
       "scaleX": 0.909,
       "scaleY": 0.979,
-      "rotation": -2.836
+      "rotation": -2.836,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "8 - i - Ekin.png",
@@ -86,7 +100,9 @@
       "y": 175,
       "scaleX": 0.922,
       "scaleY": 0.922,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "9 - a - Ekin.png",
@@ -97,7 +113,9 @@
       "y": 243,
       "scaleX": 0.937,
       "scaleY": 0.937,
-      "rotation": -2.038
+      "rotation": -2.038,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "10 - a - Ekin.png",
@@ -108,7 +126,9 @@
       "y": 480,
       "scaleX": 1.02,
       "scaleY": 1.02,
-      "rotation": -2.095
+      "rotation": -2.095,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "11 - l - Ekin.png",
@@ -119,7 +139,9 @@
       "y": 287,
       "scaleX": 0.924,
       "scaleY": 1.007,
-      "rotation": -0.965
+      "rotation": -0.965,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "12 - l - Ekin.png",
@@ -130,7 +152,9 @@
       "y": 629,
       "scaleX": 0.979,
       "scaleY": 1.023,
-      "rotation": -0.526
+      "rotation": -0.526,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "13 - l - Ekin.png",
@@ -141,7 +165,9 @@
       "y": 175,
       "scaleX": 0.989,
       "scaleY": 0.989,
-      "rotation": -1.426
+      "rotation": -1.426,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "14 - r - Ekin.png",
@@ -152,7 +178,9 @@
       "y": 171,
       "scaleX": 0.89,
       "scaleY": 0.862,
-      "rotation": 0.008
+      "rotation": 0.008,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "15 - t - Ekin.png",
@@ -163,7 +191,9 @@
       "y": 414,
       "scaleX": 0.969,
       "scaleY": 0.969,
-      "rotation": -1.624
+      "rotation": -1.624,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "16 - m - Ekin.png",
@@ -174,7 +204,9 @@
       "y": 348,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "17 - r - Ekin.png",
@@ -185,7 +217,9 @@
       "y": 283,
       "scaleX": 0.98,
       "scaleY": 0.98,
-      "rotation": 0.922
+      "rotation": 0.922,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "18 - v - Ekin.png",
@@ -196,7 +230,9 @@
       "y": 628,
       "scaleX": 0.983,
       "scaleY": 1.075,
-      "rotation": -0.01
+      "rotation": -0.01,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "19 - i - Ekin.png",
@@ -207,7 +243,9 @@
       "y": 540,
       "scaleX": 1.065,
       "scaleY": 1.03,
-      "rotation": -1.31
+      "rotation": -1.31,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "20 - a - Ekin.png",
@@ -218,7 +256,9 @@
       "y": 502,
       "scaleX": 1.048,
       "scaleY": 1.052,
-      "rotation": 0.229
+      "rotation": 0.229,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "21 - h - Ekin.png",
@@ -229,7 +269,9 @@
       "y": 175,
       "scaleX": 0.925,
       "scaleY": 0.925,
-      "rotation": -0.37
+      "rotation": -0.37,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "22 - l - Ekin.png",
@@ -240,7 +282,9 @@
       "y": 488,
       "scaleX": 0.919,
       "scaleY": 0.923,
-      "rotation": -3.674
+      "rotation": -3.674,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "23 - r - Ekin.png",
@@ -251,7 +295,9 @@
       "y": 226,
       "scaleX": 0.925,
       "scaleY": 0.925,
-      "rotation": -1.983
+      "rotation": -1.983,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "24 - t - Ekin.png",
@@ -262,7 +308,9 @@
       "y": 409,
       "scaleX": 0.978,
       "scaleY": 0.978,
-      "rotation": -2.834
+      "rotation": -2.834,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "25 - i - Ekin.png",
@@ -273,7 +321,9 @@
       "y": 543,
       "scaleX": 0.933,
       "scaleY": 1.052,
-      "rotation": -4.378
+      "rotation": -4.378,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "26 - i - Ekin.png",
@@ -284,7 +334,9 @@
       "y": 169,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "27 - e - Ekin.png",
@@ -295,7 +347,9 @@
       "y": 551,
       "scaleX": 0.981,
       "scaleY": 0.985,
-      "rotation": 0.311
+      "rotation": 0.311,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "28 - t - Ekin.png",
@@ -306,7 +360,9 @@
       "y": 562,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 2.325
+      "rotation": 2.325,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "29 - g - Ekin.png",
@@ -317,7 +373,9 @@
       "y": 173,
       "scaleX": 0.898,
       "scaleY": 0.854,
-      "rotation": -3.139
+      "rotation": -3.139,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "30 - c - Ekin.png",
@@ -328,7 +386,9 @@
       "y": 425,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": -1.315
+      "rotation": -1.315,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "31 - y - Ekin.png",
@@ -339,7 +399,9 @@
       "y": 235,
       "scaleX": 0.989,
       "scaleY": 0.989,
-      "rotation": -0.091
+      "rotation": -0.091,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "32 - m - Ekin.png",
@@ -350,7 +412,9 @@
       "y": 224,
       "scaleX": 0.912,
       "scaleY": 0.912,
-      "rotation": -1.209
+      "rotation": -1.209,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "33 - e - SecretIzzy.png",
@@ -361,7 +425,9 @@
       "y": 607,
       "scaleX": 0.902,
       "scaleY": 0.902,
-      "rotation": -0.919
+      "rotation": -0.919,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "34 - n - SecretIzzy.png",
@@ -372,7 +438,9 @@
       "y": 170,
       "scaleX": 0.779,
       "scaleY": 0.779,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "35 - e - SecretIzzy.png",
@@ -383,7 +451,9 @@
       "y": 564,
       "scaleX": 0.868,
       "scaleY": 0.868,
-      "rotation": 2.234
+      "rotation": 2.234,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "36 - n - SecretIzzy.png",
@@ -394,7 +464,9 @@
       "y": 367,
       "scaleX": 0.774,
       "scaleY": 0.774,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "37 - y - SecretIzzy.png",
@@ -405,7 +477,9 @@
       "y": 307,
       "scaleX": 0.853,
       "scaleY": 0.853,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "38 - g - SecretIzzy.png",
@@ -416,7 +490,9 @@
       "y": 624,
       "scaleX": 0.744,
       "scaleY": 0.841,
-      "rotation": -1.036
+      "rotation": -1.036,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "39 - o - SecretIzzy.png",
@@ -427,7 +503,9 @@
       "y": 351,
       "scaleX": 0.816,
       "scaleY": 0.816,
-      "rotation": -2.977
+      "rotation": -2.977,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "40 - u - SecretIzzy.png",
@@ -438,7 +516,9 @@
       "y": 301,
       "scaleX": 0.873,
       "scaleY": 0.873,
-      "rotation": 1.674
+      "rotation": 1.674,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "41 - l - SecretIzzy.png",
@@ -449,7 +529,9 @@
       "y": 423,
       "scaleX": 0.959,
       "scaleY": 0.989,
-      "rotation": 1.032
+      "rotation": 1.032,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "42 - n - SecretIzzy.png",
@@ -460,7 +542,9 @@
       "y": 221,
       "scaleX": 0.909,
       "scaleY": 0.909,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "43 - o - SecretIzzy.png",
@@ -471,7 +555,9 @@
       "y": 415,
       "scaleX": 0.992,
       "scaleY": 0.991,
-      "rotation": 2.198
+      "rotation": 2.198,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "44 - a - SecretIzzy.png",
@@ -482,7 +568,9 @@
       "y": 172,
       "scaleX": 0.919,
       "scaleY": 0.919,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "45 - g - SecretIzzy.png",
@@ -493,7 +581,9 @@
       "y": 298,
       "scaleX": 0.897,
       "scaleY": 0.938,
-      "rotation": 3.079
+      "rotation": 3.079,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "46 - d - SecretIzzy.png",
@@ -504,7 +594,9 @@
       "y": 564,
       "scaleX": 0.826,
       "scaleY": 0.826,
-      "rotation": -4.25
+      "rotation": -4.25,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "47 - f - SecretIzzy.png",
@@ -515,7 +607,9 @@
       "y": 370,
       "scaleX": 0.984,
       "scaleY": 0.984,
-      "rotation": -1.11
+      "rotation": -1.11,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "48 - e - SecretIzzy.png",
@@ -526,7 +620,9 @@
       "y": 480,
       "scaleX": 0.932,
       "scaleY": 0.932,
-      "rotation": 1.015
+      "rotation": 1.015,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "49 - t - SecretIzzy.png",
@@ -537,7 +633,9 @@
       "y": 349,
       "scaleX": 0.906,
       "scaleY": 0.906,
-      "rotation": 2.855
+      "rotation": 2.855,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "50 - u - SecretIzzy.png",
@@ -548,7 +646,9 @@
       "y": 357,
       "scaleX": 0.874,
       "scaleY": 0.874,
-      "rotation": -4.769
+      "rotation": -4.769,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "51 - e - SecretIzzy.png",
@@ -559,7 +659,9 @@
       "y": 237,
       "scaleX": 0.928,
       "scaleY": 0.928,
-      "rotation": 2.088
+      "rotation": 2.088,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "52 - n - SecretIzzy.png",
@@ -570,7 +672,9 @@
       "y": 612,
       "scaleX": 0.834,
       "scaleY": 0.933,
-      "rotation": 1.022
+      "rotation": 1.022,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "53 - l - SecretIzzy.png",
@@ -581,7 +685,9 @@
       "y": 562,
       "scaleX": 0.918,
       "scaleY": 0.918,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "54 - y - SecretIzzy.png",
@@ -592,7 +698,9 @@
       "y": 605,
       "scaleX": 0.944,
       "scaleY": 0.944,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "55 - i - SecretIzzy.png",
@@ -603,7 +711,9 @@
       "y": 606,
       "scaleX": 0.804,
       "scaleY": 1,
-      "rotation": -2.292
+      "rotation": -2.292,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "56 - t - SecretIzzy.png",
@@ -614,7 +724,9 @@
       "y": 171,
       "scaleX": 0.827,
       "scaleY": 0.94,
-      "rotation": 1.589
+      "rotation": 1.589,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "57 - o - SecretIzzy.png",
@@ -625,7 +737,9 @@
       "y": 630,
       "scaleX": 0.883,
       "scaleY": 0.949,
-      "rotation": -2.649
+      "rotation": -2.649,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "58 - b - SecretIzzy.png",
@@ -636,7 +750,9 @@
       "y": 539,
       "scaleX": 0.919,
       "scaleY": 0.919,
-      "rotation": 0.296
+      "rotation": 0.296,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "59 - k - SecretIzzy.png",
@@ -647,7 +763,9 @@
       "y": 222,
       "scaleX": 0.947,
       "scaleY": 1.002,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "60 - c - SecretIzzy.png",
@@ -658,7 +776,9 @@
       "y": 501,
       "scaleX": 0.9,
       "scaleY": 0.9,
-      "rotation": -1.887
+      "rotation": -1.887,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "61 - o - SecretIzzy.png",
@@ -669,7 +789,9 @@
       "y": 171,
       "scaleX": 0.897,
       "scaleY": 0.897,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "62 - w - SecretIzzy.png",
@@ -680,7 +802,9 @@
       "y": 605,
       "scaleX": 0.88,
       "scaleY": 0.903,
-      "rotation": -1.352
+      "rotation": -1.352,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "63 - u - SecretIzzy.png",
@@ -691,7 +815,9 @@
       "y": 236,
       "scaleX": 0.849,
       "scaleY": 0.849,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "64 - u - SecretIzzy.png",
@@ -702,7 +828,9 @@
       "y": 552,
       "scaleX": 0.786,
       "scaleY": 0.786,
-      "rotation": -2.697
+      "rotation": -2.697,
+      "offsetX_back": 0,
+      "offsetY_back": 0
     }
   ]
 }

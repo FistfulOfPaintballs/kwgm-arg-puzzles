@@ -9,7 +9,9 @@
       "y": 171,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "2 - h - Queenofmylife_14.png",
@@ -20,7 +22,9 @@
       "y": 370,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "3 - s - daddyvita1.png",
@@ -31,7 +35,9 @@
       "y": 173,
       "scaleX": 0.843,
       "scaleY": 0.843,
-      "rotation": -0.545
+      "rotation": -0.545,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "4 - t - tylerkeifburr.png",
@@ -42,7 +48,9 @@
       "y": 353,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "5 - s - IvyJane.png",
@@ -53,7 +61,9 @@
       "y": 307,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "6 - W - Ginger.png",
@@ -64,7 +74,9 @@
       "y": 500,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "7 - m - punkusa20_2001.png",
@@ -75,7 +87,9 @@
       "y": 562,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "8 - t - hamdam samdler (EDKH).png",
@@ -86,7 +100,9 @@
       "y": 215,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "9 - i - lilysol.png",
@@ -97,7 +113,9 @@
       "y": 424,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "10 - a - Finnegan.png",
@@ -108,7 +126,9 @@
       "y": 168,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "11 - h - baerwithme.png",
@@ -119,7 +139,9 @@
       "y": 543,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "12 - i - DodgyDave.png",
@@ -130,7 +152,9 @@
       "y": 351,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "14 - s - Mallory.png",
@@ -141,7 +165,9 @@
       "y": 480,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "15 - t - k8.gr.png",
@@ -152,7 +178,9 @@
       "y": 293,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "16 - S - kaylnjordan.png",
@@ -163,7 +191,9 @@
       "y": 497,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "17 - S - Ninjaplacement.png",
@@ -174,7 +204,9 @@
       "y": 603,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "18 - H - NinjaPlacement.png",
@@ -185,7 +217,9 @@
       "y": 496,
       "scaleX": 0.858,
       "scaleY": 0.858,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "19 - e - AmazingEden.png",
@@ -196,7 +230,9 @@
       "y": 475,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "20 - o - AmazingEden.png",
@@ -207,7 +243,9 @@
       "y": 285,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "21 - t - TiGR3X_X.png",
@@ -218,7 +256,9 @@
       "y": 348,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "22 - R - Tigerslili.png",
@@ -229,7 +269,9 @@
       "y": 609,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "23 - t - Dropbox1.png",
@@ -240,7 +282,9 @@
       "y": 561,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "24 - u - Dropbox2.png",
@@ -251,7 +295,9 @@
       "y": 627,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "25 - o - Dropbox4.png",
@@ -262,7 +308,9 @@
       "y": 544,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "26 - c - Dropbox5.png",
@@ -273,7 +321,9 @@
       "y": 479,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "27 - h - WiPPLEJESUS.png",
@@ -284,7 +334,9 @@
       "y": 421,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "28 - t - Dropbox8.png",
@@ -295,7 +347,9 @@
       "y": 235,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "29 - i - Number 1 Dad.png",
@@ -306,7 +360,9 @@
       "y": 301,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "30 - f - Stumpyz.png",
@@ -317,7 +373,9 @@
       "y": 173,
       "scaleX": 0.843,
       "scaleY": 0.849,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "31 - p - michy.png",
@@ -328,7 +386,9 @@
       "y": 284,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "32 - i - Garage Wallaby.png",
@@ -339,7 +399,9 @@
       "y": 606,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "34 - n - rob.png",
@@ -350,7 +412,9 @@
       "y": 415,
       "scaleX": 1.013,
       "scaleY": 1.013,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "35 - o - rey-brooklyn.png",
@@ -361,7 +425,9 @@
       "y": 291,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "36 - c - Dropbox9.png",
@@ -372,7 +438,9 @@
       "y": 563,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "37 - f - Dropbox10.png",
@@ -383,7 +451,9 @@
       "y": 345,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "38 - l - Dropbox11.png",
@@ -394,7 +464,9 @@
       "y": 476,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "39 - o - Funuf.png",
@@ -405,7 +477,9 @@
       "y": 548,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "40 - a - josh.png",
@@ -416,7 +490,9 @@
       "y": 223,
       "scaleX": 1.163,
       "scaleY": 1.163,
-      "rotation": -0.507
+      "rotation": -0.507,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "41 - u - Keegeroni.png",
@@ -427,7 +503,9 @@
       "y": 431,
       "scaleX": 0.83,
       "scaleY": 0.84,
-      "rotation": -2.771
+      "rotation": -2.771,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "42 - w - Lavus.png",
@@ -438,7 +516,9 @@
       "y": 408,
       "scaleX": 1.226,
       "scaleY": 1.226,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "43 - w - StupidsUnited.png",
@@ -449,7 +529,9 @@
       "y": 219,
       "scaleX": 1.28,
       "scaleY": 1.272,
-      "rotation": 1.738
+      "rotation": 1.738,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "44 - e - PizzosCards.png",
@@ -460,7 +542,9 @@
       "y": 609,
       "scaleX": 0.906,
       "scaleY": 0.906,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "45 - t - MaximumGus.png",
@@ -471,7 +555,9 @@
       "y": 424,
       "scaleX": 0.99,
       "scaleY": 0.924,
-      "rotation": 4.07
+      "rotation": 4.07,
+      "offsetX_back": 0,
+      "offsetY_back": 0
     }
   ]
 }

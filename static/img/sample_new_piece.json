@@ -9,7 +9,9 @@
       "y": -1,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0,
+      "offsetX_back": 0,
+      "offsetY_back": 0
     }
   ]
 }
