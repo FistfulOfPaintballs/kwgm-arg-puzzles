@@ -39,6 +39,7 @@ var showTooltips = false
 var flipped = false
 
 var originalJson
+var exportJson
 var exportPiecesBelowY = 150 * scale
 
 function sleep(ms) {
@@ -85,6 +86,7 @@ function drawImage(imageObj, data) {
         height: height,
         draggable: true,
         name: 'puzzlepieceGroup',
+        filename: data['filename'],
     })
     var puzzlePieceImg = new Konva.Image({
         image: imageObj,
@@ -111,8 +113,6 @@ function drawImage(imageObj, data) {
         listening: false,
         visible: true,
     })
-
-    puzzlePieceImg.setAttr('filename', data['filename'])
 
     puzzlePieceGroup.add(puzzlePieceImg)
     puzzlePieceGroup.add(puzzlePieceText)
@@ -591,6 +591,7 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
 });
 
 async function doAFlip(e){
+    updateJson()
     flipped = !flipped
 
     if (!!flipped){
@@ -609,6 +610,14 @@ async function doAFlip(e){
         var usePuzzleBackAsset = false
         let group = puzzlePieces[i]
         if (group.y() > exportPiecesBelowY){
+            var originalData
+            for (let j in exportJson["pieces"]){
+               let piece = exportJson["pieces"][j]
+                if (piece["filename"] == group.getAttr("filename")){
+                    originalData = piece
+                }
+            }
+
             var nodes = group.getChildren(function(node){
                 return node.hasName('puzzlepiece')
             })
@@ -619,8 +628,8 @@ async function doAFlip(e){
             if (usePuzzleBackAsset){
                 console.log(puzzlePiece.getAttrs())
                 console.log(group.getAttrs())
+                console.log(`x: ${originalData["x"]}, y:${originalData["y"]}`)
                 console.log("---")
-
 
                 var filename
                 if (!!flipped){
@@ -640,7 +649,7 @@ async function doAFlip(e){
                 // Move the puzzle piece to the other side
                 group.setAttrs({
                     scaleX: group.scaleX(),
-                    x: (puzzleGrid.width() - (15 * scale)) - group.x(),
+                    x: (puzzleGrid.width() - (15 * scale)) - (originalData["x"] * scale),
                     rotation: (360 - group.rotation())
                 })
 
@@ -676,9 +685,8 @@ async function doAFlip(e){
     stage.fire('click')
 }
 
-document.getElementById("exportJson").addEventListener("click", function(e){
-    var exportJson = structuredClone(originalJson)
-
+function updateJson(){
+    exportJson = structuredClone(originalJson)
     var pieces = stage.find('.puzzlepiece')
     for (let i in pieces){
         let piece = pieces[i]
@@ -713,9 +721,11 @@ document.getElementById("exportJson").addEventListener("click", function(e){
                 }
             }
         }
-
     }
+}
 
+document.getElementById("exportJson").addEventListener("click", function(e){
+    updateJson()
     let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportJson, null, 2));
     let downloadAnchorNode = document.createElement('a');
     downloadAnchorNode.setAttribute("href",     dataStr);
