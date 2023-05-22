@@ -190,7 +190,7 @@
     {
       "filename": "18 - G - rhys.png",
       "username": "Rhys Caliban",
-      "letter": "G",
+      "letter": "G,",
       "location": "Atlanta, GA",
       "x": 309,
       "y": 293,
@@ -201,7 +201,7 @@
     {
       "filename": "19 - D - rhys.png",
       "username": "Rhys Caliban",
-      "letter": "D",
+      "letter": "'D",
       "location": "Atlanta, GA",
       "x": 331,
       "y": 502,
@@ -245,7 +245,7 @@
     {
       "filename": "23 - S - rhys.png",
       "username": "Rhys Caliban",
-      "letter": "S",
+      "letter": "'S",
       "location": "Atlanta, GA",
       "x": 561,
       "y": 302,
@@ -333,7 +333,7 @@
     {
       "filename": "31 - E - rhys.png",
       "username": "Rhys Caliban",
-      "letter": "E",
+      "letter": "E.",
       "location": "Atlanta, GA",
       "x": 32,
       "y": 610,
@@ -366,7 +366,7 @@
     {
       "filename": "33 - A - Ovan.png",
       "username": "Ovan",
-      "letter": "A",
+      "letter": "A'",
       "location": "Boston, MA",
       "x": 673,
       "y": 427,

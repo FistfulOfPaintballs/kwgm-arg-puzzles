@@ -127,6 +127,7 @@ function drawImage(imageObj, data) {
     let submittedBy = document.getElementById("submittedBy")
     let tooltipLocation = document.getElementById("location")
     let tooltipLetter = document.getElementById("letter")
+    let tooltipId = document.getElementById("pieceID")
     let tooltipCoords = document.getElementById("coords")
     let tooltipScaleXY = document.getElementById("scaleXY")
     let tooltipRotation = document.getElementById("rotation")
@@ -149,6 +150,10 @@ function drawImage(imageObj, data) {
             submittedBy.innerText = data['username'];
             tooltipLocation.innerText = data['location']
             tooltipLetter.innerText = data['letter'];
+
+            let puzzleID = data['filename'].split(" - ")[0]
+            tooltipId.innerText = puzzleID
+
             let x = Math.round(puzzlePieceImg.absolutePosition().x / scale)
             let y = Math.round(puzzlePieceImg.absolutePosition().y / scale)
             tooltipCoords.innerText = `(${x}, ${y})`
