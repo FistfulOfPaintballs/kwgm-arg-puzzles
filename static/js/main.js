@@ -41,6 +41,10 @@ var flipped = false
 var originalJson
 var exportPiecesBelowY = 150 * scale
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function getCurrentPuzzle(){
     const urlParams = new URLSearchParams(window.location.search);
     const puzzle = urlParams.get('puzzle')
@@ -583,6 +587,10 @@ document.getElementById("selectPuzzle").addEventListener("change", (event) => {
 });
 
 document.getElementById("flipButton").addEventListener("click", (e) => {
+    doAFlip(e)
+});
+
+async function doAFlip(e){
     flipped = !flipped
 
     if (!!flipped){
@@ -609,6 +617,11 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
             // Check to see if we have a puzzle _back asset
             usePuzzleBackAsset = puzzlePiece.getAttr("filename_back") !== ""
             if (usePuzzleBackAsset){
+                console.log(puzzlePiece.getAttrs())
+                console.log(group.getAttrs())
+                console.log("---")
+
+
                 var filename
                 if (!!flipped){
                     // Flip
@@ -620,13 +633,15 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
                     filename = puzzlePiece.getAttr("filename")
                 }
                 let src = `./static/img/${getCurrentPuzzle()}/${filename}`
+                // await sleep(1000)
                 puzzlePiece.clearCache()
                 puzzlePiece.image().src = src
 
                 // Move the puzzle piece to the other side
                 group.setAttrs({
                     scaleX: group.scaleX(),
-                    x: (puzzleGrid.width() + (60 * scale)) - group.x(),
+                    x: (puzzleGrid.width() - (15 * scale)) - group.x(),
+                    rotation: (360 - group.rotation())
                 })
 
                 // Hide the letter
@@ -657,7 +672,9 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
             }
         }
     }
-});
+    await sleep(200)
+    stage.fire('click')
+}
 
 document.getElementById("exportJson").addEventListener("click", function(e){
     var exportJson = structuredClone(originalJson)
