@@ -589,7 +589,6 @@ document.getElementById("flipButton").addEventListener("click", (e) => {
 });
 
 async function doAFlip(e){
-    updateJson()
     flipped = !flipped
 
     if (!!e){
@@ -612,8 +611,8 @@ async function doAFlip(e){
         let group = puzzlePieces[i]
         if (group.y() > exportPiecesBelowY){
             var originalData
-            for (let j in exportJson["pieces"]){
-               let piece = exportJson["pieces"][j]
+            for (let j in originalJson["pieces"]){
+               let piece = originalJson["pieces"][j]
                 if (piece["filename"] == group.getAttr("filename")){
                     originalData = piece
                 }
@@ -627,41 +626,46 @@ async function doAFlip(e){
             // Check to see if we have a puzzle _back asset
             usePuzzleBackAsset = puzzlePiece.getAttr("filename_back") !== ""
             if (usePuzzleBackAsset){
-                console.log(puzzlePiece.getAttrs())
-                console.log(group.getAttrs())
-                console.log(`x: ${originalData["x"]}, y:${originalData["y"]}`)
-                console.log("---")
-
                 var filename
+                var x = originalData["x"] * scale
+                var y = originalData["y"] * scale
+
                 if (!!flipped){
                     // Flip
-                    // console.log("flip")
                     filename = puzzlePiece.getAttr("filename_back")
+                    x = (puzzleGrid.width() - (15 * scale)) - group.x() + (originalData["offsetX_back"] * scale)
+                    y = group.y() + (originalData["offsetY_back"] * scale)
+
+                    // Hide the letter
+                    var nodes = group.getChildren(function(node){
+                        return node.hasName('letter')
+                    })
+                    var letter = nodes[0]
+                    letter.hide()
                 } else {
                     // Unflip
-                    // console.log("unflip")
                     filename = puzzlePiece.getAttr("filename")
+
+                    // Show the letter
+                    if (!!document.getElementById("showLetters").checked){
+                        var nodes = group.getChildren(function(node){
+                            return node.hasName('letter')
+                        })
+                        var letter = nodes[0]
+                        letter.show()
+                    }
                 }
                 let src = `./static/img/${getCurrentPuzzle()}/${filename}`
-                // await sleep(1000)
                 puzzlePiece.clearCache()
                 puzzlePiece.image().src = src
 
                 // Move the puzzle piece to the other side
                 group.setAttrs({
                     scaleX: group.scaleX(),
-                    x: (puzzleGrid.width() - (15 * scale)) - group.x() + (originalData["offsetX_back"] * scale),
-                    y: group.y() + (originalData["offsetY_back"] * scale),
+                    x: x,
+                    y: y,
                     rotation: (360 - group.rotation())
                 })
-
-                // Hide the letter
-                var nodes = group.getChildren(function(node){
-                    return node.hasName('letter')
-                })
-                var letter = nodes[0]
-                letter.hide()
-
             } else {
                 // Move the piece to the other side and mirror its rotation
                 group.setAttrs({
@@ -687,7 +691,7 @@ async function doAFlip(e){
     stage.fire('click')
 }
 
-function updateJson(){
+document.getElementById("exportJson").addEventListener("click", function(e){
     exportJson = structuredClone(originalJson)
     var pieces = stage.find('.puzzlepiece')
     for (let i in pieces){
@@ -724,10 +728,7 @@ function updateJson(){
             }
         }
     }
-}
 
-document.getElementById("exportJson").addEventListener("click", function(e){
-    updateJson()
     let dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportJson, null, 2));
     let downloadAnchorNode = document.createElement('a');
     downloadAnchorNode.setAttribute("href",     dataStr);
