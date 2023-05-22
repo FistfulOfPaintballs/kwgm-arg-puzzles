@@ -434,10 +434,10 @@
       "username": "Lavus",
       "letter": "w",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 158,
+      "y": 408,
+      "scaleX": 1.226,
+      "scaleY": 1.226,
       "rotation": 0
     },
     {
@@ -467,11 +467,11 @@
       "username": "MaximumGus",
       "letter": "t",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 212,
+      "y": 424,
+      "scaleX": 0.99,
+      "scaleY": 0.924,
+      "rotation": 4.07
     }
   ]
 }
