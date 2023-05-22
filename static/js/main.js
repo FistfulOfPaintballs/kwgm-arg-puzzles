@@ -52,18 +52,26 @@ function getCurrentPuzzle(){
 
 document.addEventListener("DOMContentLoaded", () => {
     const puzzle = getCurrentPuzzle()
-    if (!!puzzle){
+    if (!!puzzle) {
         let options = document.getElementById('puzzleDropdown').options;
         for (let i in options) {
-            if (options[i].value===puzzle) {
-                options[i].selected= true;
+            if (options[i].value === puzzle) {
+                options[i].selected = true;
                 break;
             }
         }
     }
+
+    let tooltipMetadata = document.getElementById('tooltip-metadata')
+    if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+        tooltipMetadata.style.display = 'initial'
+    } else {
+        tooltipMetadata.style.display = 'none'
+    }
+
 });
 
-function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotation, filename) {
+function drawImage(imageObj, data) {
     let width = imageObj.width * puzzlePieceScaleFactor
     let height = imageObj.height * puzzlePieceScaleFactor
     let fontSize = (20 * scale)
@@ -81,7 +89,7 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
         name: 'puzzlepiece',
     });
     var puzzlePieceText = new Konva.Text({
-        text: letter,
+        text: data['letter'],
         fontSize: fontSize,
         fontFamily: 'Dutch811',
         fill: '#FFFFFF',
@@ -98,18 +106,18 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
         visible: true,
     })
 
-    puzzlePieceImg.setAttr('filename', filename)
+    puzzlePieceImg.setAttr('filename', data['filename'])
 
     puzzlePieceGroup.add(puzzlePieceImg)
     puzzlePieceGroup.add(puzzlePieceText)
 
-    if (scaleX !== 1 || scaleY !== 1){
-        puzzlePieceGroup.scale({x: scaleX, y: scaleY})
-        puzzlePieceText.scale({x: 1/scaleX, y: 1/scaleY})
+    if (data['scaleX'] !== 1 || data['scaleY'] !== 1){
+        puzzlePieceGroup.scale({x: data['scaleX'], y: data['scaleY']})
+        puzzlePieceText.scale({x: 1/data['scaleX'], y: 1/data['scaleY']})
     }
-    if (rotation !== 0) {
-        puzzlePieceGroup.rotate(rotation)
-        puzzlePieceText.rotate(-rotation)
+    if (data['rotation'] !== 0) {
+        puzzlePieceGroup.rotate(data['rotation'])
+        puzzlePieceText.rotate(-data['rotation'])
     }
 
     puzzlePieces.push(puzzlePieceGroup)
@@ -138,9 +146,9 @@ function drawImage(imageObj, letter, username, location, scaleX, scaleY, rotatio
             tooltip.style.display = 'initial';
             tooltip.style.top = containerRect.top + puzzlePieceImg.absolutePosition().y + (puzzlePieceImg.height() / 2) + 'px'
             tooltip.style.left = containerRect.left + puzzlePieceImg.absolutePosition().x + (puzzlePieceImg.width() / 2) + 'px'
-            submittedBy.innerText = username;
-            tooltipLocation.innerText = location
-            tooltipLetter.innerText = letter;
+            submittedBy.innerText = data['username'];
+            tooltipLocation.innerText = data['location']
+            tooltipLetter.innerText = data['letter'];
             let x = Math.round(puzzlePieceImg.absolutePosition().x / scale)
             let y = Math.round(puzzlePieceImg.absolutePosition().y / scale)
             tooltipCoords.innerText = `(${x}, ${y})`
@@ -319,7 +327,7 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
 
                 var puzzlePieceObj = new Image();
                 puzzlePieceObj.onload = function() {
-                    let puzzlePieceImg = drawImage(this, letter, username, location, scaleX, scaleY, rotation, filename);
+                    let puzzlePieceImg = drawImage(this, pieces[p]);
                     if (x === -1 || y === -1){
                         // No position listed (unmatched piece)
                         let imgWidth = puzzlePieceImg.attrs.width
