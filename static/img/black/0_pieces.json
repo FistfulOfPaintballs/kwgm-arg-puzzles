@@ -10,7 +10,9 @@
       "y": 419,
       "scaleX": 0.871,
       "scaleY": 0.927,
-      "rotation": -3.858
+      "rotation": -3.858,
+      "offsetX_back": 0,
+      "offsetY_back": 0
     },
     {
       "filename": "2 - O - rhys.png",
@@ -22,7 +24,9 @@
       "y": 223,
       "scaleX": 0.944,
       "scaleY": 0.944,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 15,
+      "offsetY_back": 0
     },
     {
       "filename": "3 - I - rhys.png",
@@ -34,7 +38,9 @@
       "y": 611,
       "scaleX": 0.934,
       "scaleY": 0.981,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "4 - N - rhys.png",
@@ -46,7 +52,9 @@
       "y": 613,
       "scaleX": 0.828,
       "scaleY": 0.87,
-      "rotation": -0.527
+      "rotation": -0.527, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "5 - S - rhys.png",
@@ -58,7 +66,9 @@
       "y": 432,
       "scaleX": 0.933,
       "scaleY": 0.933,
-      "rotation": -2.579
+      "rotation": -2.579, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "6 - N - rhys.png",
@@ -70,7 +80,9 @@
       "y": 479,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": -3.241
+      "rotation": -3.241, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "7 - W - rhys.png",
@@ -82,7 +94,9 @@
       "y": 286,
       "scaleX": 0.774,
       "scaleY": 0.774,
-      "rotation": -0.941
+      "rotation": -0.941, 
+      "offsetX_back": -7,
+      "offsetY_back": 0
     },
     {
       "filename": "8 - R - rhys.png",
@@ -94,7 +108,9 @@
       "y": 607,
       "scaleX": 1.025,
       "scaleY": 1.025,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "9 - O - rhys.png",
@@ -106,7 +122,9 @@
       "y": 541,
       "scaleX": 0.883,
       "scaleY": 0.951,
-      "rotation": -0.961
+      "rotation": -0.961, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "10 - H - rhys.png",
@@ -118,7 +136,9 @@
       "y": 311,
       "scaleX": 0.798,
       "scaleY": 0.711,
-      "rotation": 0.596
+      "rotation": 0.596, 
+      "offsetX_back": -25,
+      "offsetY_back": 0
     },
     {
       "filename": "11 - G - rhys.png",
@@ -130,7 +150,9 @@
       "y": 549,
       "scaleX": 0.825,
       "scaleY": 0.875,
-      "rotation": -3.026
+      "rotation": -3.026, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "12 - O - rhys.png",
@@ -142,7 +164,9 @@
       "y": 342,
       "scaleX": 0.982,
       "scaleY": 0.982,
-      "rotation": 0.433
+      "rotation": 0.433, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "13 - N - rhys.png",
@@ -154,7 +178,9 @@
       "y": 407,
       "scaleX": 0.924,
       "scaleY": 0.907,
-      "rotation": 0.548
+      "rotation": 0.548, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "14 - I - rhys.png",
@@ -166,7 +192,9 @@
       "y": 427,
       "scaleX": 0.816,
       "scaleY": 0.816,
-      "rotation": -1.203
+      "rotation": -1.203, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "15 - V - rhys.png",
@@ -178,7 +206,9 @@
       "y": 565,
       "scaleX": 1.014,
       "scaleY": 1.089,
-      "rotation": 2.485
+      "rotation": 2.485, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "16 - G - rhys.png",
@@ -190,7 +220,9 @@
       "y": 170,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": -8,
+      "offsetY_back": 0
     },
     {
       "filename": "17 - F - rhys.png",
@@ -202,7 +234,9 @@
       "y": 629,
       "scaleX": 0.754,
       "scaleY": 0.792,
-      "rotation": -0.004
+      "rotation": -0.004, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "18 - G - rhys.png",
@@ -214,7 +248,9 @@
       "y": 293,
       "scaleX": 0.83,
       "scaleY": 0.928,
-      "rotation": -2.481
+      "rotation": -2.481, 
+      "offsetX_back": -9,
+      "offsetY_back": 0
     },
     {
       "filename": "19 - D - rhys.png",
@@ -226,7 +262,9 @@
       "y": 502,
       "scaleX": 0.968,
       "scaleY": 0.968,
-      "rotation": -1.881
+      "rotation": -1.881, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "20 - T - rhys.png",
@@ -238,7 +276,9 @@
       "y": 219,
       "scaleX": 0.926,
       "scaleY": 0.926,
-      "rotation": -0.941
+      "rotation": -0.941, 
+      "offsetX_back": -9,
+      "offsetY_back": 0
     },
     {
       "filename": "21 - T - rhys.png",
@@ -250,7 +290,9 @@
       "y": 624,
       "scaleX": 0.81,
       "scaleY": 0.85,
-      "rotation": 2.145
+      "rotation": 2.145, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "22 - I - rhys.png",
@@ -262,7 +304,9 @@
       "y": 219,
       "scaleX": 0.984,
       "scaleY": 0.984,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 10,
+      "offsetY_back": 0
     },
     {
       "filename": "23 - S - rhys.png",
@@ -274,7 +318,9 @@
       "y": 302,
       "scaleX": 0.926,
       "scaleY": 0.926,
-      "rotation": -0.941
+      "rotation": -0.941, 
+      "offsetX_back": -13,
+      "offsetY_back": 0
     },
     {
       "filename": "24 - W - rhys.png",
@@ -286,7 +332,9 @@
       "y": 358,
       "scaleX": 0.906,
       "scaleY": 0.906,
-      "rotation": -5.906
+      "rotation": -5.906, 
+      "offsetX_back": 3,
+      "offsetY_back": -9
     },
     {
       "filename": "25 - F - rhys.png",
@@ -298,7 +346,9 @@
       "y": 173,
       "scaleX": 0.863,
       "scaleY": 0.85,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": -16,
+      "offsetY_back": 0
     },
     {
       "filename": "26 - D - rhys.png",
@@ -310,7 +360,9 @@
       "y": 283,
       "scaleX": 0.946,
       "scaleY": 0.946,
-      "rotation": -0.941
+      "rotation": -0.941, 
+      "offsetX_back": 8,
+      "offsetY_back": 0
     },
     {
       "filename": "27 - R - rhys.png",
@@ -322,7 +374,9 @@
       "y": 171,
       "scaleX": 0.955,
       "scaleY": 1.093,
-      "rotation": 0.015
+      "rotation": 0.015, 
+      "offsetX_back": -4,
+      "offsetY_back": 0
     },
     {
       "filename": "28 - E - rhys.png",
@@ -334,7 +388,9 @@
       "y": 559,
       "scaleX": 1.202,
       "scaleY": 1.202,
-      "rotation": 4.686
+      "rotation": 4.686, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "29 - T - rhys.png",
@@ -346,7 +402,9 @@
       "y": 605,
       "scaleX": 1.039,
       "scaleY": 1.039,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "30 - N - rhys.png",
@@ -358,7 +416,9 @@
       "y": 309,
       "scaleX": 0.822,
       "scaleY": 0.822,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": -5,
+      "offsetY_back": 0
     },
     {
       "filename": "31 - E - rhys.png",
@@ -370,7 +430,9 @@
       "y": 610,
       "scaleX": 0.889,
       "scaleY": 0.889,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "32 - I - rhys.png",
@@ -382,7 +444,9 @@
       "y": 500,
       "scaleX": 0.929,
       "scaleY": 0.991,
-      "rotation": 2.249
+      "rotation": 2.249, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "33 - A - Ovan.png",
@@ -394,7 +458,9 @@
       "y": 427,
       "scaleX": 1.025,
       "scaleY": 0.999,
-      "rotation": 1.167
+      "rotation": 1.167, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "34 - A - Ovan.png",
@@ -406,7 +472,9 @@
       "y": 169,
       "scaleX": 0.84,
       "scaleY": 0.84,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": -24,
+      "offsetY_back": 0
     },
     {
       "filename": "35 - A - Ovan.png",
@@ -418,7 +486,9 @@
       "y": 236,
       "scaleX": 0.742,
       "scaleY": 0.691,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": -23,
+      "offsetY_back": 0
     },
     {
       "filename": "36 - A - Ovan.png",
@@ -430,7 +500,9 @@
       "y": 484,
       "scaleX": 0.845,
       "scaleY": 0.878,
-      "rotation": -0.918
+      "rotation": -0.918, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "37 - A - Ovan.png",
@@ -442,7 +514,9 @@
       "y": 424,
       "scaleX": 0.884,
       "scaleY": 0.884,
-      "rotation": 2.827
+      "rotation": 2.827, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "38 - B - Ovan.png",
@@ -454,7 +528,9 @@
       "y": 223,
       "scaleX": 0.914,
       "scaleY": 0.914,
-      "rotation": 2.16
+      "rotation": 2.16, 
+      "offsetX_back": -10,
+      "offsetY_back": 0
     },
     {
       "filename": "39 - C - Ovan.png",
@@ -466,7 +542,9 @@
       "y": 174,
       "scaleX": 0.659,
       "scaleY": 0.659,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": -14,
+      "offsetY_back": 0
     },
     {
       "filename": "40 - E - Ovan.png",
@@ -478,7 +556,9 @@
       "y": 171,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0.927
+      "rotation": 0.927, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "41 - E - Ovan.png",
@@ -490,7 +570,9 @@
       "y": 427,
       "scaleX": 0.948,
       "scaleY": 0.995,
-      "rotation": -2.51
+      "rotation": -2.51, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "42 - E - Ovan.png",
@@ -502,7 +584,9 @@
       "y": 632,
       "scaleX": 0.78,
       "scaleY": 0.762,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "43 - E - Ovan.png",
@@ -514,7 +598,9 @@
       "y": 290,
       "scaleX": 0.801,
       "scaleY": 0.801,
-      "rotation": 0.406
+      "rotation": 0.406, 
+      "offsetX_back": 5,
+      "offsetY_back": 0
     },
     {
       "filename": "44 - I - Ovan.png",
@@ -526,7 +612,9 @@
       "y": 302,
       "scaleX": 0.841,
       "scaleY": 0.841,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": -16,
+      "offsetY_back": 0
     },
     {
       "filename": "45 - K - Ovan.png",
@@ -538,7 +626,9 @@
       "y": 492,
       "scaleX": 0.799,
       "scaleY": 0.835,
-      "rotation": 5.009
+      "rotation": 5.009, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "46 - L - Ovan.png",
@@ -550,7 +640,9 @@
       "y": 168,
       "scaleX": 0.935,
       "scaleY": 0.935,
-      "rotation": 1.314
+      "rotation": 1.314, 
+      "offsetX_back": 9,
+      "offsetY_back": 0
     },
     {
       "filename": "47 - N - Ovan.png",
@@ -562,7 +654,9 @@
       "y": 235,
       "scaleX": 0.828,
       "scaleY": 0.837,
-      "rotation": 3.169
+      "rotation": 3.169, 
+      "offsetX_back": -9,
+      "offsetY_back": 0
     },
     {
       "filename": "48 - N - Ovan.png",
@@ -574,7 +668,9 @@
       "y": 225,
       "scaleX": 0.956,
       "scaleY": 0.956,
-      "rotation": -3.016
+      "rotation": -3.016, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "49 - N - Ovan.png",
@@ -586,7 +682,9 @@
       "y": 173,
       "scaleX": 0.833,
       "scaleY": 0.856,
-      "rotation": 1.127
+      "rotation": 1.127, 
+      "offsetX_back": -17,
+      "offsetY_back": 0
     },
     {
       "filename": "50 - N - Ovan.png",
@@ -598,7 +696,9 @@
       "y": 629,
       "scaleX": 0.826,
       "scaleY": 0.901,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "51 - N - Ovan.png",
@@ -610,7 +710,9 @@
       "y": 218,
       "scaleX": 0.804,
       "scaleY": 0.804,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "52 - N - Ovan.png",
@@ -622,7 +724,9 @@
       "y": 488,
       "scaleX": 0.832,
       "scaleY": 0.885,
-      "rotation": -1.994
+      "rotation": -1.994, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "53 - N - Ovan.png",
@@ -634,7 +738,9 @@
       "y": 288,
       "scaleX": 0.95,
       "scaleY": 0.95,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": -13,
+      "offsetY_back": 0
     },
     {
       "filename": "54 - O - Ovan.png",
@@ -646,7 +752,9 @@
       "y": 172,
       "scaleX": 0.96,
       "scaleY": 0.938,
-      "rotation": -0.534
+      "rotation": -0.534, 
+      "offsetX_back": -5,
+      "offsetY_back": 0
     },
     {
       "filename": "55 - O - Ovan.png",
@@ -658,7 +766,9 @@
       "y": 421,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "56 - O - Ovan.png",
@@ -670,7 +780,9 @@
       "y": 563,
       "scaleX": 0.932,
       "scaleY": 1,
-      "rotation": 1.141
+      "rotation": 1.141, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "57 - R - Ovan.png",
@@ -682,7 +794,9 @@
       "y": 499,
       "scaleX": 0.826,
       "scaleY": 0.826,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "58 - R - Ovan.png",
@@ -694,7 +808,9 @@
       "y": 174,
       "scaleX": 0.844,
       "scaleY": 0.844,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 1,
+      "offsetY_back": 0
     },
     {
       "filename": "59 - T - Ovan.png",
@@ -706,7 +822,9 @@
       "y": 364,
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": -27,
+      "offsetY_back": 0
     },
     {
       "filename": "60 - T - Ovan.png",
@@ -718,7 +836,9 @@
       "y": 546,
       "scaleX": 0.765,
       "scaleY": 0.8,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "61 - U - Ovan.png",
@@ -730,7 +850,9 @@
       "y": 498,
       "scaleX": 0.653,
       "scaleY": 0.653,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 2,
+      "offsetY_back": 0
     },
     {
       "filename": "62 - U - Ovan.png",
@@ -742,7 +864,9 @@
       "y": 349,
       "scaleX": 0.895,
       "scaleY": 0.895,
-      "rotation": 2.361
+      "rotation": 2.361, 
+      "offsetX_back": -11,
+      "offsetY_back": 0
     },
     {
       "filename": "63 - W - Ovan.png",
@@ -754,7 +878,9 @@
       "y": 562,
       "scaleX": 0.957,
       "scaleY": 0.957,
-      "rotation": 0
+      "rotation": 0, 
+      "offsetX_back": 0, 
+      "offsetY_back": 0
     },
     {
       "filename": "64 - Y - Ovan.png",
@@ -766,7 +892,9 @@
       "y": 221,
       "scaleX": 0.874,
       "scaleY": 0.874,
-      "rotation": -1.417
+      "rotation": -1.417,
+      "offsetX_back": 0,
+      "offsetY_back": 0
     }
   ]
 }

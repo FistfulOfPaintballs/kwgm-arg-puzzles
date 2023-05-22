@@ -73,7 +73,6 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
         tooltipMetadata.style.display = 'none'
     }
-
 });
 
 function drawImage(imageObj, data) {
@@ -291,7 +290,6 @@ function drawInstructions(){
             helpMenu.style.display = 'none';
         }
     })
-
 }
 
 // Add selection rectangle
@@ -594,11 +592,14 @@ async function doAFlip(e){
     updateJson()
     flipped = !flipped
 
-    if (!!flipped){
-        e.target.innerText = "Unflip"
-    } else {
-        e.target.innerText = "Flip"
+    if (!!e){
+        if (!!flipped){
+            e.target.innerText = "Unflip"
+        } else {
+            e.target.innerText = "Flip"
+        }
     }
+
 
     puzzleGrid.setAttrs({
         offsetX: flipped? puzzleGrid.width() : 0,
@@ -649,7 +650,8 @@ async function doAFlip(e){
                 // Move the puzzle piece to the other side
                 group.setAttrs({
                     scaleX: group.scaleX(),
-                    x: (puzzleGrid.width() - (15 * scale)) - (originalData["x"] * scale),
+                    x: (puzzleGrid.width() - (15 * scale)) - group.x() + (originalData["offsetX_back"] * scale),
+                    y: group.y() + (originalData["offsetY_back"] * scale),
                     rotation: (360 - group.rotation())
                 })
 
