@@ -412,11 +412,11 @@
       "username": "Secret Izzy",
       "letter": "g",
       "location": "Burlington, VT",
-      "x": 438,
+      "x": 440,
       "y": 624,
-      "scaleX": 0.787,
+      "scaleX": 0.744,
       "scaleY": 0.841,
-      "rotation": -0.008
+      "rotation": -1.036
     },
     {
       "filename": "39 - o - SecretIzzy.png",
@@ -454,7 +454,7 @@
     {
       "filename": "42 - n - SecretIzzy.png",
       "username": "Secret Izzy",
-      "letter": "n",
+      "letter": "n.",
       "location": "Burlington, VT",
       "x": 389,
       "y": 221,
@@ -467,11 +467,11 @@
       "username": "Secret Izzy",
       "letter": "o",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 381,
+      "y": 415,
+      "scaleX": 0.992,
+      "scaleY": 0.991,
+      "rotation": 2.198
     },
     {
       "filename": "44 - a - SecretIzzy.png",
@@ -498,13 +498,13 @@
     {
       "filename": "46 - d - SecretIzzy.png",
       "username": "Secret Izzy",
-      "letter": "d",
+      "letter": "d-",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 320,
+      "y": 563,
+      "scaleX": 0.826,
+      "scaleY": 0.826,
+      "rotation": -1.281
     },
     {
       "filename": "47 - f - SecretIzzy.png",
@@ -586,12 +586,12 @@
     {
       "filename": "54 - y - SecretIzzy.png",
       "username": "Secret Izzy",
-      "letter": "y",
+      "letter": "y.",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 29,
+      "y": 605,
+      "scaleX": 0.944,
+      "scaleY": 0.944,
       "rotation": 0
     },
     {
@@ -599,11 +599,11 @@
       "username": "Secret Izzy",
       "letter": "i",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
+      "x": 403,
+      "y": 606,
+      "scaleX": 0.804,
       "scaleY": 1,
-      "rotation": 0
+      "rotation": -2.292
     },
     {
       "filename": "56 - t - SecretIzzy.png",
@@ -628,9 +628,9 @@
       "rotation": 0
     },
     {
-      "filename": "58 - q - SecretIzzy.png",
+      "filename": "58 - b - SecretIzzy.png",
       "username": "Secret Izzy",
-      "letter": "q",
+      "letter": "b",
       "location": "Burlington, VT",
       "x": -1,
       "y": -1,
