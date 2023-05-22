@@ -27,10 +27,10 @@
       "username": "Ekin & The Zombies",
       "letter": "r",
       "location": "New York City, NY",
-      "x": 272,
-      "y": 293,
-      "scaleX": 0.911,
-      "scaleY": 0.911,
+      "x": 270,
+      "y": 289,
+      "scaleX": 0.949,
+      "scaleY": 0.949,
       "rotation": -1.316
     },
     {
@@ -115,7 +115,7 @@
       "username": "Ekin & The Zombies",
       "letter": "l",
       "location": "New York City, NY",
-      "x": 373,
+      "x": 374,
       "y": 287,
       "scaleX": 0.924,
       "scaleY": 1.007,
@@ -148,7 +148,7 @@
       "username": "Ekin & The Zombies",
       "letter": "r",
       "location": "New York City, NY",
-      "x": 628,
+      "x": 629,
       "y": 171,
       "scaleX": 0.89,
       "scaleY": 0.862,
@@ -258,8 +258,8 @@
       "username": "Ekin & The Zombies",
       "letter": "t",
       "location": "New York City, NY",
-      "x": 627,
-      "y": 410,
+      "x": 628,
+      "y": 409,
       "scaleX": 0.978,
       "scaleY": 0.978,
       "rotation": -2.834
@@ -354,24 +354,24 @@
     },
     {
       "filename": "33 - e - SecretIzzy.png",
-      "username":"Secret Izzy",
-      "letter":"e",
-      "location":"Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY":1,
-      "rotation":0
+      "username": "Secret Izzy",
+      "letter": "e",
+      "location": "Burlington, VT",
+      "x": 281,
+      "y": 604,
+      "scaleX": 0.902,
+      "scaleY": 0.902,
+      "rotation": 0
     },
     {
       "filename": "34 - n - SecretIzzy.png",
       "username": "Secret Izzy",
       "letter": "n",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 487,
+      "y": 170,
+      "scaleX": 0.779,
+      "scaleY": 0.779,
       "rotation": 0
     },
     {
@@ -390,10 +390,10 @@
       "username": "Secret Izzy",
       "letter": "n",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 141,
+      "y": 367,
+      "scaleX": 0.774,
+      "scaleY": 0.774,
       "rotation": 0
     },
     {
@@ -401,10 +401,10 @@
       "username": "Secret Izzy",
       "letter": "y",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 199,
+      "y": 307,
+      "scaleX": 0.853,
+      "scaleY": 0.853,
       "rotation": 0
     },
     {
@@ -412,11 +412,11 @@
       "username": "Secret Izzy",
       "letter": "g",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 438,
+      "y": 624,
+      "scaleX": 0.787,
+      "scaleY": 0.841,
+      "rotation": -0.008
     },
     {
       "filename": "39 - o - SecretIzzy.png",
@@ -445,21 +445,21 @@
       "username": "Secret Izzy",
       "letter": "l",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 34,
+      "y": 423,
+      "scaleX": 0.959,
+      "scaleY": 0.989,
+      "rotation": 1.032
     },
     {
       "filename": "42 - n - SecretIzzy.png",
       "username": "Secret Izzy",
       "letter": "n",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 389,
+      "y": 221,
+      "scaleX": 0.909,
+      "scaleY": 0.909,
       "rotation": 0
     },
     {
@@ -478,10 +478,10 @@
       "username": "Secret Izzy",
       "letter": "a",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 376,
+      "y": 172,
+      "scaleX": 0.919,
+      "scaleY": 0.919,
       "rotation": 0
     },
     {
@@ -511,11 +511,11 @@
       "username": "Secret Izzy",
       "letter": "f",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 252,
+      "y": 370,
+      "scaleX": 0.984,
+      "scaleY": 0.984,
+      "rotation": -1.11
     },
     {
       "filename": "48 - e - SecretIzzy.png",
@@ -533,11 +533,11 @@
       "username": "Secret Izzy",
       "letter": "t",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 76,
+      "y": 349,
+      "scaleX": 0.906,
+      "scaleY": 0.906,
+      "rotation": 2.855
     },
     {
       "filename": "50 - u - SecretIzzy.png",
@@ -555,32 +555,32 @@
       "username": "Secret Izzy",
       "letter": "e",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 250,
+      "y": 237,
+      "scaleX": 0.928,
+      "scaleY": 0.928,
+      "rotation": 2.088
     },
     {
       "filename": "52 - n - SecretIzzy.png",
       "username": "Secret Izzy",
       "letter": "n",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 621,
+      "y": 612,
+      "scaleX": 0.834,
+      "scaleY": 0.933,
+      "rotation": 1.022
     },
     {
       "filename": "53 - l - SecretIzzy.png",
       "username": "Secret Izzy",
       "letter": "l",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 32,
+      "y": 562,
+      "scaleX": 0.918,
+      "scaleY": 0.918,
       "rotation": 0
     },
     {
@@ -610,11 +610,11 @@
       "username": "Secret Izzy",
       "letter": "t",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 91,
+      "y": 171,
+      "scaleX": 0.827,
+      "scaleY": 0.94,
+      "rotation": 1.589
     },
     {
       "filename": "57 - o - SecretIzzy.png",
@@ -643,10 +643,10 @@
       "username": "Secret Izzy",
       "letter": "k",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 70,
+      "y": 222,
+      "scaleX": 0.947,
+      "scaleY": 1.002,
       "rotation": 0
     },
     {
@@ -665,10 +665,10 @@
       "username": "Secret Izzy",
       "letter": "o",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 32,
+      "y": 171,
+      "scaleX": 0.897,
+      "scaleY": 0.897,
       "rotation": 0
     },
     {
@@ -676,11 +676,11 @@
       "username": "Secret Izzy",
       "letter": "w",
       "location": "Burlington, VT",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0
+      "x": 152,
+      "y": 605,
+      "scaleX": 0.88,
+      "scaleY": 0.903,
+      "rotation": -1.352
     },
     {
       "filename": "63 - u - SecretIzzy.png",
