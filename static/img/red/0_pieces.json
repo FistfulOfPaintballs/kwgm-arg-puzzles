@@ -600,6 +600,20 @@
       "rotation": 4.07,
       "offsetX_back": -16,
       "offsetY_back": 7
+    },
+    {
+      "filename": "46 - e - Ekin.png",
+      "filename_back": "46 - e - Ekin_back.png",
+      "username": "Ekin & The Zombies",
+      "letter": "e",
+      "location": "New York City, NY",
+      "x": 73,
+      "y": 229,
+      "scaleX": 1.061,
+      "scaleY": 1.053,
+      "rotation": 0,
+      "offsetX_back": -9,
+      "offsetY_back": 0
     }
   ]
 }
