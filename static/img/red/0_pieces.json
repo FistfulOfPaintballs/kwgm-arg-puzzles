@@ -649,12 +649,12 @@
       "username": "Dropbox User",
       "letter": "y",
       "location": "Toronto, ON",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 94,
+      "y": 536,
+      "scaleX": 1.081,
+      "scaleY": 1.122,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 4,
       "offsetY_back": 0
     },
     {
@@ -663,13 +663,13 @@
       "username": "TheOfficialBacon",
       "letter": "a",
       "location": "Toronto, ON",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
-      "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "x": 552,
+      "y": 213,
+      "scaleX": 1.241,
+      "scaleY": 1.241,
+      "rotation": 2.312,
+      "offsetX_back": -9,
+      "offsetY_back": 4
     }
   ]
 }
