@@ -642,6 +642,34 @@
       "rotation": 0,
       "offsetX_back": -10,
       "offsetY_back": 0
+    },
+    {
+      "filename": "49 - y - Dropbox.png",
+      "filename_back": "49 - y - Dropbox_back.png",
+      "username": "Dropbox User",
+      "letter": "y",
+      "location": "Toronto, ON",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "offsetX_back": 0,
+      "offsetY_back": 0
+    },
+    {
+      "filename": "50 - a - TheOfficialBacon.png",
+      "filename_back": "50 - a - TheOfficialBacon_back.png",
+      "username": "TheOfficialBacon",
+      "letter": "a",
+      "location": "Toronto, ON",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "offsetX_back": 0,
+      "offsetY_back": 0
     }
   ]
 }
