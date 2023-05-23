@@ -614,6 +614,34 @@
       "rotation": 0,
       "offsetX_back": -9,
       "offsetY_back": 0
+    },
+    {
+      "filename": "47 - p - BlackBeltLucas.png",
+      "filename_back": "47 - p - BlackBeltLucas_back.png",
+      "username": "BlackBeltLucas",
+      "letter": "p",
+      "location": "Toronto, ON",
+      "x": 214,
+      "y": 222,
+      "scaleX": 0.926,
+      "scaleY": 0.926,
+      "rotation": 0,
+      "offsetX_back": 16,
+      "offsetY_back": 0
+    },
+    {
+      "filename": "48 - l - BlackBeltLucas.png",
+      "filename_back": "48 - l - BlackBeltLucas_back.png",
+      "username": "BlackBeltLucas",
+      "letter": "l",
+      "location": "Toronto, ON",
+      "x": 557,
+      "y": 625,
+      "scaleX": 1.11,
+      "scaleY": 1.145,
+      "rotation": 0,
+      "offsetX_back": -10,
+      "offsetY_back": 0
     }
   ]
 }
