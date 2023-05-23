@@ -11,12 +11,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -5.79622641509434,
+      "offsetY_back": 1
     },
     {
       "filename": "2 - h - Queenofmylife_14.png",
-      "filename_back":  "2 - h - Queenofmylife_14_back.png",
+      "filename_back": "2 - h - Queenofmylife_14_back.png",
       "username": "Queenofmylife_14",
       "letter": "h",
       "location": "Portland, OR",
@@ -30,7 +30,7 @@
     },
     {
       "filename": "3 - s - daddyvita1.png",
-      "filename_back":  "3 - s - daddyvita1_back.png",
+      "filename_back": "3 - s - daddyvita1_back.png",
       "username": "daddyvita1",
       "letter": "s",
       "location": "Seattle, WA",
@@ -39,12 +39,12 @@
       "scaleX": 0.843,
       "scaleY": 0.843,
       "rotation": -0.545,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -11.59245283018868,
+      "offsetY_back": 1
     },
     {
       "filename": "4 - t - tylerkeifburr.png",
-      "filename_back":  "4 - t - tylerkeifburr_back.png",
+      "filename_back": "4 - t - tylerkeifburr_back.png",
       "username": "tylerkeifburr",
       "letter": "t",
       "location": "Los Angeles, CA",
@@ -53,12 +53,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -15.939622641509434,
       "offsetY_back": 0
     },
     {
       "filename": "5 - s - IvyJane.png",
-      "filename_back":  "5 - s - IvyJane_back.png",
+      "filename_back": "5 - s - IvyJane_back.png",
       "username": "IvyJane",
       "letter": "s",
       "location": "Los Angeles, CA",
@@ -67,12 +67,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -6.520754716981132,
+      "offsetY_back": 1
     },
     {
       "filename": "6 - W - Ginger.png",
-      "filename_back":  "6 - W - Ginger_back.png",
+      "filename_back": "6 - W - Ginger_back.png",
       "username": "Ginger",
       "letter": "w",
       "location": "San Francisco, CA",
@@ -81,12 +81,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -18.11320754716981,
       "offsetY_back": 0
     },
     {
       "filename": "7 - m - punkusa20_2001.png",
-      "filename_back":  "7 - m - punkusa20_2001_back.png",
+      "filename_back": "7 - m - punkusa20_2001_back.png",
       "username": "punkusa20_2001",
       "letter": "m",
       "location": "Albuquerque, NM",
@@ -95,12 +95,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -30.430188679245283,
       "offsetY_back": 0
     },
     {
       "filename": "8 - t - hamdam samdler (EDKH).png",
-      "filename_back":  "8 - t - hamdam samdler (EDKH)_back.png",
+      "filename_back": "8 - t - hamdam samdler (EDKH)_back.png",
       "username": "hamdam samdler (EDKH)",
       "letter": "t",
       "location": "Albuquerque, NM",
@@ -109,12 +109,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 9.418867924528302,
       "offsetY_back": 0
     },
     {
       "filename": "9 - i - lilysol.png",
-      "filename_back":  "9 - i - lilysol_back.png",
+      "filename_back": "9 - i - lilysol_back.png",
       "username": "lilysol",
       "letter": "i",
       "location": "Phoenix, AZ",
@@ -123,12 +123,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -7.245283018867925,
       "offsetY_back": 0
     },
     {
       "filename": "10 - a - Finnegan.png",
-      "filename_back":  "10 - a - Finnegan_back.png",
+      "filename_back": "10 - a - Finnegan_back.png",
       "username": "Finnegan",
       "letter": "a",
       "location": "Phoenix, AZ",
@@ -137,12 +137,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -8.69433962264151,
+      "offsetY_back": 2
     },
     {
       "filename": "11 - h - baerwithme.png",
-      "filename_back":  "11 - h - baerwithme_back.png",
+      "filename_back": "11 - h - baerwithme_back.png",
       "username": "baerwithme",
       "letter": "h",
       "location": "Salt Lake City, UT",
@@ -151,12 +151,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -21.011320754716984,
+      "offsetY_back": 1
     },
     {
       "filename": "12 - i - DodgyDave.png",
-      "filename_back":  "12 - i - DodgyDave_back.png",
+      "filename_back": "12 - i - DodgyDave_back.png",
       "username": "DodgyDave",
       "letter": "i",
       "location": "Denver, CO",
@@ -165,12 +165,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -11.59245283018868,
       "offsetY_back": 0
     },
     {
       "filename": "14 - s - Mallory.png",
-      "filename_back":  "14 - s - Mallory_back.png",
+      "filename_back": "14 - s - Mallory_back.png",
       "username": "Mallory",
       "letter": "s",
       "location": "Denver, CO",
@@ -179,12 +179,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -35.50188679245283,
+      "offsetY_back": 1
     },
     {
       "filename": "15 - t - k8.gr.png",
-      "filename_back":  "15 - t - k8.gr_back.png",
+      "filename_back": "15 - t - k8.gr_back.png",
       "username": "k8.gr",
       "letter": "t",
       "location": "Lawrence, KS",
@@ -193,12 +193,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 15.939622641509434,
       "offsetY_back": 0
     },
     {
       "filename": "16 - S - kaylnjordan.png",
-      "filename_back":  "16 - S - kaylnjordan_back.png",
+      "filename_back": "16 - S - kaylnjordan_back.png",
       "username": "kaylnjordan",
       "letter": "s",
       "location": "Lawrence, KS",
@@ -207,12 +207,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -21.735849056603776,
       "offsetY_back": 0
     },
     {
       "filename": "17 - S - Ninjaplacement.png",
-      "filename_back":  "17 - S - Ninjaplacement_back.png",
+      "filename_back": "17 - S - Ninjaplacement_back.png",
       "username": "Ninjaplacement",
       "letter": "s",
       "location": "Lawrence, KS",
@@ -221,12 +221,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 1.449056603773585,
       "offsetY_back": 0
     },
     {
       "filename": "18 - H - NinjaPlacement.png",
-      "filename_back":  "18 - H - NinjaPlacement_back.png",
+      "filename_back": "18 - H - NinjaPlacement_back.png",
       "username": "",
       "letter": "h",
       "location": "Lawrence, KS",
@@ -235,12 +235,12 @@
       "scaleX": 0.858,
       "scaleY": 0.858,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -5.79622641509434,
       "offsetY_back": 0
     },
     {
       "filename": "19 - e - AmazingEden.png",
-      "filename_back":  "19 - e - AmazingEden_back.png",
+      "filename_back": "19 - e - AmazingEden_back.png",
       "username": "AmazingEden",
       "letter": "e",
       "location": "Lawrence, KS",
@@ -249,12 +249,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 18.11320754716981,
       "offsetY_back": 0
     },
     {
       "filename": "20 - o - AmazingEden.png",
-      "filename_back":  "20 - o - AmazingEden_back.png",
+      "filename_back": "20 - o - AmazingEden_back.png",
       "username": "AmazingEden",
       "letter": "o",
       "location": "Lawrence, KS",
@@ -263,12 +263,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": 10.867924528301888,
+      "offsetY_back": 1
     },
     {
       "filename": "21 - t - TiGR3X_X.png",
-      "filename_back":  "21 - t - TiGR3X_X_back.png",
+      "filename_back": "21 - t - TiGR3X_X_back.png",
       "username": "TiGR3X_X",
       "letter": "t",
       "location": "",
@@ -277,12 +277,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 13.766037735849057,
       "offsetY_back": 0
     },
     {
       "filename": "22 - R - Tigerslili.png",
-      "filename_back":  "22 - R - Tigerslili_back.png",
+      "filename_back": "22 - R - Tigerslili_back.png",
       "username": "Tigerslili",
       "letter": "r",
       "location": "Salt Lake City, UT",
@@ -291,12 +291,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 4.347169811320755,
       "offsetY_back": 0
     },
     {
       "filename": "23 - t - Dropbox1.png",
-      "filename_back":  "23 - t - Dropbox1_back.png",
+      "filename_back": "23 - t - Dropbox1_back.png",
       "username": "Dropbox User",
       "letter": "t",
       "location": "",
@@ -305,12 +305,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -17.38867924528302,
+      "offsetY_back": 1
     },
     {
       "filename": "24 - u - Dropbox2.png",
-      "filename_back":  "24 - u - Dropbox2_back.png",
+      "filename_back": "24 - u - Dropbox2_back.png",
       "username": "Dropbox User",
       "letter": "u",
       "location": "",
@@ -319,12 +319,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -5.071698113207548,
       "offsetY_back": 0
     },
     {
       "filename": "25 - o - Dropbox4.png",
-      "filename_back":  "25 - o - Dropbox4_back.png",
+      "filename_back": "25 - o - Dropbox4_back.png",
       "username": "Dropbox User",
       "letter": "o",
       "location": "",
@@ -333,12 +333,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 5.071698113207548,
       "offsetY_back": 0
     },
     {
       "filename": "26 - c - Dropbox5.png",
-      "filename_back":  "26 - c - Dropbox5_back.png",
+      "filename_back": "26 - c - Dropbox5_back.png",
       "username": "Dropbox User",
       "letter": "c",
       "location": "",
@@ -347,12 +347,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -10.143396226415096,
       "offsetY_back": 0
     },
     {
       "filename": "27 - h - WiPPLEJESUS.png",
-      "filename_back":  "27 - h - WiPPLEJESUS_back.png",
+      "filename_back": "27 - h - WiPPLEJESUS_back.png",
       "username": "WiPPLEJESUS",
       "letter": "h",
       "location": "Denver, CO",
@@ -361,12 +361,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -8.69433962264151,
       "offsetY_back": 0
     },
     {
       "filename": "28 - t - Dropbox8.png",
-      "filename_back":  "28 - t - Dropbox8_back.png",
+      "filename_back": "28 - t - Dropbox8_back.png",
       "username": "Dropbox User",
       "letter": "t",
       "location": "",
@@ -375,25 +375,25 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -19.5622641509434,
+      "offsetY_back": 1
     },
     {
       "filename": "29 - i - Number 1 Dad.png",
       "username": "Number 1 Dad",
       "letter": "i",
       "location": "Phoenix, AZ",
-      "x": 432,
+      "x": 528,
       "y": 301,
-      "scaleX": 1,
+      "scaleX": -1,
       "scaleY": 1,
-      "rotation": 0,
+      "rotation": 360,
       "offsetX_back": 0,
       "offsetY_back": 0
     },
     {
       "filename": "30 - f - Stumpyz.png",
-      "filename_back":  "30 - f - Stumpyz_back.png",
+      "filename_back": "30 - f - Stumpyz_back.png",
       "username": "Stumpyz",
       "letter": "f",
       "location": "Atlanta, GA",
@@ -402,12 +402,12 @@
       "scaleX": 0.843,
       "scaleY": 0.849,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 2.89811320754717,
       "offsetY_back": 0
     },
     {
       "filename": "31 - p - michy.png",
-      "filename_back":  "31 - p - michy_back.png",
+      "filename_back": "31 - p - michy_back.png",
       "username": "michy",
       "letter": "p",
       "location": "Atlanta, GA",
@@ -416,12 +416,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -4.347169811320755,
+      "offsetY_back": 1
     },
     {
       "filename": "32 - i - Garage Wallaby.png",
-      "filename_back":  "32 - i - Garage Wallaby_back.png",
+      "filename_back": "32 - i - Garage Wallaby_back.png",
       "username": "Garage Wallaby",
       "letter": "i",
       "location": "Atlanta, GA",
@@ -430,12 +430,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 15.939622641509434,
       "offsetY_back": 0
     },
     {
       "filename": "34 - n - rob.png",
-      "filename_back":  "34 - n - rob_back.png",
+      "filename_back": "34 - n - rob_back.png",
       "username": "rob. Rob? ROB!",
       "letter": "n",
       "location": "New York City, NY",
@@ -444,12 +444,12 @@
       "scaleX": 1.013,
       "scaleY": 1.013,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -15.215094339622642,
       "offsetY_back": 0
     },
     {
       "filename": "35 - o - rey-brooklyn.png",
-      "filename_back":  "35 - o - rey-brooklyn_back.png",
+      "filename_back": "35 - o - rey-brooklyn_back.png",
       "username": "Rey, from Brooklyn NY",
       "letter": "o",
       "location": "New York City, NY",
@@ -458,12 +458,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 7.245283018867925,
       "offsetY_back": 0
     },
     {
       "filename": "36 - c - Dropbox9.png",
-      "filename_back":  "36 - c - Dropbox9_back.png",
+      "filename_back": "36 - c - Dropbox9_back.png",
       "username": "Dropbox User",
       "letter": "c",
       "location": "",
@@ -472,12 +472,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -10.143396226415096,
       "offsetY_back": 0
     },
     {
       "filename": "37 - f - Dropbox10.png",
-      "filename_back":  "37 - f - Dropbox10_back.png",
+      "filename_back": "37 - f - Dropbox10_back.png",
       "username": "Dropbox User",
       "letter": "f",
       "location": "",
@@ -486,12 +486,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 0.7245283018867925,
       "offsetY_back": 0
     },
     {
       "filename": "38 - l - Dropbox11.png",
-      "filename_back":  "38 - l - Dropbox11_back.png",
+      "filename_back": "38 - l - Dropbox11_back.png",
       "username": "Dropbox User",
       "letter": "l",
       "location": "",
@@ -500,12 +500,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 13.041509433962265,
       "offsetY_back": 0
     },
     {
       "filename": "39 - o - Funuf.png",
-      "filename_back":  "39 - o - Funuf_back.png",
+      "filename_back": "39 - o - Funuf_back.png",
       "username": "Funuf",
       "letter": "o",
       "location": "Boston, MA",
@@ -514,12 +514,12 @@
       "scaleX": 1,
       "scaleY": 1,
       "rotation": 0,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": 11.59245283018868,
+      "offsetY_back": 1
     },
     {
       "filename": "40 - a - josh.png",
-      "filename_back":  "40 - a - josh_back.png",
+      "filename_back": "40 - a - josh_back.png",
       "username": "Josh",
       "letter": "a",
       "location": "New York City, NY",
@@ -528,12 +528,12 @@
       "scaleX": 1.163,
       "scaleY": 1.163,
       "rotation": -0.507,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -23.28553459119499,
+      "offsetY_back": 1
     },
     {
       "filename": "41 - u - Keegeroni.png",
-      "filename_back":  "41 - u - Keegeroni_back.png",
+      "filename_back": "41 - u - Keegeroni_back.png",
       "username": "Keegeroni",
       "letter": "u",
       "location": "Boston, MA",
@@ -542,12 +542,12 @@
       "scaleX": 0.83,
       "scaleY": 0.84,
       "rotation": -2.771,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": 16.664150943396226,
+      "offsetY_back": -1
     },
     {
       "filename": "42 - w - Lavus.png",
-      "filename_back":  "42 - w - Lavus_back.png",
+      "filename_back": "42 - w - Lavus_back.png",
       "username": "Lavus",
       "letter": "w",
       "location": "Burlington, VT",
@@ -556,12 +556,12 @@
       "scaleX": 1.226,
       "scaleY": 1.226,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 7.245283018867925,
       "offsetY_back": 0
     },
     {
       "filename": "43 - w - StupidsUnited.png",
-      "filename_back":  "43 - w - StupidsUnited_back.png",
+      "filename_back": "43 - w - StupidsUnited_back.png",
       "username": "StupidsUnited",
       "letter": "w",
       "location": "Burlington, VT",
@@ -570,12 +570,12 @@
       "scaleX": 1.157,
       "scaleY": 1.069,
       "rotation": -0.617,
-      "offsetX_back": 0,
+      "offsetX_back": 14.49056603773585,
       "offsetY_back": 0
     },
     {
       "filename": "44 - e - PizzosCards.png",
-      "filename_back":  "44 - e - PizzosCards_back.png",
+      "filename_back": "44 - e - PizzosCards_back.png",
       "username": "PizzosCards",
       "letter": "e",
       "location": "Burlington, VT",
@@ -584,12 +584,12 @@
       "scaleX": 0.906,
       "scaleY": 0.906,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": 6.520754716981132,
       "offsetY_back": 0
     },
     {
       "filename": "45 - t - MaximumGus.png",
-      "filename_back":  "45 - t - MaximumGus_back.png",
+      "filename_back": "45 - t - MaximumGus_back.png",
       "username": "MaximumGus",
       "letter": "t",
       "location": "Burlington, VT",
@@ -598,8 +598,8 @@
       "scaleX": 0.99,
       "scaleY": 0.924,
       "rotation": 4.07,
-      "offsetX_back": 0,
-      "offsetY_back": 0
+      "offsetX_back": -15.939622641509434,
+      "offsetY_back": 7
     }
   ]
 }

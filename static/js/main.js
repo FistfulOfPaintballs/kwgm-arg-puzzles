@@ -716,14 +716,32 @@ document.getElementById("exportJson").addEventListener("click", function(e){
             }
 
             let filename = piece.getAttr('filename')
-            for (let j in exportJson["pieces"]){
-                let originalPiece = exportJson["pieces"][j]
-                if (originalPiece['filename'] === filename){
-                    exportJson["pieces"][j]["x"] = x
-                    exportJson["pieces"][j]["y"] = y
-                    exportJson["pieces"][j]["scaleX"] = scaleX
-                    exportJson["pieces"][j]["scaleY"] = scaleY
-                    exportJson["pieces"][j]["rotation"] = rotation
+            let filename_back = piece.getAttr('filename_back')
+            if (!!flipped && !!filename_back){
+                for (let j in exportJson["pieces"]){
+                    let originalPiece = exportJson["pieces"][j]
+                    if (originalPiece['filename'] === filename){
+                        let originalX = exportJson["pieces"][j]["x"]
+                        let originalY = exportJson["pieces"][j]["y"]
+
+                        let computedFlippedX = (puzzleGrid.width() - (15 * scale)) - (originalX * scale)
+                        let offsetX = (piece.absolutePosition().x - computedFlippedX) / scale
+                        let offsetY = y - originalY
+
+                        exportJson["pieces"][j]["offsetX_back"] = offsetX
+                        exportJson["pieces"][j]["offsetY_back"] = offsetY
+                    }
+                }
+            } else {
+                for (let j in exportJson["pieces"]){
+                    let originalPiece = exportJson["pieces"][j]
+                    if (originalPiece['filename'] === filename){
+                        exportJson["pieces"][j]["x"] = x
+                        exportJson["pieces"][j]["y"] = y
+                        exportJson["pieces"][j]["scaleX"] = scaleX
+                        exportJson["pieces"][j]["scaleY"] = scaleY
+                        exportJson["pieces"][j]["rotation"] = rotation
+                    }
                 }
             }
         }
