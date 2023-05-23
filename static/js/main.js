@@ -717,19 +717,21 @@ document.getElementById("exportJson").addEventListener("click", function(e){
 
             let filename = piece.getAttr('filename')
             let filename_back = piece.getAttr('filename_back')
-            if (!!flipped && !!filename_back){
-                for (let j in exportJson["pieces"]){
-                    let originalPiece = exportJson["pieces"][j]
-                    if (originalPiece['filename'] === filename){
-                        let originalX = exportJson["pieces"][j]["x"]
-                        let originalY = exportJson["pieces"][j]["y"]
+            if (!!flipped){
+                if (!!filename_back && filename_back !== ""){
+                    for (let j in exportJson["pieces"]){
+                        let originalPiece = exportJson["pieces"][j]
+                        if (originalPiece['filename'] === filename){
+                            let originalX = exportJson["pieces"][j]["x"]
+                            let originalY = exportJson["pieces"][j]["y"]
 
-                        let computedFlippedX = (puzzleGrid.width() - (15 * scale)) - (originalX * scale)
-                        let offsetX = (piece.absolutePosition().x - computedFlippedX) / scale
-                        let offsetY = y - originalY
+                            let computedFlippedX = (puzzleGrid.width() - (15 * scale)) - (originalX * scale)
+                            var offsetX = (piece.absolutePosition().x - computedFlippedX) / scale
+                            var offsetY = y - originalY
 
-                        exportJson["pieces"][j]["offsetX_back"] = offsetX
-                        exportJson["pieces"][j]["offsetY_back"] = offsetY
+                            exportJson["pieces"][j]["offsetX_back"] = Math.round(offsetX)
+                            exportJson["pieces"][j]["offsetY_back"] = Math.round(offsetY)
+                        }
                     }
                 }
             } else {
