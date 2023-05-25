@@ -670,6 +670,20 @@
       "rotation": 2.312,
       "offsetX_back": -9,
       "offsetY_back": 4
+    },
+    {
+      "filename": "51 - t - agweber.png",
+      "filename_back": "51 - t - agweber_back.png",
+      "username": "agweber",
+      "letter": "t",
+      "location": "Columbus, OH",
+      "x": 630,
+      "y": 168,
+      "scaleX": 0.955,
+      "scaleY": 0.955,
+      "rotation": 2.112,
+      "offsetX_back": 10,
+      "offsetY_back": 3
     }
   ]
 }
