@@ -691,12 +691,12 @@
       "username": "Varu",
       "letter": "e",
       "location": "Columbus, OH",
-      "x": -1,
-      "y": -1,
-      "scaleX": 1,
-      "scaleY": 1,
+      "x": 565,
+      "y": 425,
+      "scaleX": 1.011,
+      "scaleY": 1.011,
       "rotation": 0,
-      "offsetX_back": 0,
+      "offsetX_back": -9,
       "offsetY_back": 0
     }
   ]
