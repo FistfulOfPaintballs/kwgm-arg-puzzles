@@ -684,6 +684,20 @@
       "rotation": 2.112,
       "offsetX_back": 10,
       "offsetY_back": 3
+    },
+    {
+      "filename": "52 - y - Varu.png",
+      "filename_back": "52 - y - Varu_back.png",
+      "username": "Varu",
+      "letter": "y",
+      "location": "Columbus, OH",
+      "x": -1,
+      "y": -1,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "offsetX_back": 0,
+      "offsetY_back": 0
     }
   ]
 }
