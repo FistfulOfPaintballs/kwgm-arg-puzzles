@@ -40,7 +40,7 @@ var flipped = false
 
 var originalJson
 var exportJson
-var exportPiecesBelowY = 150 * scale
+var exportPiecesBelowY = 0 * scale
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -191,7 +191,7 @@ function drawPuzzleGrid(){
         puzzleGrid = new Konva.Image({
             image: puzzleGridImg,
             x: 30 * scale,
-            y: exportPiecesBelowY + (20 * scale),
+            y: exportPiecesBelowY + (170 * scale),
             width: puzzleGridImg.width * puzzlePieceScaleFactor,
             height: puzzleGridImg.height * puzzlePieceScaleFactor,
             name: 'puzzleGrid',
@@ -229,6 +229,36 @@ function drawUnclaimedPieceArea(){
         listening: false
     })
     layer.add(unclaimedPiecesText)
+}
+
+function drawPhraseAndLocationInfo(){
+    let div = document.getElementById("phraseAndLocation");
+    let phraseDiv = document.getElementById("phrase");
+    let mapLocationDiv = document.getElementById("mapLocationContainer");
+    let mapLocationLink = document.getElementById("mapLocation");
+
+    let phrase = originalJson["phrase"];
+    let location = originalJson["location"]
+    if (!!phrase){
+        phraseDiv.innerText = phrase;
+
+        let numLines = phrase.split("\n").length + 1
+
+        let height = 130 * scale
+        div.style.height = `${height}px`
+        div.style.maxHeight = `${height}px`
+        let lineHeight = ((height * 0.75)/(numLines))
+
+        let linkFontSize = (lineHeight * 0.75) < 14 ? 14 : lineHeight * 0.75
+
+        phraseDiv.style.fontSize = `${lineHeight}px`
+        mapLocationLink.style.fontSize = `${linkFontSize}px`
+
+    }
+    if (!!location){
+        mapLocationLink.innerText = location
+        mapLocationLink.href = location
+    }
 }
 
 function drawInstructions(){
@@ -347,6 +377,7 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
                 };
                 puzzlePieceObj.src = `./static/img/${getCurrentPuzzle()}/${filename}`;
             })(p);
+        drawPhraseAndLocationInfo();
         }
     });
 
@@ -354,7 +385,7 @@ fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
 stage.add(layer);
 
 drawPuzzleGrid()
-drawUnclaimedPieceArea()
+// drawUnclaimedPieceArea()
 drawInstructions()
 
 var x1, y1, x2, y2;
