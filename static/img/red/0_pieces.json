@@ -714,6 +714,20 @@
       "rotation": 1.583,
       "offsetX_back": -8,
       "offsetY_back": 2
+    },
+    {
+      "filename": "54 - h - Hoff.png",
+      "filename_back": "54 - h - Hoff_back.png",
+      "username": "Hoff",
+      "letter": "h",
+      "location": "Chicago, IL",
+      "x": 141,
+      "y": 369,
+      "scaleX": 0.931,
+      "scaleY": 0.907,
+      "rotation": -0.983,
+      "offsetX_back": -25,
+      "offsetY_back": -1
     }
   ]
 }

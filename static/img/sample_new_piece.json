@@ -2,6 +2,7 @@
   "pieces": [
     {
       "filename": "definitelyapuzzlepiece.png",
+      "filename_back": "definitelyapuzzlepiece_back.png",
       "username": "Tommy Designer",
       "letter": "X",
       "location": "San Francisco, CA",
