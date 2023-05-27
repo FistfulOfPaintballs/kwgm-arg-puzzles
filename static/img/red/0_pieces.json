@@ -700,6 +700,20 @@
       "rotation": 0,
       "offsetX_back": -9,
       "offsetY_back": 0
+    },
+    {
+      "filename": "53 - e - Major_Baker.png",
+      "filename_back": "53 - e - Major_Baker_back.png",
+      "username": "Major_Baker",
+      "letter": "e",
+      "location": "Chicago, IL",
+      "x": 35,
+      "y": 290,
+      "scaleX": 1.039,
+      "scaleY": 1.039,
+      "rotation": 1.583,
+      "offsetX_back": -8,
+      "offsetY_back": 2
     }
   ]
 }
