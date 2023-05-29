@@ -1162,6 +1162,20 @@
       "rotation": -2.035,
       "offsetX_back": 12,
       "offsetY_back": -1
+    },
+    {
+      "filename": "87 - e - HannahF.png",
+      "filename_back": "87 - e - HannahF_back.png",
+      "username": "Hannah F.",
+      "letter": "e",
+      "location": "",
+      "x": 138,
+      "y": 238,
+      "scaleX": 0.941,
+      "scaleY": 0.872,
+      "rotation": 2.401,
+      "offsetX_back": -22,
+      "offsetY_back": 2
     }
   ]
 }
