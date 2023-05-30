@@ -1176,6 +1176,20 @@
       "rotation": 2.401,
       "offsetX_back": -22,
       "offsetY_back": 2
+    },
+    {
+      "filename": "88 - e - Dropbox.png",
+      "filename_back": "88 - e - Dropbox_back.png",
+      "username": "Dropbox User",
+      "letter": "e",
+      "location": "Lawrence, KS",
+      "x": 453,
+      "y": 489,
+      "scaleX": 0.886,
+      "scaleY": 0.873,
+      "rotation": -5.484,
+      "offsetX_back": 17,
+      "offsetY_back": -8
     }
   ]
 }
