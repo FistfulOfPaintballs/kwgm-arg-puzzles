@@ -1190,6 +1190,17 @@
       "rotation": -5.484,
       "offsetX_back": 17,
       "offsetY_back": -8
+    },
+    {
+      "filename": "definitelyapuzzlepiece.png",
+      "username": "WIP",
+      "letter": "PLE",
+      "location": "JIG",
+      "x": 705,
+      "y": 115,
+      "scaleX": 0.606,
+      "scaleY": 0.606,
+      "rotation": -4.349
     }
   ]
 }

@@ -114,7 +114,10 @@ function drawImage(imageObj, data) {
     })
 
     puzzlePieceGroup.add(puzzlePieceImg)
-    puzzlePieceGroup.add(puzzlePieceText)
+
+    if (data['filename'] !== "definitelyapuzzlepiece.png"){
+        puzzlePieceGroup.add(puzzlePieceText)
+    }
 
     if (data['scaleX'] !== 1 || data['scaleY'] !== 1){
         puzzlePieceGroup.scale({x: data['scaleX'], y: data['scaleY']})
