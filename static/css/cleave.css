@@ -1,0 +1,39 @@
+.poem-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.poem-part {
+    width: 30%;
+    padding: 10px;
+    border-right: 1px solid black;
+    cursor: move;
+}
+
+.poem-part:last-child {
+    border-right: none;
+}
+
+/* Apply a special style to the poem part being dragged */
+.poem-part.ui-sortable-helper {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+}
+
+/* Things to make the cleave poetry section look nice with the rest of the site */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#lettersToggle,
+#gridToggle,
+#rotationToggle,
+#tooltipsToggle,
+#flipButton,
+#exportJson {
+    visibility: hidden;
+}

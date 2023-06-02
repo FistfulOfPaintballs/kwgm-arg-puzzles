@@ -55,6 +55,23 @@ function getCurrentPuzzle(){
     return puzzle
 }
 
+function setup(){
+    let puzzle = getCurrentPuzzle();
+    if (!!puzzle){
+        if (puzzle === "cleave") {
+            $("#puzzleInner").load("./cleave.html")
+            loadJS('./static/js/cleave.js')
+            loadCSS('./static/css/cleave.css')
+        } else {
+            layOutPieces()
+            drawPuzzleGrid()
+            // drawUnclaimedPieceArea()
+            drawInstructions()
+        }
+    }
+
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const puzzle = getCurrentPuzzle()
     if (!!puzzle) {
@@ -187,6 +204,58 @@ function drawImage(imageObj, data) {
     return puzzlePieceGroup
 }
 
+function layOutPieces(){
+    fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
+        .then((response) => response.json())
+        .then((json) => {
+            originalJson = json
+            let pieces = json["pieces"]
+
+            var xPos = 0
+            var row = 0
+            let spacerMargin = margin / 4
+
+            for (let p in pieces) {
+                (function(e) {
+                    let filename = pieces[p]["filename"];
+                    var x = pieces[p]["x"]
+                    var y = pieces[p]["y"]
+
+                    var puzzlePieceObj = new Image();
+                    puzzlePieceObj.setAttribute("kwgm-loaded", "false")
+                    puzzlePieceObj.onload = function() {
+                        let loaded = (this.getAttribute("kwgm-loaded") === 'true');
+                        if (!loaded) {
+                            this.setAttribute("kwgm-loaded", true)
+                            let puzzlePieceImg = drawImage(this, pieces[p]);
+                            if (x === -1 || y === -1){
+                                // No position listed (unmatched piece)
+                                let imgWidth = puzzlePieceImg.attrs.width
+                                if ((xPos + imgWidth) >= stage.width()) {
+                                    row += 1
+                                    xPos = 0
+                                }
+                                x = xPos
+                                xPos += imgWidth
+                                y = maxPieceWidth * row * puzzlePieceScaleFactor
+                            } else {
+                                // Piece has an (x,y) coord
+                                x = scale * x
+                                y = scale * y
+                            }
+                            puzzlePieceImg.attrs.x = x
+                            puzzlePieceImg.attrs.y = y
+                        }
+                    };
+                    puzzlePieceObj.src = `./static/img/${getCurrentPuzzle()}/${filename}`;
+                })(p);
+                drawPhraseAndLocationInfo();
+            }
+        });
+
+
+    stage.add(layer);
+}
 function drawPuzzleGrid(){
     var puzzleGridImg = new Image()
     puzzleGridImg.src = "./static/img/puzzlegrid.png"
@@ -335,61 +404,7 @@ var selectionRectangle = new Konva.Rect({
 });
 layer.add(selectionRectangle);
 
-// Lay Out Pieces
-fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
-    .then((response) => response.json())
-    .then((json) => {
-        originalJson = json
-        let pieces = json["pieces"]
-
-        var xPos = 0
-        var row = 0
-        let spacerMargin = margin / 4
-
-        for (let p in pieces) {
-            (function(e) {
-                let filename = pieces[p]["filename"];
-                var x = pieces[p]["x"]
-                var y = pieces[p]["y"]
-
-                var puzzlePieceObj = new Image();
-                puzzlePieceObj.setAttribute("kwgm-loaded", "false")
-                puzzlePieceObj.onload = function() {
-                    let loaded = (this.getAttribute("kwgm-loaded") === 'true');
-                    if (!loaded) {
-                        this.setAttribute("kwgm-loaded", true)
-                        let puzzlePieceImg = drawImage(this, pieces[p]);
-                        if (x === -1 || y === -1){
-                            // No position listed (unmatched piece)
-                            let imgWidth = puzzlePieceImg.attrs.width
-                            if ((xPos + imgWidth) >= stage.width()) {
-                                row += 1
-                                xPos = 0
-                            }
-                            x = xPos
-                            xPos += imgWidth
-                            y = maxPieceWidth * row * puzzlePieceScaleFactor
-                        } else {
-                            // Piece has an (x,y) coord
-                            x = scale * x
-                            y = scale * y
-                        }
-                        puzzlePieceImg.attrs.x = x
-                        puzzlePieceImg.attrs.y = y
-                    }
-                };
-                puzzlePieceObj.src = `./static/img/${getCurrentPuzzle()}/${filename}`;
-            })(p);
-        drawPhraseAndLocationInfo();
-        }
-    });
-
-
-stage.add(layer);
-
-drawPuzzleGrid()
-// drawUnclaimedPieceArea()
-drawInstructions()
+setup()
 
 var x1, y1, x2, y2;
 stage.on('mousedown touchstart', (e) => {
@@ -723,6 +738,22 @@ async function doAFlip(e){
     }
     await sleep(200)
     stage.fire('click')
+}
+
+function loadJS(FILE_URL, async = true) {
+    let scriptEl = document.createElement("script");
+    scriptEl.setAttribute("src", FILE_URL);
+    scriptEl.setAttribute("type", "text/javascript");
+    scriptEl.setAttribute("async", async);
+    document.body.appendChild(scriptEl);
+}
+
+function loadCSS(FILE_URL, async = true) {
+    let styleEl = document.createElement("link");
+    styleEl.setAttribute("rel", "stylesheet");
+    styleEl.setAttribute("type", "text/css");
+    styleEl.setAttribute("href", FILE_URL);
+    document.body.appendChild(styleEl);
 }
 
 document.getElementById("exportJson").addEventListener("click", function(e){
