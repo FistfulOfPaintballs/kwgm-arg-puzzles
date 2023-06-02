@@ -196,7 +196,7 @@
       "scaleY": 1,
       "rotation": 0,
       "offsetX_back": 15,
-      "offsetY_back": 0
+      "offsetY_back": -2
     },
     {
       "filename": "16 - S - kaylnjordan.png",
@@ -531,7 +531,7 @@
       "scaleY": 1.163,
       "rotation": -0.507,
       "offsetX_back": -23,
-      "offsetY_back": 1
+      "offsetY_back": 0
     },
     {
       "filename": "41 - u - Keegeroni.png",
@@ -1190,6 +1190,76 @@
       "rotation": -5.484,
       "offsetX_back": 17,
       "offsetY_back": -8
+    },
+    {
+      "filename": "89 - l - Weorge Gatsky.png",
+      "filename_back": "89 - l - Weorge Gatsky_back.png",
+      "username": "Weorge Gatsky",
+      "letter": "l",
+      "location": "Berlin, Germany",
+      "x": 547,
+      "y": 173,
+      "scaleX": 1.17,
+      "scaleY": 1.146,
+      "rotation": -4.346,
+      "offsetX_back": -25,
+      "offsetY_back": -5
+    },
+    {
+      "filename": "90 - a - Weorge Gatsky.png",
+      "filename_back": "90 - a - Weorge Gatsky_back.png",
+      "username": "Weorge Gatsky",
+      "letter": "a",
+      "location": "Berlin, Germany",
+      "x": 326,
+      "y": 172,
+      "scaleX": 1.114,
+      "scaleY": 1.114,
+      "rotation": 0,
+      "offsetX_back": 5,
+      "offsetY_back": 1
+    },
+    {
+      "filename": "91  - s - Weorge Gatsky.png",
+      "filename_back": "91  - s - Weorge Gatsky_back.png",
+      "username": "Weorge Gatsky",
+      "letter": "s",
+      "location": "Berlin, Germany",
+      "x": 249,
+      "y": 238,
+      "scaleX": 1.147,
+      "scaleY": 1.18,
+      "rotation": 0,
+      "offsetX_back": -10,
+      "offsetY_back": -1
+    },
+    {
+      "filename": "92 - e - Weorge Gatsky.png",
+      "filename_back": "92 - e - Weorge Gatsky_back.png",
+      "username": "Weorge Gatsky",
+      "letter": "e",
+      "location": "Berlin, Germany",
+      "x": 317,
+      "y": 286,
+      "scaleX": 1.02,
+      "scaleY": 1.234,
+      "rotation": 3.148,
+      "offsetX_back": -2,
+      "offsetY_back": 4
+    },
+    {
+      "filename": "93 - i - Weorge Gatsky.png",
+      "filename_back": "93 - i - Weorge Gatsky_back.png",
+      "username": "Weorge Gatsky",
+      "letter": "i",
+      "location": "Berlin, Germany",
+      "x": 491,
+      "y": 171,
+      "scaleX": 1.113,
+      "scaleY": 1.14,
+      "rotation": 0,
+      "offsetX_back": -6,
+      "offsetY_back": 0
     },
     {
       "filename": "definitelyapuzzlepiece.png",
