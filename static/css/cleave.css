@@ -21,6 +21,14 @@
     transform: scale(1.1);
 }
 
+#poem3 {
+    color: #cc0000;
+}
+
+#poem2{
+    color: green;
+}
+
 /* Things to make the cleave poetry section look nice with the rest of the site */
 body {
     display: flex;
