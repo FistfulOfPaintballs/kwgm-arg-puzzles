@@ -205,7 +205,9 @@ function drawImage(imageObj, data) {
 }
 
 function layOutPieces(){
-    fetch(`./static/img/${getCurrentPuzzle()}/0_pieces.json`)
+    let currentPuzzle = getCurrentPuzzle()
+
+    fetch(`./static/img/${currentPuzzle}/0_pieces.json`)
         .then((response) => response.json())
         .then((json) => {
             originalJson = json
@@ -247,7 +249,12 @@ function layOutPieces(){
                             puzzlePieceImg.attrs.y = y
                         }
                     };
-                    puzzlePieceObj.src = `./static/img/${getCurrentPuzzle()}/${filename}`;
+                    if (currentPuzzle === "all") {
+                        puzzlePieceObj.src = `./static/img/${filename}`;
+                    } else {
+                        puzzlePieceObj.src = `./static/img/${currentPuzzle}/${filename}`;
+                    }
+
                 })(p);
                 drawPhraseAndLocationInfo();
             }
